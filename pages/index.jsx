@@ -13,8 +13,502 @@ export default function Home() {
   return (
     <>
       <Header />
+
+      <div className="my-t">
+        <div className="cont-top">
+          <div class="container">
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="trigger"></div>
+            <div class="monitor">
+              <div class="camera o-x">
+                <div class="camera o-y">
+                  <div class="camera o-z">
+                    <div class="vr">
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                      <div class="vr_layer">
+                        <div class="vr_layer_item"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="banner_left">
+          <h2>Creating <span className='syn'>Synergy</span>  <br />
+            for sellers</h2>
+          <div className='mting'>
+            <p>DigitalMnR is a full-service Merger and acquisition company helping
+            </p>
+            <p>companies sell and buy assets by creating value</p>
+          </div>
+          <div className="btn_home">
+            <button><span>Learn about our approach</span>
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="#3464FD" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div className='main_home'>
-        <div className="banner_main">
+        <div className="banner_main hidden" style={{ display: 'none' }}>
           <div className="banner_home">
             {/* <div className="banner_con">
               <div className="banner_content">
@@ -31,22 +525,9 @@ export default function Home() {
               </div>
             </div> */}
             <div className="banner_sect">
-              <div className="banner_left">
-                <h2>Creating <span className='syn'>Synergy</span>  <br />
-                  for sellers</h2>
-                <div className='mting'>
-                  <p>DigitalMnR is a full-service Merger and acquisition company helping
-                  </p>
-                  <p>companies sell and buy assets by creating value</p>
-                </div>
-                <div className="btn_home">
-                  <button><span>Learn about our approach</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="#3464FD" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
+
+
+
 
             </div>
           </div>
@@ -276,7 +757,7 @@ export default function Home() {
                   companies sell and buy assets by creating value</p>
               </div>
               <div className="work_rig">
-                  
+
               </div>
             </div>
           </div>
