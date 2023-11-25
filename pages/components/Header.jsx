@@ -5,17 +5,17 @@ const Header = () => {
   return (
     <div className="header">
       <nav className="navbar">
-        <div className="nav_logo">
+        <Link href="/"><div className="nav_logo">
           <img src="./images/imgis.png" alt="" />
-        </div>
+        </div></Link>
         <div className="nav_content">
           <ul>
             <li><Link href="/">Home</Link></li>
             <li><a href="">Services</a></li>
-            <li><a href="">About</a></li>
-           <Link href="/contact"><li>
+            <li><Link href="/about">About</Link></li>
+            <Link href="/contact"><li>
               <button>Contact us</button>
-            </li></Link> 
+            </li></Link>
           </ul>
         </div>
       </nav>

@@ -59,7 +59,8 @@ body {
 }
 
 .banner_home {
-  background-image: url('../public/images/homi.png');
+  /* background-image: url('../public/images/homi.png'); */
+  background-image: url('https://i.gifer.com/NTHO.gif');
   height: 776px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1065,8 +1066,11 @@ body {
 
 /* hit */
 .cont-top {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  height: 100vh;
+  /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+  background: transparent !important;
+  height: 400px;
+  max-width: 400px;
+  width: 100%;
   overflow: hidden;
   display: flex;
   font-family: 'Anton', sans-serif;
@@ -4328,8 +4332,8 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: rgba(0, 153, 255, 0.006);
+  /* border: 1px solid #3464FD; */
+  background: transparent;
   border-radius: 10px;
   transform: preserve-3d;
 }
@@ -4497,11 +4501,13 @@ body {
 .vr_layer_item {
   width: 70%;
   height: 70%;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   border-radius: 100%;
-  background: rgba(0, 0, 0, 0.05);
+  background: transparent;
+  /* filter: brightness(.6); */
   animation: sphere 3000ms cubic-bezier(0.215, 0.61, 0.355, 1) alternate infinite, color 5000ms linear alternate infinite;
   transition: 500ms;
+  /* opacity: .6; */
 }
 
 @keyframes sphere {
