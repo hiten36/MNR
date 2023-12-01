@@ -627,7 +627,7 @@ body {
 /* =============sercice_home start============ */
 .service_hone {
   /* background-image: url('../public/images/advisory.png'); */
-  background-image: url('../public/images/sell.png');
+  background-image: url('/public/images/sell.png');
   background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
