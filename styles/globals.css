@@ -637,7 +637,7 @@ body {
   /* height: 100vh; */
 }
 .service_hone1{
-  background-image: url('../public/images/rasing.png');
+  background-image: url('/images/rasing.png');
 }
 .main_hone {
   max-width: 1440px;
@@ -1003,7 +1003,7 @@ body {
   border: 1px solid #E1E5EA;
   border-radius: 24px;
   background-color: white;
-  /* height: 460px; */
+  height: 460px;
   max-height: 100%;
 }
 
@@ -1100,6 +1100,8 @@ body {
   gap: 10px;
   border-radius: 30px;
   margin-top: 45px;
+  position: fixed;
+  bottom: 15px;
 }
 .bloging_para button:hover{
   background-color: #3464FD;
