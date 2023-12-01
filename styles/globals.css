@@ -160,7 +160,7 @@ body {
 }
 
 .banner_home {
-  /* background-image: url('../public/images/homi.png'); */
+  /* background-image: url('/public/images/homi.png'); */
   /* background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmMwemxrN3JoaTFlaDgwZmxhdTRmcjBqZDBoMG03ZXUweGd2Y253ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i4jKn7itdV2Tvjzj6Y/giphy.gif'); */
   background-image: url('https://i.gifer.com/Ve9W.gif');
   height: 776px;
@@ -357,7 +357,7 @@ body {
 }
 
 .about_section {
-  background-image: url('../public/images/hoji.png');
+  background-image: url('/public/images/hoji.png');
   background-size: cover;
   background-repeat: no-repeat;
   /* height: 100vh; */
@@ -429,7 +429,7 @@ body {
 }
 
 /* .service_home {
-  background-image: url('../public/images/imgtier.png');
+  background-image: url('/public/images/imgtier.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -526,7 +526,7 @@ body {
 
 /* =============main page ka service============== */
 .our_home_services {
-  background-image: url('../public/images/servicest.png');
+  background-image: url('/public/images/servicest.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -627,8 +627,8 @@ body {
 
 /* =============sercice_home start============ */
 .service_hone {
-  /* background-image: url('../public/images/advisory.png'); */
-  background-image: url('../public/images/sell.png');
+  /* background-image: url('/public/images/advisory.png'); */
+  background-image: url('/public/images/sell.png');
   background-size: cover;
   /* background-position: center; */
   background-repeat: no-repeat;
@@ -778,7 +778,7 @@ body {
 
 .why_digital {
   /* background: linear-gradient(131.65deg, #0E0726 25.19%, #2F559E 109.98%); */
-  /* background-image: url('../public/images/whydigi.png'); */
+  /* background-image: url('/public/images/whydigi.png'); */
   background-position: center;
   background-size: cover;
   padding: 60px 120px;
@@ -787,7 +787,7 @@ body {
 
 /* ====================work css start============= */
 .work_here {
-  background-image: url('../public/images/ourWork.png');
+  background-image: url('/public/images/ourWork.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1116,7 +1116,7 @@ body {
 
 /* ====================contact section start================= */
 .feel_free {
-  background-image: url('../public/images/headbg.png');
+  background-image: url('/public/images/headbg.png');
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -1177,7 +1177,7 @@ body {
 
 /* ===============digital section start============ */
 .why_digitala {
-  background-image: url('../public/images/digital.png');
+  background-image: url('/public/images/digital.png');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -4907,7 +4907,7 @@ body {
 
 /* ========================contact us page================== */
 .contact_us {
-  background-image: url('../public/images/contactBg1.png');
+  background-image: url('/public/images/contactBg1.png');
   background-size: cover;
   width: 100%;
   padding: 0px 120px;
@@ -5516,7 +5516,7 @@ body {
 }
 .ask_mail{
   padding: 70px 120px;
-  background-image: url('../public/images/headbg.png');
+  background-image: url('/public/images/headbg.png');
   background-repeat:  no-repeat;
   background-size: cover;
   background-position: center;
@@ -5579,7 +5579,7 @@ body {
 }
 .why_hu{
   padding: 60px 120px;
-  background-image: url('../public/images/aboutBanner.png');
+  background-image: url('/public/images/aboutBanner.png');
   width: 100%;
   height: 100vh;
   /* background-position: center; */
@@ -5670,7 +5670,7 @@ body {
 
 /* =================blog detail css start================= */
 .blog_detail {
-  background-image: url('../public/images/blogBg.svg');
+  background-image: url('/public/images/blogBg.svg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
