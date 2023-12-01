@@ -637,7 +637,7 @@ body {
   /* height: 100vh; */
 }
 .service_hone1{
-  background-image: url('../public/images/rasing.png');
+  background-image: url('/images/rasing.png');
 }
 .main_hone {
   max-width: 1440px;
