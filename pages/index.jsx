@@ -3,531 +3,32 @@ import { Inter } from 'next/font/google'
 import Header from './components/Header';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import { useState } from 'react';
+
 import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
+import Typed from 'react-typed';
 
 export default function Home() {
-  const [perPage, setPerPage] = useState(3);
-  const [perpage1, setPerPage1] = useState(3);
   return (
     <>
       <Header />
-
-      {/* <div className="my-t">
-        <div className="cont-top">
-          <div class="container">
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="trigger"></div>
-            <div class="monitor">
-              <div class="camera o-x">
-                <div class="camera o-y">
-                  <div class="camera o-z">
-                    <div class="vr">
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                      <div class="vr_layer">
-                        <div class="vr_layer_item"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="banner_left">
-          <h2>Creating <span className='syn'>Synergy</span>  <br />
-            for sellers</h2>
-          <div className='mting'>
-            <p>DigitalMnR is a full-service Merger and acquisition company helping
-            </p>
-            <p>companies sell and buy assets by creating value</p>
-          </div>
-          <div className="btn_home">
-            <button><span>Learn about our approach</span>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="#3464FD" />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div> */}
-
       <div className='main_home'>
         <div className="banner_main">
           <div className="banner_home">
-            {/* <div className="banner_con">
-              <div className="banner_content">
-                <div>
-                  <p>DigitalMnA is a full-service Merger and acquisition company helping
-                  </p>
-                  <p>companies sell and buy assets by creating value</p>
-                </div>
-                <button><span>Learn about our approach</span>
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M8 16L6.575 14.6L12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16Z" fill="white" />
-                  </svg>
-                </button>
-              </div>
-            </div> */}
             <div className="banner_sect">
-
               <div className="banner_left">
-                <h2>Creating <span className='syn'>Synergy</span>  <br />
+                <h2>Creating <span className='syn'>
+                  <Typed
+                    strings={['Synergy', 'asit',
+                      'Search']}
+                    typeSpeed={60}
+                    backSpeed={60}
+                    loop
+                    onComplete={(self) => self.cursor.remove()}
+                    // console.log()
+                    autoInsertCss
+                  />
+                </span>  <br />
                   for sellers</h2>
                 <div className='mting'>
                   <p>DigitalMnR is a full-service Merger and acquisition company helping
@@ -535,2134 +36,111 @@ export default function Home() {
                   <p>companies sell and buy assets by creating value</p>
                 </div>
                 <div className="btn_home">
-                  <button><span>Learn about our approach</span>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="#3464FD" />
+                  <button data-aos="fade-up"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"><span>Learn about our approach</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#3464FD" />
                     </svg>
                   </button>
                 </div>
               </div>
-              {/* <div className="banner_right">
-                  <img src="./images/trt.gif" alt="" />
-              </div> */}
-
             </div>
-
-
           </div>
         </div>
         <div className="about_section">
           <div className="about_mai">
             <div className="about_icon">
-              <svg width="202" height="82" viewBox="0 0 202 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="247" height="83" viewBox="0 0 247 83" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="35" cy="35" r="35" fill="#32B5FB" />
-                <mask id="path-2-inside-1_304_3962" fill="white">
-                  <path d="M52.176 56.048H39.376V53.392H52.176V56.048ZM56.656 62H53.392L45.232 41.104H46.384L38.224 62H35.088L44.176 39.12H47.536L56.656 62ZM60.2788 62V39.12H69.1748C70.6681 39.12 71.9588 39.376 73.0468 39.888C74.1561 40.3787 75.0094 41.072 75.6068 41.968C76.2254 42.864 76.5347 43.92 76.5347 45.136C76.5347 46.2453 76.2254 47.2373 75.6068 48.112C75.0094 48.9653 74.1561 49.6373 73.0468 50.128C71.9588 50.5973 70.6681 50.832 69.1748 50.832H63.6708V49.264H69.7508C71.3081 49.264 72.6628 49.52 73.8148 50.032C74.9881 50.544 75.8948 51.2693 76.5347 52.208C77.1961 53.1253 77.5268 54.224 77.5268 55.504C77.5268 56.8053 77.1961 57.9467 76.5347 58.928C75.8948 59.9093 74.9881 60.6667 73.8148 61.2C72.6628 61.7333 71.3081 62 69.7508 62H60.2788ZM63.3508 59.344H69.7828C71.2121 59.344 72.3321 59.0027 73.1428 58.32C73.9748 57.6373 74.3908 56.6773 74.3908 55.44C74.3908 54.2027 73.9748 53.2427 73.1428 52.56C72.3321 51.8773 71.2121 51.536 69.7828 51.536H63.0308V48.944H69.1108C70.4334 48.944 71.4788 48.624 72.2468 47.984C73.0148 47.3227 73.3988 46.4267 73.3988 45.296C73.3988 44.208 73.0148 43.3547 72.2468 42.736C71.4788 42.096 70.4334 41.776 69.1108 41.776H63.3508V59.344ZM92.696 62.512C90.968 62.512 89.3787 62.2133 87.928 61.616C86.4773 61.0187 85.208 60.1867 84.12 59.12C83.032 58.032 82.1893 56.7627 81.592 55.312C80.9947 53.84 80.696 52.2507 80.696 50.544C80.696 48.8373 80.9947 47.2587 81.592 45.808C82.1893 44.3573 83.032 43.0987 84.12 42.032C85.208 40.944 86.4773 40.1013 87.928 39.504C89.3787 38.9067 90.968 38.608 92.696 38.608C94.424 38.608 96.0133 38.9067 97.464 39.504C98.9147 40.1013 100.184 40.944 101.272 42.032C102.36 43.0987 103.203 44.3573 103.8 45.808C104.397 47.2587 104.696 48.8373 104.696 50.544C104.696 52.2507 104.397 53.84 103.8 55.312C103.203 56.7627 102.36 58.032 101.272 59.12C100.184 60.1867 98.9147 61.0187 97.464 61.616C96.0133 62.2133 94.424 62.512 92.696 62.512ZM92.696 59.76C94.424 59.76 95.9493 59.3653 97.272 58.576C98.5947 57.7867 99.6187 56.6987 100.344 55.312C101.091 53.904 101.464 52.3147 101.464 50.544C101.464 48.7733 101.091 47.1947 100.344 45.808C99.6187 44.4213 98.5947 43.3333 97.272 42.544C95.9493 41.7547 94.424 41.36 92.696 41.36C90.9893 41.36 89.464 41.7547 88.12 42.544C86.7973 43.3333 85.7627 44.4213 85.016 45.808C84.2907 47.1947 83.928 48.7733 83.928 50.544C83.928 52.3147 84.2907 53.904 85.016 55.312C85.7627 56.6987 86.7973 57.7867 88.12 58.576C89.464 59.3653 90.9893 59.76 92.696 59.76ZM127.398 39.12V52.976C127.398 55.984 126.566 58.3307 124.902 60.016C123.26 61.68 120.977 62.512 118.054 62.512C115.153 62.512 112.87 61.68 111.206 60.016C109.542 58.3307 108.71 55.984 108.71 52.976V39.12H111.782V52.976C111.782 55.152 112.326 56.8267 113.414 58C114.524 59.1733 116.07 59.76 118.054 59.76C120.06 59.76 121.606 59.1733 122.694 58C123.804 56.8267 124.358 55.152 124.358 52.976V39.12H127.398ZM141.336 62H138.264V41.488H141.336V62ZM148.824 41.808H130.808V39.12H148.824V41.808ZM177.148 39.12V52.976C177.148 55.984 176.316 58.3307 174.652 60.016C173.01 61.68 170.727 62.512 167.804 62.512C164.903 62.512 162.62 61.68 160.956 60.016C159.292 58.3307 158.46 55.984 158.46 52.976V39.12H161.532V52.976C161.532 55.152 162.076 56.8267 163.164 58C164.274 59.1733 165.82 59.76 167.804 59.76C169.81 59.76 171.356 59.1733 172.444 58C173.554 56.8267 174.108 55.152 174.108 52.976V39.12H177.148ZM180.527 58.288L182.703 56.176C183.322 56.9227 184.036 57.5627 184.847 58.096C185.658 58.6293 186.532 59.0453 187.471 59.344C188.41 59.6427 189.402 59.792 190.447 59.792C191.62 59.792 192.655 59.6213 193.551 59.28C194.447 58.9173 195.151 58.4267 195.663 57.808C196.175 57.1893 196.431 56.464 196.431 55.632C196.431 54.544 195.951 53.6907 194.991 53.072C194.052 52.432 192.431 51.9413 190.127 51.6C188.036 51.28 186.362 50.8533 185.103 50.32C183.844 49.7867 182.927 49.1147 182.351 48.304C181.775 47.472 181.487 46.4907 181.487 45.36C181.487 44.0373 181.86 42.864 182.607 41.84C183.354 40.816 184.378 40.0267 185.679 39.472C187.002 38.896 188.506 38.608 190.191 38.608C192.132 38.608 193.85 38.992 195.343 39.76C196.858 40.5067 198.18 41.5307 199.311 42.832L197.167 44.912C196.292 43.824 195.3 42.96 194.191 42.32C193.082 41.6587 191.748 41.328 190.191 41.328C188.57 41.328 187.236 41.6907 186.191 42.416C185.167 43.12 184.655 44.0693 184.655 45.264C184.655 45.8827 184.847 46.416 185.231 46.864C185.615 47.2907 186.244 47.6533 187.119 47.952C187.994 48.2507 189.167 48.5173 190.639 48.752C192.772 49.0507 194.49 49.4987 195.791 50.096C197.114 50.672 198.074 51.408 198.671 52.304C199.29 53.2 199.599 54.2773 199.599 55.536C199.599 56.9227 199.204 58.1387 198.415 59.184C197.647 60.2293 196.57 61.0507 195.183 61.648C193.818 62.224 192.239 62.512 190.447 62.512C188.335 62.512 186.458 62.1387 184.815 61.392C183.172 60.624 181.743 59.5893 180.527 58.288Z" />
+                <mask id="path-2-inside-1_461_4979" fill="white">
+                  <path d="M57.84 59.5182H40.88V54.9582H57.84V59.5182ZM63.68 65.7982H57.88L48.52 40.9982H50.12L40.76 65.7982H35.16L46.44 37.1982H52.4L63.68 65.7982ZM67.6994 65.7982V37.1982H79.5794C81.4727 37.1982 83.126 37.5048 84.5394 38.1182C85.9527 38.7315 87.046 39.5982 87.8194 40.7182C88.5927 41.8382 88.9794 43.1582 88.9794 44.6782C88.9794 46.0648 88.5927 47.3048 87.8194 48.3982C87.046 49.4648 85.9527 50.3048 84.5394 50.9182C83.126 51.5315 81.4727 51.8382 79.5794 51.8382H73.4994V49.7982H79.9394C81.9927 49.7982 83.7794 50.1182 85.2994 50.7582C86.846 51.3715 88.046 52.2648 88.8994 53.4382C89.7794 54.5848 90.2194 55.9582 90.2194 57.5582C90.2194 59.1848 89.7927 60.6248 88.9394 61.8782C88.086 63.1315 86.886 64.1048 85.3394 64.7982C83.7927 65.4648 81.9927 65.7982 79.9394 65.7982H67.6994ZM73.0994 61.2782H79.9794C81.446 61.2782 82.606 60.9315 83.4594 60.2382C84.3127 59.5182 84.7394 58.5182 84.7394 57.2382C84.7394 56.0115 84.3127 55.0648 83.4594 54.3982C82.606 53.7048 81.446 53.3582 79.9794 53.3582H72.6994V48.9182H79.2994C80.606 48.9182 81.6327 48.5982 82.3794 47.9582C83.1527 47.2915 83.5394 46.3848 83.5394 45.2382C83.5394 44.1182 83.1527 43.2515 82.3794 42.6382C81.6327 42.0248 80.606 41.7182 79.2994 41.7182H73.0994V61.2782ZM108.663 66.4382C106.449 66.4382 104.409 66.0648 102.543 65.3182C100.703 64.5715 99.0895 63.5315 97.7028 62.1982C96.3161 60.8648 95.2495 59.2915 94.5028 57.4782C93.7561 55.6382 93.3828 53.6382 93.3828 51.4782C93.3828 49.3182 93.7561 47.3315 94.5028 45.5182C95.2495 43.7048 96.3161 42.1315 97.7028 40.7982C99.0895 39.4648 100.703 38.4248 102.543 37.6782C104.409 36.9315 106.449 36.5582 108.663 36.5582C110.876 36.5582 112.903 36.9315 114.743 37.6782C116.609 38.4248 118.236 39.4648 119.623 40.7982C121.009 42.1315 122.076 43.7048 122.823 45.5182C123.569 47.3315 123.943 49.3182 123.943 51.4782C123.943 53.6382 123.569 55.6382 122.823 57.4782C122.076 59.2915 121.009 60.8648 119.623 62.1982C118.236 63.5315 116.609 64.5715 114.743 65.3182C112.903 66.0648 110.876 66.4382 108.663 66.4382ZM108.663 61.6782C110.556 61.6782 112.223 61.2382 113.663 60.3582C115.103 59.4782 116.223 58.2782 117.023 56.7582C117.849 55.2115 118.263 53.4515 118.263 51.4782C118.263 49.5048 117.849 47.7582 117.023 46.2382C116.223 44.7182 115.103 43.5182 113.663 42.6382C112.223 41.7582 110.556 41.3182 108.663 41.3182C106.796 41.3182 105.129 41.7582 103.663 42.6382C102.223 43.5182 101.089 44.7182 100.263 46.2382C99.4628 47.7582 99.0628 49.5048 99.0628 51.4782C99.0628 53.4515 99.4628 55.2115 100.263 56.7582C101.089 58.2782 102.223 59.4782 103.663 60.3582C105.129 61.2382 106.796 61.6782 108.663 61.6782ZM152.993 37.1982V54.5182C152.993 58.2782 151.9 61.2115 149.713 63.3182C147.553 65.3982 144.566 66.4382 140.753 66.4382C136.966 66.4382 133.98 65.3982 131.793 63.3182C129.633 61.2115 128.553 58.2782 128.553 54.5182V37.1982H133.953V54.5182C133.953 56.7048 134.553 58.4515 135.753 59.7582C136.953 61.0382 138.62 61.6782 140.753 61.6782C142.913 61.6782 144.593 61.0382 145.793 59.7582C147.02 58.4515 147.633 56.7048 147.633 54.5182V37.1982H152.993ZM171.203 65.7982H165.803V41.3982H171.203V65.7982ZM180.163 41.7982H156.843V37.1982H180.163V41.7982ZM216.353 37.1982V54.5182C216.353 58.2782 215.259 61.2115 213.073 63.3182C210.913 65.3982 207.926 66.4382 204.113 66.4382C200.326 66.4382 197.339 65.3982 195.153 63.3182C192.993 61.2115 191.913 58.2782 191.913 54.5182V37.1982H197.313V54.5182C197.313 56.7048 197.913 58.4515 199.113 59.7582C200.313 61.0382 201.979 61.6782 204.113 61.6782C206.273 61.6782 207.953 61.0382 209.153 59.7582C210.379 58.4515 210.993 56.7048 210.993 54.5182V37.1982H216.353ZM219.928 61.1182L223.568 57.4782C224.261 58.3582 225.101 59.1182 226.088 59.7582C227.074 60.3982 228.141 60.8915 229.288 61.2382C230.434 61.5848 231.608 61.7582 232.808 61.7582C234.114 61.7582 235.234 61.5982 236.168 61.2782C237.128 60.9582 237.861 60.5048 238.368 59.9182C238.901 59.3048 239.168 58.5982 239.168 57.7982C239.168 56.7315 238.648 55.8782 237.608 55.2382C236.594 54.5715 234.768 54.0382 232.128 53.6382C229.541 53.2648 227.434 52.7182 225.808 51.9982C224.208 51.2782 223.021 50.3715 222.248 49.2782C221.501 48.1848 221.128 46.8915 221.128 45.3982C221.128 43.6648 221.608 42.1315 222.568 40.7982C223.554 39.4648 224.901 38.4248 226.608 37.6782C228.314 36.9315 230.261 36.5582 232.448 36.5582C235.008 36.5582 237.288 37.0382 239.288 37.9982C241.288 38.9582 242.981 40.2515 244.368 41.8782L240.768 45.4782C239.754 44.1715 238.541 43.1315 237.128 42.3582C235.741 41.5848 234.194 41.1982 232.488 41.1982C230.754 41.1982 229.341 41.5582 228.248 42.2782C227.154 42.9715 226.608 43.9048 226.608 45.0782C226.608 45.6915 226.821 46.2248 227.248 46.6782C227.674 47.1315 228.381 47.5182 229.368 47.8382C230.381 48.1315 231.741 48.4115 233.448 48.6782C236.034 49.0782 238.141 49.6648 239.768 50.4382C241.421 51.1848 242.648 52.1448 243.448 53.3182C244.248 54.4915 244.648 55.8915 244.648 57.5182C244.648 59.3315 244.141 60.9048 243.128 62.2382C242.114 63.5715 240.714 64.6115 238.928 65.3582C237.141 66.0782 235.074 66.4382 232.728 66.4382C229.981 66.4382 227.528 65.9582 225.368 64.9982C223.208 64.0115 221.394 62.7182 219.928 61.1182Z" />
                 </mask>
-                <path d="M52.176 56.048H39.376V53.392H52.176V56.048ZM56.656 62H53.392L45.232 41.104H46.384L38.224 62H35.088L44.176 39.12H47.536L56.656 62ZM60.2788 62V39.12H69.1748C70.6681 39.12 71.9588 39.376 73.0468 39.888C74.1561 40.3787 75.0094 41.072 75.6068 41.968C76.2254 42.864 76.5347 43.92 76.5347 45.136C76.5347 46.2453 76.2254 47.2373 75.6068 48.112C75.0094 48.9653 74.1561 49.6373 73.0468 50.128C71.9588 50.5973 70.6681 50.832 69.1748 50.832H63.6708V49.264H69.7508C71.3081 49.264 72.6628 49.52 73.8148 50.032C74.9881 50.544 75.8948 51.2693 76.5347 52.208C77.1961 53.1253 77.5268 54.224 77.5268 55.504C77.5268 56.8053 77.1961 57.9467 76.5347 58.928C75.8948 59.9093 74.9881 60.6667 73.8148 61.2C72.6628 61.7333 71.3081 62 69.7508 62H60.2788ZM63.3508 59.344H69.7828C71.2121 59.344 72.3321 59.0027 73.1428 58.32C73.9748 57.6373 74.3908 56.6773 74.3908 55.44C74.3908 54.2027 73.9748 53.2427 73.1428 52.56C72.3321 51.8773 71.2121 51.536 69.7828 51.536H63.0308V48.944H69.1108C70.4334 48.944 71.4788 48.624 72.2468 47.984C73.0148 47.3227 73.3988 46.4267 73.3988 45.296C73.3988 44.208 73.0148 43.3547 72.2468 42.736C71.4788 42.096 70.4334 41.776 69.1108 41.776H63.3508V59.344ZM92.696 62.512C90.968 62.512 89.3787 62.2133 87.928 61.616C86.4773 61.0187 85.208 60.1867 84.12 59.12C83.032 58.032 82.1893 56.7627 81.592 55.312C80.9947 53.84 80.696 52.2507 80.696 50.544C80.696 48.8373 80.9947 47.2587 81.592 45.808C82.1893 44.3573 83.032 43.0987 84.12 42.032C85.208 40.944 86.4773 40.1013 87.928 39.504C89.3787 38.9067 90.968 38.608 92.696 38.608C94.424 38.608 96.0133 38.9067 97.464 39.504C98.9147 40.1013 100.184 40.944 101.272 42.032C102.36 43.0987 103.203 44.3573 103.8 45.808C104.397 47.2587 104.696 48.8373 104.696 50.544C104.696 52.2507 104.397 53.84 103.8 55.312C103.203 56.7627 102.36 58.032 101.272 59.12C100.184 60.1867 98.9147 61.0187 97.464 61.616C96.0133 62.2133 94.424 62.512 92.696 62.512ZM92.696 59.76C94.424 59.76 95.9493 59.3653 97.272 58.576C98.5947 57.7867 99.6187 56.6987 100.344 55.312C101.091 53.904 101.464 52.3147 101.464 50.544C101.464 48.7733 101.091 47.1947 100.344 45.808C99.6187 44.4213 98.5947 43.3333 97.272 42.544C95.9493 41.7547 94.424 41.36 92.696 41.36C90.9893 41.36 89.464 41.7547 88.12 42.544C86.7973 43.3333 85.7627 44.4213 85.016 45.808C84.2907 47.1947 83.928 48.7733 83.928 50.544C83.928 52.3147 84.2907 53.904 85.016 55.312C85.7627 56.6987 86.7973 57.7867 88.12 58.576C89.464 59.3653 90.9893 59.76 92.696 59.76ZM127.398 39.12V52.976C127.398 55.984 126.566 58.3307 124.902 60.016C123.26 61.68 120.977 62.512 118.054 62.512C115.153 62.512 112.87 61.68 111.206 60.016C109.542 58.3307 108.71 55.984 108.71 52.976V39.12H111.782V52.976C111.782 55.152 112.326 56.8267 113.414 58C114.524 59.1733 116.07 59.76 118.054 59.76C120.06 59.76 121.606 59.1733 122.694 58C123.804 56.8267 124.358 55.152 124.358 52.976V39.12H127.398ZM141.336 62H138.264V41.488H141.336V62ZM148.824 41.808H130.808V39.12H148.824V41.808ZM177.148 39.12V52.976C177.148 55.984 176.316 58.3307 174.652 60.016C173.01 61.68 170.727 62.512 167.804 62.512C164.903 62.512 162.62 61.68 160.956 60.016C159.292 58.3307 158.46 55.984 158.46 52.976V39.12H161.532V52.976C161.532 55.152 162.076 56.8267 163.164 58C164.274 59.1733 165.82 59.76 167.804 59.76C169.81 59.76 171.356 59.1733 172.444 58C173.554 56.8267 174.108 55.152 174.108 52.976V39.12H177.148ZM180.527 58.288L182.703 56.176C183.322 56.9227 184.036 57.5627 184.847 58.096C185.658 58.6293 186.532 59.0453 187.471 59.344C188.41 59.6427 189.402 59.792 190.447 59.792C191.62 59.792 192.655 59.6213 193.551 59.28C194.447 58.9173 195.151 58.4267 195.663 57.808C196.175 57.1893 196.431 56.464 196.431 55.632C196.431 54.544 195.951 53.6907 194.991 53.072C194.052 52.432 192.431 51.9413 190.127 51.6C188.036 51.28 186.362 50.8533 185.103 50.32C183.844 49.7867 182.927 49.1147 182.351 48.304C181.775 47.472 181.487 46.4907 181.487 45.36C181.487 44.0373 181.86 42.864 182.607 41.84C183.354 40.816 184.378 40.0267 185.679 39.472C187.002 38.896 188.506 38.608 190.191 38.608C192.132 38.608 193.85 38.992 195.343 39.76C196.858 40.5067 198.18 41.5307 199.311 42.832L197.167 44.912C196.292 43.824 195.3 42.96 194.191 42.32C193.082 41.6587 191.748 41.328 190.191 41.328C188.57 41.328 187.236 41.6907 186.191 42.416C185.167 43.12 184.655 44.0693 184.655 45.264C184.655 45.8827 184.847 46.416 185.231 46.864C185.615 47.2907 186.244 47.6533 187.119 47.952C187.994 48.2507 189.167 48.5173 190.639 48.752C192.772 49.0507 194.49 49.4987 195.791 50.096C197.114 50.672 198.074 51.408 198.671 52.304C199.29 53.2 199.599 54.2773 199.599 55.536C199.599 56.9227 199.204 58.1387 198.415 59.184C197.647 60.2293 196.57 61.0507 195.183 61.648C193.818 62.224 192.239 62.512 190.447 62.512C188.335 62.512 186.458 62.1387 184.815 61.392C183.172 60.624 181.743 59.5893 180.527 58.288Z" fill="white" />
-                <path d="M52.176 56.048V156.048H152.176V56.048H52.176ZM39.376 56.048H-60.624V156.048H39.376V56.048ZM39.376 53.392V-46.608H-60.624V53.392H39.376ZM52.176 53.392H152.176V-46.608H52.176V53.392ZM56.656 62V162H204.168L149.548 24.973L56.656 62ZM53.392 62L-39.7575 98.3754L-14.9118 162H53.392V62ZM45.232 41.104V-58.896H-101.173L-47.9175 77.4794L45.232 41.104ZM46.384 41.104L139.534 77.4794L192.789 -58.896H46.384V41.104ZM38.224 62V162H106.528L131.374 98.3754L38.224 62ZM35.088 62L-57.849 25.0851L-112.232 162H35.088V62ZM44.176 39.12V-60.88H-23.7034L-48.761 2.20515L44.176 39.12ZM47.536 39.12L140.428 2.09296L115.327 -60.88H47.536V39.12ZM52.176 -43.952H39.376V156.048H52.176V-43.952ZM139.376 56.048V53.392H-60.624V56.048H139.376ZM39.376 153.392H52.176V-46.608H39.376V153.392ZM-47.824 53.392V56.048H152.176V53.392H-47.824ZM56.656 -38H53.392V162H56.656V-38ZM146.542 25.6246L138.382 4.72862L-47.9175 77.4794L-39.7575 98.3754L146.542 25.6246ZM45.232 141.104H46.384V-58.896H45.232V141.104ZM-46.7655 4.72861L-54.9255 25.6246L131.374 98.3754L139.534 77.4794L-46.7655 4.72861ZM38.224 -38H35.088V162H38.224V-38ZM128.025 98.9149L137.113 76.0349L-48.761 2.20515L-57.849 25.0851L128.025 98.9149ZM44.176 139.12H47.536V-60.88H44.176V139.12ZM-45.3564 76.147L-36.2364 99.027L149.548 24.973L140.428 2.09296L-45.3564 76.147ZM60.2787 62H-39.7213V162H60.2787V62ZM60.2787 39.12V-60.88H-39.7213V39.12H60.2787ZM73.0468 39.888L30.4671 130.37L31.5259 130.868L32.5961 131.342L73.0468 39.888ZM75.6068 41.968L-7.59828 97.438L-7.14611 98.1163L-6.68295 98.7871L75.6068 41.968ZM75.6068 48.112L-6.03484 -9.63444L-6.17612 -9.43469L-6.31644 -9.23424L75.6068 48.112ZM73.0468 50.128L112.656 141.949L113.077 141.767L113.497 141.582L73.0468 50.128ZM63.6707 50.832H-36.3292V150.832H63.6707V50.832ZM63.6707 49.264V-50.736H-36.3292V49.264H63.6707ZM73.8148 50.032L33.2009 141.413L33.5101 141.551L33.8203 141.686L73.8148 50.032ZM76.5348 52.208L-6.08801 108.542L-5.34951 109.625L-4.58288 110.688L76.5348 52.208ZM76.5348 58.928L-6.39188 3.04263L-6.81386 3.6688L-7.22633 4.30126L76.5348 58.928ZM73.8148 61.2L32.4345 -29.8367L32.1179 -29.6928L31.8024 -29.5467L73.8148 61.2ZM63.3507 59.344H-36.6492V159.344H63.3507V59.344ZM73.1427 58.32L9.7111 -18.9873L9.21753 -18.5824L8.72917 -18.1711L73.1427 58.32ZM73.1427 52.56L8.72916 129.051L9.21752 129.462L9.71109 129.867L73.1427 52.56ZM63.0308 51.536H-36.9693V151.536H63.0308V51.536ZM63.0308 48.944V-51.056H-36.9693V48.944H63.0308ZM72.2467 47.984L136.265 124.806L136.886 124.288L137.499 123.761L72.2467 47.984ZM72.2467 42.736L8.22836 119.558L8.86667 120.09L9.51372 120.611L72.2467 42.736ZM63.3507 41.776V-58.224H-36.6492V41.776H63.3507ZM160.279 62V39.12H-39.7213V62H160.279ZM60.2787 139.12H69.1748V-60.88H60.2787V139.12ZM69.1748 139.12C59.4195 139.12 45.5188 137.453 30.4671 130.37L115.626 -50.5939C98.3987 -58.701 81.9167 -60.88 69.1748 -60.88V139.12ZM32.5961 131.342C18.5863 125.145 3.63972 114.295 -7.59828 97.438L158.812 -13.502C146.379 -32.151 129.726 -44.3875 113.497 -51.5655L32.5961 131.342ZM-6.68295 98.7871C-18.9243 81.0581 -23.4652 61.7505 -23.4652 45.136H176.535C176.535 26.0895 171.375 4.66986 157.896 -14.8511L-6.68295 98.7871ZM-23.4652 45.136C-23.4652 26.3426 -17.8041 7.00481 -6.03484 -9.63444L157.248 105.858C170.255 87.4699 176.535 66.1481 176.535 45.136H-23.4652ZM-6.31644 -9.23424C5.15976 -25.6288 19.8134 -35.6716 32.5961 -41.3255L113.497 141.582C128.499 134.946 144.859 123.559 157.53 105.458L-6.31644 -9.23424ZM33.4376 -41.6931C47.6585 -47.8276 60.4686 -49.168 69.1748 -49.168V150.832C80.8676 150.832 96.259 149.022 112.656 141.949L33.4376 -41.6931ZM69.1748 -49.168H63.6707V150.832H69.1748V-49.168ZM163.671 50.832V49.264H-36.3292V50.832H163.671ZM63.6707 149.264H69.7508V-50.736H63.6707V149.264ZM69.7508 149.264C60.521 149.264 47.4705 147.755 33.2009 141.413L114.429 -41.3491C97.855 -48.7152 82.0952 -50.736 69.7508 -50.736V149.264ZM33.8203 141.686C19.9929 135.652 5.17698 125.064 -6.08801 108.542L159.158 -4.12565C146.613 -22.525 129.983 -34.5642 113.809 -41.6219L33.8203 141.686ZM-4.58288 110.688C-17.7834 92.3778 -22.4733 72.3317 -22.4733 55.504H177.527C177.527 36.1163 172.176 13.8729 157.652 -6.27217L-4.58288 110.688ZM-22.4733 55.504C-22.4733 38.9623 -17.962 20.2112 -6.39188 3.04263L159.461 114.813C172.354 95.6821 177.527 74.6484 177.527 55.504H-22.4733ZM-7.22633 4.30126C3.54099 -12.2087 18.1031 -23.3224 32.4345 -29.8367L115.195 152.237C131.873 144.656 148.249 132.027 160.296 113.555L-7.22633 4.30126ZM31.8024 -29.5467C46.4541 -36.3299 60.0158 -38 69.7508 -38V162C82.6003 162 98.8714 159.797 115.827 151.947L31.8024 -29.5467ZM69.7508 -38H60.2787V162H69.7508V-38ZM63.3507 159.344H69.7827V-40.656H63.3507V159.344ZM69.7827 159.344C86.5346 159.344 113.278 155.256 137.556 134.811L8.72917 -18.1711C31.386 -37.2506 55.8896 -40.656 69.7827 -40.656V159.344ZM136.574 135.627C164.179 112.977 174.391 81.5968 174.391 55.44H-25.6092C-25.6092 44.8417 -23.8072 31.4743 -17.6768 17.3273C-11.3778 2.79101 -1.80013 -9.54223 9.7111 -18.9873L136.574 135.627ZM174.391 55.44C174.391 29.2832 164.179 -2.0974 136.574 -24.7473L9.71109 129.867C-1.80014 120.422 -11.3778 108.089 -17.6768 93.5527C-23.8072 79.4057 -25.6092 66.0383 -25.6092 55.44H174.391ZM137.556 -23.9311C113.278 -44.3759 86.5346 -48.464 69.7827 -48.464V151.536C55.8896 151.536 31.386 148.131 8.72916 129.051L137.556 -23.9311ZM69.7827 -48.464H63.0308V151.536H69.7827V-48.464ZM163.031 51.536V48.944H-36.9693V51.536H163.031ZM63.0308 148.944H69.1107V-51.056H63.0308V148.944ZM69.1107 148.944C86.2012 148.944 112.429 144.67 136.265 124.806L8.22832 -28.8381C30.5289 -47.4219 54.6656 -51.056 69.1107 -51.056V148.944ZM137.499 123.761C163.036 101.771 173.399 71.7647 173.399 45.296H-26.6012C-26.6012 34.4629 -24.7309 21.254 -18.8038 7.42408C-12.755 -6.68962 -3.69247 -18.5903 6.99443 -27.7929L137.499 123.761ZM173.399 45.296C173.399 17.5043 161.95 -13.4137 134.98 -35.1393L9.51372 120.611C-1.67517 111.598 -11.4684 99.5721 -18.0814 84.8764C-24.5647 70.4691 -26.6012 56.6154 -26.6012 45.296H173.399ZM136.265 -34.0862C112.429 -53.95 86.2012 -58.224 69.1107 -58.224V141.776C54.6656 141.776 30.5289 138.142 8.22836 119.558L136.265 -34.0862ZM69.1107 -58.224H63.3507V141.776H69.1107V-58.224ZM-36.6492 41.776V59.344H163.351V41.776H-36.6492ZM87.928 61.616L126.003 -30.8518L126.003 -30.8518L87.928 61.616ZM84.12 59.12L13.4093 129.831L13.7594 130.181L14.1129 130.527L84.12 59.12ZM81.592 55.312L-11.0693 92.9137L-10.9732 93.1506L-10.8758 93.387L81.592 55.312ZM81.592 45.808L-10.8758 7.73299L-10.8758 7.73303L81.592 45.808ZM84.12 42.032L154.127 113.439L154.481 113.093L154.831 112.743L84.12 42.032ZM87.928 39.504L126.003 131.972H126.003L87.928 39.504ZM101.272 42.032L30.5613 112.743L30.9114 113.093L31.2649 113.439L101.272 42.032ZM103.8 45.808L196.268 7.73303L196.268 7.733L103.8 45.808ZM103.8 55.312L196.268 93.387L196.365 93.1506L196.461 92.9137L103.8 55.312ZM101.272 59.12L171.279 130.527L171.633 130.181L171.983 129.831L101.272 59.12ZM97.464 61.616L135.539 154.084H135.539L97.464 61.616ZM97.272 58.576L148.518 144.447L148.518 144.447L97.272 58.576ZM100.344 55.312L11.9978 8.46177L11.8653 8.71161L11.7342 8.9622L100.344 55.312ZM100.344 45.808L11.7342 92.1578L12.0124 92.6896L12.2969 93.2179L100.344 45.808ZM97.272 42.544L148.518 -43.3273L148.518 -43.3273L97.272 42.544ZM88.12 42.544L37.4778 -43.6846L37.1754 -43.507L36.8743 -43.3273L88.12 42.544ZM85.016 45.808L-3.03111 -1.60198L-3.31565 -1.07355L-3.59383 -0.541733L85.016 45.808ZM85.016 55.312L-3.88146 101.108L-3.46365 101.919L-3.03111 102.722L85.016 55.312ZM88.12 58.576L36.8743 144.447L37.1754 144.627L37.4778 144.805L88.12 58.576ZM92.696 -37.488C102.7 -37.488 114.204 -35.71 126.003 -30.8518L49.853 154.084C64.5529 160.137 79.2356 162.512 92.696 162.512V-37.488ZM126.003 -30.8518C136.092 -26.6974 145.751 -20.4989 154.127 -12.2873L14.1129 130.527C24.6647 140.872 36.8625 148.735 49.853 154.084L126.003 -30.8518ZM154.831 -11.5907C163.264 -3.15725 169.731 6.72485 174.06 17.237L-10.8758 93.387C-5.3526 106.8 2.79989 119.221 13.4093 129.831L154.831 -11.5907ZM174.253 17.7103C178.854 29.0467 180.696 40.3281 180.696 50.544H-19.304C-19.304 64.1733 -16.8642 78.6333 -11.0693 92.9137L174.253 17.7103ZM180.696 50.544C180.696 60.7439 178.857 72.2315 174.06 83.883L-10.8758 7.73303C-16.8681 22.2858 -19.304 36.9308 -19.304 50.544H180.696ZM174.06 83.883C169.66 94.5687 162.994 104.746 154.127 113.439L14.1129 -29.3753C3.07004 -18.549 -5.28112 -5.85408 -10.8758 7.73299L174.06 83.883ZM154.831 112.743C146.397 121.176 136.515 127.643 126.003 131.972L49.853 -52.9638C36.4395 -47.4406 24.0188 -39.2881 13.4093 -28.6787L154.831 112.743ZM126.003 131.972C114.204 136.83 102.7 138.608 92.696 138.608V-61.392C79.2356 -61.392 64.5529 -59.0167 49.853 -52.9638L126.003 131.972ZM92.696 138.608C82.6916 138.608 71.1876 136.83 59.389 131.972L135.539 -52.9638C120.839 -59.0167 106.156 -61.392 92.696 -61.392V138.608ZM59.389 131.972C48.8769 127.643 38.9948 121.176 30.5613 112.743L171.983 -28.6787C161.373 -39.2881 148.952 -47.4406 135.539 -52.9638L59.389 131.972ZM31.2649 113.439C22.398 104.746 15.7322 94.5687 11.3322 83.883L196.268 7.733C190.673 -5.85407 182.322 -18.549 171.279 -29.3753L31.2649 113.439ZM11.3322 83.883C6.53454 72.2315 4.696 60.7439 4.696 50.544H204.696C204.696 36.9308 202.26 22.2858 196.268 7.73303L11.3322 83.883ZM4.696 50.544C4.696 40.3281 6.53845 29.0467 11.1387 17.7103L196.461 92.9137C202.256 78.6333 204.696 64.1733 204.696 50.544H4.696ZM11.3322 17.237C15.6607 6.72486 22.1279 -3.15724 30.5613 -11.5907L171.983 129.831C182.592 119.221 190.745 106.8 196.268 93.387L11.3322 17.237ZM31.2649 -12.2873C39.6407 -20.4989 49.2998 -26.6974 59.389 -30.8518L135.539 154.084C148.53 148.735 160.727 140.872 171.279 130.527L31.2649 -12.2873ZM59.389 -30.8518C71.1876 -35.71 82.6916 -37.488 92.696 -37.488V162.512C106.156 162.512 120.839 160.137 135.539 154.084L59.389 -30.8518ZM92.696 159.76C110.215 159.76 129.874 155.573 148.518 144.447L46.0263 -27.2953C62.0244 -36.8425 78.6329 -40.24 92.696 -40.24V159.76ZM148.518 144.447C165.973 134.031 179.809 119.145 188.954 101.662L11.7342 8.9622C19.4286 -5.74769 31.2166 -18.4572 46.0262 -27.2952L148.518 144.447ZM188.69 102.162C197.909 84.7776 201.464 66.8043 201.464 50.544H1.464C1.464 37.825 4.27199 23.0304 11.9978 8.46177L188.69 102.162ZM201.464 50.544C201.464 34.312 197.917 16.0891 188.391 -1.60193L12.2969 93.2179C4.26427 78.3002 1.464 63.2347 1.464 50.544H201.464ZM188.954 -0.541798C179.809 -18.025 165.973 -32.9106 148.518 -43.3273L46.0262 128.415C31.2166 119.577 19.4286 106.868 11.7342 92.1578L188.954 -0.541798ZM148.518 -43.3273C129.874 -54.4532 110.215 -58.64 92.696 -58.64V141.36C78.6329 141.36 62.0244 137.963 46.0263 128.415L148.518 -43.3273ZM92.696 -58.64C74.9254 -58.64 55.6108 -54.3341 37.4778 -43.6846L138.762 128.773C123.317 137.843 107.053 141.36 92.696 141.36V-58.64ZM36.8743 -43.3273C19.6723 -33.0616 6.08007 -18.5227 -3.03111 -1.60198L173.063 93.218C165.445 107.365 153.922 119.728 139.366 128.415L36.8743 -43.3273ZM-3.59383 -0.541733C-12.7361 16.9362 -16.072 34.7758 -16.072 50.544H183.928C183.928 62.7709 181.317 77.4532 173.626 92.1577L-3.59383 -0.541733ZM-16.072 50.544C-16.072 66.3426 -12.7274 83.9361 -3.88146 101.108L173.913 9.51635C181.309 23.8719 183.928 38.2868 183.928 50.544H-16.072ZM-3.03111 102.722C6.08007 119.643 19.6723 134.182 36.8743 144.447L139.366 -27.2953C153.922 -18.6083 165.445 -6.24541 173.063 7.90202L-3.03111 102.722ZM37.4778 144.805C55.6108 155.454 74.9254 159.76 92.696 159.76V-40.24C107.053 -40.24 123.317 -36.7234 138.762 -27.6526L37.4778 144.805ZM127.398 39.12H227.398V-60.88H127.398V39.12ZM124.902 60.016L53.7426 -10.2429L53.7368 -10.237L124.902 60.016ZM111.206 60.016L40.0466 130.275L40.2704 130.501L40.4956 130.727L111.206 60.016ZM108.71 39.12V-60.88H8.71025V39.12H108.71ZM111.782 39.12H211.782V-60.88H111.782V39.12ZM113.414 58L40.0874 125.994L40.4168 126.349L40.7496 126.701L113.414 58ZM122.694 58L50.0296 -10.7012L49.6968 -10.3492L49.3674 -9.99393L122.694 58ZM124.358 39.12V-60.88H24.3583V39.12H124.358ZM27.3983 39.12V52.976H227.398V39.12H27.3983ZM27.3983 52.976C27.3983 37.1311 32.2822 11.4927 53.7426 -10.2429L196.062 130.275C220.85 105.169 227.398 74.8369 227.398 52.976H27.3983ZM53.7368 -10.237C75.3315 -32.1121 101.307 -37.488 118.054 -37.488V162.512C140.647 162.512 171.188 155.472 196.068 130.269L53.7368 -10.237ZM118.054 -37.488C135.12 -37.488 160.652 -31.9596 181.917 -10.6947L40.4956 130.727C65.0885 155.32 95.1855 162.512 118.054 162.512V-37.488ZM182.366 -10.2429C203.826 11.4927 208.71 37.1311 208.71 52.976H8.71025C8.71025 74.8369 15.2582 105.169 40.0466 130.275L182.366 -10.2429ZM208.71 52.976V39.12H8.71025V52.976H208.71ZM108.71 139.12H111.782V-60.88H108.71V139.12ZM11.7822 39.12V52.976H211.782V39.12H11.7822ZM11.7822 52.976C11.7822 71.1645 16.4809 100.536 40.0874 125.994L186.741 -9.99395C208.172 13.1174 211.782 39.1395 211.782 52.976H11.7822ZM40.7496 126.701C64.926 152.272 95.315 159.76 118.054 159.76V-40.24C136.826 -40.24 164.121 -33.9256 186.079 -10.7011L40.7496 126.701ZM118.054 159.76C140.363 159.76 171.435 152.508 196.021 125.994L49.3674 -9.99393C71.7772 -34.1614 99.7564 -40.24 118.054 -40.24V159.76ZM195.359 126.701C219.392 101.282 224.358 71.64 224.358 52.976H24.3583C24.3583 38.664 28.2155 12.3714 50.0296 -10.7012L195.359 126.701ZM224.358 52.976V39.12H24.3583V52.976H224.358ZM124.358 139.12H127.398V-60.88H124.358V139.12ZM141.336 62V162H241.335V62H141.336ZM138.264 62H38.2635V162H138.264V62ZM138.264 41.488V-58.512H38.2635V41.488H138.264ZM141.336 41.488H241.335V-58.512H141.336V41.488ZM148.824 41.808V141.808H248.824V41.808H148.824ZM130.808 41.808H30.8075V141.808H130.808V41.808ZM130.808 39.12V-60.88H30.8075V39.12H130.808ZM148.824 39.12H248.824V-60.88H148.824V39.12ZM141.336 -38H138.264V162H141.336V-38ZM238.264 62V41.488H38.2635V62H238.264ZM138.264 141.488H141.336V-58.512H138.264V141.488ZM41.3355 41.488V62H241.335V41.488H41.3355ZM148.824 -58.192H130.808V141.808H148.824V-58.192ZM230.807 41.808V39.12H30.8075V41.808H230.807ZM130.808 139.12H148.824V-60.88H130.808V139.12ZM48.8235 39.12V41.808H248.824V39.12H48.8235ZM177.148 39.12H277.148V-60.88H177.148V39.12ZM174.652 60.016L103.493 -10.2429L103.487 -10.237L174.652 60.016ZM160.956 60.016L89.7966 130.275L90.0204 130.501L90.2456 130.727L160.956 60.016ZM158.46 39.12V-60.88H58.4603V39.12H158.46ZM161.532 39.12H261.532V-60.88H161.532V39.12ZM163.164 58L89.8374 125.994L90.1668 126.349L90.4996 126.701L163.164 58ZM172.444 58L99.7796 -10.7012L99.4468 -10.3492L99.1174 -9.99393L172.444 58ZM174.108 39.12V-60.88H74.1083V39.12H174.108ZM77.1483 39.12V52.976H277.148V39.12H77.1483ZM77.1483 52.976C77.1483 37.1311 82.0322 11.4927 103.493 -10.2429L245.812 130.275C270.6 105.169 277.148 74.8369 277.148 52.976H77.1483ZM103.487 -10.237C125.082 -32.1121 151.057 -37.488 167.804 -37.488V162.512C190.397 162.512 220.938 155.472 245.818 130.269L103.487 -10.237ZM167.804 -37.488C184.87 -37.488 210.402 -31.9596 231.667 -10.6947L90.2456 130.727C114.838 155.32 144.935 162.512 167.804 162.512V-37.488ZM232.116 -10.2429C253.576 11.4927 258.46 37.1311 258.46 52.976H58.4603C58.4603 74.8369 65.0082 105.169 89.7966 130.275L232.116 -10.2429ZM258.46 52.976V39.12H58.4603V52.976H258.46ZM158.46 139.12H161.532V-60.88H158.46V139.12ZM61.5322 39.12V52.976H261.532V39.12H61.5322ZM61.5322 52.976C61.5322 71.1645 66.2309 100.536 89.8374 125.994L236.491 -9.99395C257.922 13.1174 261.532 39.1395 261.532 52.976H61.5322ZM90.4996 126.701C114.676 152.272 145.065 159.76 167.804 159.76V-40.24C186.576 -40.24 213.871 -33.9256 235.829 -10.7011L90.4996 126.701ZM167.804 159.76C190.113 159.76 221.185 152.508 245.771 125.994L99.1174 -9.99393C121.527 -34.1614 149.506 -40.24 167.804 -40.24V159.76ZM245.109 126.701C269.142 101.282 274.108 71.64 274.108 52.976H74.1083C74.1083 38.664 77.9655 12.3714 99.7796 -10.7012L245.109 126.701ZM274.108 52.976V39.12H74.1083V52.976H274.108ZM174.108 139.12H177.148V-60.88H174.108V139.12ZM180.527 58.288L110.879 -13.4701L40.4693 54.8692L107.461 126.562L180.527 58.288ZM182.703 56.176L259.705 -7.62577L190.684 -90.9273L113.055 -15.5821L182.703 56.176ZM184.847 58.096L239.809 -25.4457L239.809 -25.4457L184.847 58.096ZM187.471 59.344L217.791 -35.9486L217.791 -35.9486L187.471 59.344ZM193.551 59.28L229.151 152.729L230.114 152.362L231.07 151.975L193.551 59.28ZM195.663 57.808L118.624 -5.94885L118.624 -5.94875L195.663 57.808ZM194.991 53.072L138.657 135.695L139.73 136.426L140.821 137.129L194.991 53.072ZM190.127 51.6L174.997 150.449L175.235 150.485L175.472 150.52L190.127 51.6ZM182.351 48.304L100.132 105.225L100.479 105.727L100.833 106.225L182.351 48.304ZM182.607 41.84L101.806 -17.0772L101.806 -17.0772L182.607 41.84ZM185.679 39.472L224.889 131.464L225.248 131.311L225.606 131.156L185.679 39.472ZM195.343 39.76L149.608 128.689L150.365 129.078L151.128 129.454L195.343 39.76ZM199.311 42.832L268.942 114.606L336.879 48.6967L274.798 -22.7552L199.311 42.832ZM197.167 44.912L119.229 107.568L188.009 193.123L266.798 116.686L197.167 44.912ZM194.191 42.32L142.985 128.215L143.599 128.581L144.219 128.939L194.191 42.32ZM186.191 42.416L242.844 124.82L243.022 124.698L243.199 124.575L186.191 42.416ZM185.231 46.864L109.305 111.943L110.092 112.861L110.902 113.76L185.231 46.864ZM190.639 48.752L174.896 147.505L175.834 147.654L176.774 147.786L190.639 48.752ZM195.791 50.096L154.074 140.979L154.965 141.388L155.864 141.779L195.791 50.096ZM198.671 52.304L115.466 107.774L115.918 108.452L116.381 109.123L198.671 52.304ZM198.415 59.184L118.611 -1.07627L118.215 -0.552532L117.827 -0.023653L198.415 59.184ZM195.183 61.648L234.053 153.784L234.4 153.638L234.745 153.489L195.183 61.648ZM184.815 61.392L142.462 151.98L142.947 152.207L143.435 152.429L184.815 61.392ZM250.175 130.046L252.351 127.934L113.055 -15.5821L110.879 -13.4701L250.175 130.046ZM105.701 119.978C112.652 128.367 120.796 135.658 129.885 141.638L239.809 -25.4457C247.277 -20.5324 253.992 -14.5212 259.705 -7.62577L105.701 119.978ZM129.885 141.638C138.45 147.272 147.633 151.608 157.151 154.637L217.791 -35.9486C225.432 -33.5175 232.866 -30.0135 239.809 -25.4457L129.885 141.638ZM157.151 154.637C168.478 158.241 179.744 159.792 190.447 159.792V-40.208C199.059 -40.208 208.342 -38.9553 217.791 -35.9486L157.151 154.637ZM190.447 159.792C201.151 159.792 214.658 158.25 229.151 152.729L157.951 -34.1688C170.652 -39.0071 182.09 -40.208 190.447 -40.208V159.792ZM231.07 151.975C244.222 146.651 259.668 137.315 272.702 121.565L118.624 -5.94875C130.634 -20.4617 144.672 -28.8167 156.032 -33.4147L231.07 151.975ZM272.702 121.565C288.626 102.324 296.431 78.8293 296.431 55.632H96.431C96.431 34.0987 103.724 12.0547 118.624 -5.94885L272.702 121.565ZM296.431 55.632C296.431 18.574 276.981 -13.0567 249.161 -30.9851L140.821 137.129C129.901 130.092 117.887 119.156 108.913 103.202C99.8257 87.0462 96.431 70.3091 96.431 55.632H296.431ZM251.325 -29.5507C230.527 -43.7309 209.536 -46.6161 204.782 -47.3203L175.472 150.52C173.438 150.219 169.348 149.524 164.105 147.937C159.469 146.534 149.63 143.176 138.657 135.695L251.325 -29.5507ZM205.257 -47.2488C206.746 -47.0208 209.073 -46.6081 211.992 -45.8644C214.832 -45.1408 219.075 -43.8919 224.118 -41.7552L146.088 142.395C157.963 147.427 168.646 149.477 174.997 150.449L205.257 -47.2488ZM224.118 -41.7552C233.77 -37.6655 250.413 -28.5554 263.869 -9.6167L100.833 106.225C115.441 126.785 133.919 137.239 146.088 142.395L224.118 -41.7552ZM264.57 -8.61703C276.91 9.20756 281.487 28.635 281.487 45.36H81.487C81.487 64.3463 86.6397 85.7364 100.132 105.225L264.57 -8.61703ZM281.487 45.36C281.487 64.2268 275.707 83.8897 263.408 100.757L101.806 -17.0772C88.0137 1.83827 81.487 23.8478 81.487 45.36H281.487ZM263.408 100.757C252.328 115.952 238.202 125.79 224.889 131.464L146.469 -52.5203C130.553 -45.7366 114.379 -34.3203 101.806 -17.0772L263.408 100.757ZM225.606 131.156C212.393 136.91 199.958 138.608 190.191 138.608V-61.392C177.053 -61.392 161.611 -59.1176 145.752 -52.2115L225.606 131.156ZM190.191 138.608C178.714 138.608 164.322 136.256 149.608 128.689L241.078 -49.1688C223.377 -58.272 205.55 -61.392 190.191 -61.392V138.608ZM151.128 129.454C140.468 124.199 131.225 116.938 123.824 108.419L274.798 -22.7552C265.136 -33.8763 253.248 -43.1857 239.558 -49.934L151.128 129.454ZM129.68 -28.9418L127.536 -26.8618L266.798 116.686L268.942 114.606L129.68 -28.9418ZM275.105 -17.7437C267.173 -27.6104 256.925 -36.936 244.163 -44.2986L144.219 128.939C133.676 122.856 125.412 115.258 119.229 107.568L275.105 -17.7437ZM245.397 -43.5747C225.893 -55.2024 206.057 -58.672 190.191 -58.672V141.328C177.439 141.328 160.27 138.52 142.985 128.215L245.397 -43.5747ZM190.191 -58.672C173.78 -58.672 151.038 -54.9075 129.183 -39.7428L243.199 124.575C223.435 138.289 203.359 141.328 190.191 141.328V-58.672ZM129.538 -39.9882C102.677 -21.5212 84.655 9.59479 84.655 45.264H284.655C284.655 59.4205 281.485 75.4938 273.054 91.1249C264.705 106.606 253.413 117.554 242.844 124.82L129.538 -39.9882ZM84.655 45.264C84.655 68.4941 92.5856 92.4368 109.305 111.943L261.157 -18.2152C277.108 0.395224 284.655 23.2712 284.655 45.264H84.655ZM110.902 113.76C127.636 132.354 146.625 139.794 154.805 142.587L219.433 -46.683C223.547 -45.2784 229.365 -42.9652 235.921 -39.187C242.423 -35.4397 251.127 -29.403 259.56 -20.0324L110.902 113.76ZM154.805 142.587C163.322 145.495 170.759 146.846 174.896 147.505L206.382 -50.001C207.315 -49.8523 208.849 -49.5847 210.817 -49.1373C212.702 -48.709 215.722 -47.9504 219.433 -46.683L154.805 142.587ZM176.774 147.786C174.785 147.508 171.861 147.007 168.285 146.074C164.772 145.157 159.814 143.614 154.074 140.979L237.508 -40.787C224.116 -46.9339 211.931 -49.2424 204.504 -50.2822L176.774 147.786ZM155.864 141.779C145.414 137.228 128.569 127.429 115.466 107.774L281.876 -3.16599C267.578 -24.6128 248.814 -35.8844 235.718 -41.5875L155.864 141.779ZM116.381 109.123C103.742 90.8186 99.599 71.3131 99.599 55.536H299.599C299.599 37.2415 294.837 15.5814 280.961 -4.51505L116.381 109.123ZM99.599 55.536C99.599 36.5354 105.497 16.2904 118.611 -1.07627L278.219 119.444C292.911 99.987 299.599 77.3099 299.599 55.536H99.599ZM117.827 -0.023653C129.208 -15.5154 143.384 -24.9219 155.621 -30.1933L234.745 153.489C249.756 147.023 266.086 135.974 279.003 118.392L117.827 -0.023653ZM156.313 -30.4884C169.537 -36.0674 181.617 -37.488 190.447 -37.488V162.512C202.861 162.512 218.098 160.515 234.053 153.784L156.313 -30.4884ZM190.447 -37.488C200.198 -37.488 212.813 -35.7276 226.195 -29.6446L143.435 152.429C160.103 160.005 176.472 162.512 190.447 162.512V-37.488ZM227.168 -29.1962C236.879 -24.6559 245.929 -18.1874 253.593 -9.98649L107.461 126.562C117.557 137.366 129.466 145.904 142.462 151.98L227.168 -29.1962Z" fill="white" mask="url(#path-2-inside-1_304_3962)" />
+                <path d="M57.84 59.5182H40.88V54.9582H57.84V59.5182ZM63.68 65.7982H57.88L48.52 40.9982H50.12L40.76 65.7982H35.16L46.44 37.1982H52.4L63.68 65.7982ZM67.6994 65.7982V37.1982H79.5794C81.4727 37.1982 83.126 37.5048 84.5394 38.1182C85.9527 38.7315 87.046 39.5982 87.8194 40.7182C88.5927 41.8382 88.9794 43.1582 88.9794 44.6782C88.9794 46.0648 88.5927 47.3048 87.8194 48.3982C87.046 49.4648 85.9527 50.3048 84.5394 50.9182C83.126 51.5315 81.4727 51.8382 79.5794 51.8382H73.4994V49.7982H79.9394C81.9927 49.7982 83.7794 50.1182 85.2994 50.7582C86.846 51.3715 88.046 52.2648 88.8994 53.4382C89.7794 54.5848 90.2194 55.9582 90.2194 57.5582C90.2194 59.1848 89.7927 60.6248 88.9394 61.8782C88.086 63.1315 86.886 64.1048 85.3394 64.7982C83.7927 65.4648 81.9927 65.7982 79.9394 65.7982H67.6994ZM73.0994 61.2782H79.9794C81.446 61.2782 82.606 60.9315 83.4594 60.2382C84.3127 59.5182 84.7394 58.5182 84.7394 57.2382C84.7394 56.0115 84.3127 55.0648 83.4594 54.3982C82.606 53.7048 81.446 53.3582 79.9794 53.3582H72.6994V48.9182H79.2994C80.606 48.9182 81.6327 48.5982 82.3794 47.9582C83.1527 47.2915 83.5394 46.3848 83.5394 45.2382C83.5394 44.1182 83.1527 43.2515 82.3794 42.6382C81.6327 42.0248 80.606 41.7182 79.2994 41.7182H73.0994V61.2782ZM108.663 66.4382C106.449 66.4382 104.409 66.0648 102.543 65.3182C100.703 64.5715 99.0895 63.5315 97.7028 62.1982C96.3161 60.8648 95.2495 59.2915 94.5028 57.4782C93.7561 55.6382 93.3828 53.6382 93.3828 51.4782C93.3828 49.3182 93.7561 47.3315 94.5028 45.5182C95.2495 43.7048 96.3161 42.1315 97.7028 40.7982C99.0895 39.4648 100.703 38.4248 102.543 37.6782C104.409 36.9315 106.449 36.5582 108.663 36.5582C110.876 36.5582 112.903 36.9315 114.743 37.6782C116.609 38.4248 118.236 39.4648 119.623 40.7982C121.009 42.1315 122.076 43.7048 122.823 45.5182C123.569 47.3315 123.943 49.3182 123.943 51.4782C123.943 53.6382 123.569 55.6382 122.823 57.4782C122.076 59.2915 121.009 60.8648 119.623 62.1982C118.236 63.5315 116.609 64.5715 114.743 65.3182C112.903 66.0648 110.876 66.4382 108.663 66.4382ZM108.663 61.6782C110.556 61.6782 112.223 61.2382 113.663 60.3582C115.103 59.4782 116.223 58.2782 117.023 56.7582C117.849 55.2115 118.263 53.4515 118.263 51.4782C118.263 49.5048 117.849 47.7582 117.023 46.2382C116.223 44.7182 115.103 43.5182 113.663 42.6382C112.223 41.7582 110.556 41.3182 108.663 41.3182C106.796 41.3182 105.129 41.7582 103.663 42.6382C102.223 43.5182 101.089 44.7182 100.263 46.2382C99.4628 47.7582 99.0628 49.5048 99.0628 51.4782C99.0628 53.4515 99.4628 55.2115 100.263 56.7582C101.089 58.2782 102.223 59.4782 103.663 60.3582C105.129 61.2382 106.796 61.6782 108.663 61.6782ZM152.993 37.1982V54.5182C152.993 58.2782 151.9 61.2115 149.713 63.3182C147.553 65.3982 144.566 66.4382 140.753 66.4382C136.966 66.4382 133.98 65.3982 131.793 63.3182C129.633 61.2115 128.553 58.2782 128.553 54.5182V37.1982H133.953V54.5182C133.953 56.7048 134.553 58.4515 135.753 59.7582C136.953 61.0382 138.62 61.6782 140.753 61.6782C142.913 61.6782 144.593 61.0382 145.793 59.7582C147.02 58.4515 147.633 56.7048 147.633 54.5182V37.1982H152.993ZM171.203 65.7982H165.803V41.3982H171.203V65.7982ZM180.163 41.7982H156.843V37.1982H180.163V41.7982ZM216.353 37.1982V54.5182C216.353 58.2782 215.259 61.2115 213.073 63.3182C210.913 65.3982 207.926 66.4382 204.113 66.4382C200.326 66.4382 197.339 65.3982 195.153 63.3182C192.993 61.2115 191.913 58.2782 191.913 54.5182V37.1982H197.313V54.5182C197.313 56.7048 197.913 58.4515 199.113 59.7582C200.313 61.0382 201.979 61.6782 204.113 61.6782C206.273 61.6782 207.953 61.0382 209.153 59.7582C210.379 58.4515 210.993 56.7048 210.993 54.5182V37.1982H216.353ZM219.928 61.1182L223.568 57.4782C224.261 58.3582 225.101 59.1182 226.088 59.7582C227.074 60.3982 228.141 60.8915 229.288 61.2382C230.434 61.5848 231.608 61.7582 232.808 61.7582C234.114 61.7582 235.234 61.5982 236.168 61.2782C237.128 60.9582 237.861 60.5048 238.368 59.9182C238.901 59.3048 239.168 58.5982 239.168 57.7982C239.168 56.7315 238.648 55.8782 237.608 55.2382C236.594 54.5715 234.768 54.0382 232.128 53.6382C229.541 53.2648 227.434 52.7182 225.808 51.9982C224.208 51.2782 223.021 50.3715 222.248 49.2782C221.501 48.1848 221.128 46.8915 221.128 45.3982C221.128 43.6648 221.608 42.1315 222.568 40.7982C223.554 39.4648 224.901 38.4248 226.608 37.6782C228.314 36.9315 230.261 36.5582 232.448 36.5582C235.008 36.5582 237.288 37.0382 239.288 37.9982C241.288 38.9582 242.981 40.2515 244.368 41.8782L240.768 45.4782C239.754 44.1715 238.541 43.1315 237.128 42.3582C235.741 41.5848 234.194 41.1982 232.488 41.1982C230.754 41.1982 229.341 41.5582 228.248 42.2782C227.154 42.9715 226.608 43.9048 226.608 45.0782C226.608 45.6915 226.821 46.2248 227.248 46.6782C227.674 47.1315 228.381 47.5182 229.368 47.8382C230.381 48.1315 231.741 48.4115 233.448 48.6782C236.034 49.0782 238.141 49.6648 239.768 50.4382C241.421 51.1848 242.648 52.1448 243.448 53.3182C244.248 54.4915 244.648 55.8915 244.648 57.5182C244.648 59.3315 244.141 60.9048 243.128 62.2382C242.114 63.5715 240.714 64.6115 238.928 65.3582C237.141 66.0782 235.074 66.4382 232.728 66.4382C229.981 66.4382 227.528 65.9582 225.368 64.9982C223.208 64.0115 221.394 62.7182 219.928 61.1182Z" fill="white" />
+                <path d="M57.84 59.5182V159.518H157.84V59.5182H57.84ZM40.88 59.5182H-59.12V159.518H40.88V59.5182ZM40.88 54.9582V-45.0418H-59.12V54.9582H40.88ZM57.84 54.9582H157.84V-45.0418H57.84V54.9582ZM63.68 65.7982V165.798H210.617L156.706 29.1082L63.68 65.7982ZM57.88 65.7982L-35.6783 101.109L-11.2633 165.798H57.88V65.7982ZM48.52 40.9982V-59.0018H-96.1072L-45.0383 76.3089L48.52 40.9982ZM50.12 40.9982L143.678 76.3089L194.747 -59.0018H50.12V40.9982ZM40.76 65.7982V165.798H109.903L134.318 101.109L40.76 65.7982ZM35.16 65.7982L-57.866 29.1082L-111.777 165.798H35.16V65.7982ZM46.44 37.1982V-62.8018H-21.6162L-46.586 0.508163L46.44 37.1982ZM52.4 37.1982L145.426 0.508162L120.456 -62.8018H52.4V37.1982ZM57.84 -40.4818H40.88V159.518H57.84V-40.4818ZM140.88 59.5182V54.9582H-59.12V59.5182H140.88ZM40.88 154.958H57.84V-45.0418H40.88V154.958ZM-42.16 54.9582V59.5182H157.84V54.9582H-42.16ZM63.68 -34.2018H57.88V165.798H63.68V-34.2018ZM151.438 30.4874L142.078 5.68745L-45.0383 76.3089L-35.6783 101.109L151.438 30.4874ZM48.52 140.998H50.12V-59.0018H48.52V140.998ZM-43.4383 5.68745L-52.7983 30.4874L134.318 101.109L143.678 76.3089L-43.4383 5.68745ZM40.76 -34.2018H35.16V165.798H40.76V-34.2018ZM128.186 102.488L139.466 73.8881L-46.586 0.508163L-57.866 29.1082L128.186 102.488ZM46.44 137.198H52.4V-62.8018H46.44V137.198ZM-40.626 73.8881L-29.346 102.488L156.706 29.1082L145.426 0.508162L-40.626 73.8881ZM67.6994 65.7982H-32.3006V165.798H67.6994V65.7982ZM67.6994 37.1982V-62.8018H-32.3006V37.1982H67.6994ZM87.8194 40.7182L5.52967 97.5372L5.52973 97.5373L87.8194 40.7182ZM87.8194 48.3982L168.78 107.095L169.123 106.622L169.461 106.145L87.8194 48.3982ZM73.4994 51.8382H-26.5006V151.838H73.4994V51.8382ZM73.4994 49.7982V-50.2018H-26.5006V49.7982H73.4994ZM85.2994 50.7582L46.4937 142.922L47.4611 143.329L48.4368 143.716L85.2994 50.7582ZM88.8994 53.4382L8.02577 112.255L8.78379 113.298L9.56843 114.32L88.8994 53.4382ZM88.9394 61.8782L171.599 118.157L171.599 118.157L88.9394 61.8782ZM85.3394 64.7982L124.922 156.631L125.586 156.345L126.245 156.049L85.3394 64.7982ZM73.0994 61.2782H-26.9006V161.278H73.0994V61.2782ZM83.4594 60.2382L146.519 137.85L147.238 137.265L147.946 136.667L83.4594 60.2382ZM83.4594 54.3982L20.4001 132.01L21.1418 132.612L21.8949 133.201L83.4594 54.3982ZM72.6994 53.3582H-27.3006V153.358H72.6994V53.3582ZM72.6994 48.9182V-51.0818H-27.3006V48.9182H72.6994ZM82.3794 47.9582L147.459 123.884L147.566 123.792L147.673 123.699L82.3794 47.9582ZM82.3794 42.6382L18.9054 119.911L19.568 120.455L20.2399 120.988L82.3794 42.6382ZM73.0994 41.7182V-58.2818H-26.9006V41.7182H73.0994ZM167.699 65.7982V37.1982H-32.3006V65.7982H167.699ZM67.6994 137.198H79.5794V-62.8018H67.6994V137.198ZM79.5794 137.198C70.8289 137.198 58.4067 135.788 44.7301 129.853L124.349 -53.6163C107.845 -60.7782 92.1165 -62.8018 79.5794 -62.8018V137.198ZM44.7301 129.853C31.3201 124.033 16.727 113.754 5.52967 97.5372L170.109 -16.1009C157.365 -34.5577 140.585 -46.5703 124.349 -53.6163L44.7301 129.853ZM5.52973 97.5373C-6.55702 80.0324 -11.0206 60.9887 -11.0206 44.6782H188.979C188.979 25.3276 183.742 3.64394 170.109 -16.101L5.52973 97.5373ZM-11.0206 44.6782C-11.0206 26.162 -5.43673 7.07221 6.17787 -9.34839L169.461 106.145C182.622 87.5374 188.979 65.9676 188.979 44.6782H-11.0206ZM6.8583 -10.2986C18.2616 -26.0272 32.529 -35.5216 44.7301 -40.8163L124.349 142.653C139.376 136.131 155.83 124.957 168.78 107.095L6.8583 -10.2986ZM44.7301 -40.8163C58.4067 -46.7515 70.8289 -48.1618 79.5794 -48.1618V151.838C92.1165 151.838 107.845 149.814 124.349 142.653L44.7301 -40.8163ZM79.5794 -48.1618H73.4994V151.838H79.5794V-48.1618ZM173.499 51.8382V49.7982H-26.5006V51.8382H173.499ZM73.4994 149.798H79.9394V-50.2018H73.4994V149.798ZM79.9394 149.798C71.8252 149.798 59.869 148.553 46.4937 142.922L124.105 -41.4054C107.69 -48.3171 92.1602 -50.2018 79.9394 -50.2018V149.798ZM48.4368 143.716C35.022 138.396 19.877 128.551 8.02577 112.255L169.773 -5.37902C156.215 -24.0211 138.67 -35.6533 122.162 -42.1996L48.4368 143.716ZM9.56843 114.32C-4.39478 96.1255 -9.78062 75.4865 -9.78062 57.5582H190.219C190.219 36.4298 183.954 13.0441 168.23 -7.4437L9.56843 114.32ZM-9.78062 57.5582C-9.78062 40.6465 -5.00017 22.166 6.27941 5.59913L171.599 118.157C184.586 99.0836 190.219 77.7231 190.219 57.5582H-9.78062ZM6.27946 5.59905C17.0344 -10.1973 31.1415 -20.4942 44.4338 -26.4528L126.245 156.049C142.631 148.704 159.138 136.46 171.599 118.157L6.27946 5.59905ZM45.7564 -27.0343C59.132 -32.7996 71.2906 -34.2018 79.9394 -34.2018V165.798C92.6948 165.798 108.453 163.729 124.922 156.631L45.7564 -27.0343ZM79.9394 -34.2018H67.6994V165.798H79.9394V-34.2018ZM73.0994 161.278H79.9794V-38.7218H73.0994V161.278ZM79.9794 161.278C96.7216 161.278 122.667 157.229 146.519 137.85L20.4001 -17.3732C42.5447 -35.3657 66.1705 -38.7218 79.9794 -38.7218V161.278ZM147.946 136.667C174.758 114.045 184.739 83.165 184.739 57.2382H-15.2606C-15.2606 46.7472 -13.4913 33.6094 -7.55845 19.7043C-1.4707 5.43614 7.78886 -6.75497 18.9723 -16.191L147.946 136.667ZM184.739 57.2382C184.739 29.8712 173.573 -2.10027 145.024 -24.4043L21.8949 133.201C10.1081 123.992 -0.00899124 111.652 -6.74875 96.698C-13.3164 82.1261 -15.2606 68.2547 -15.2606 57.2382H184.739ZM146.519 -23.2133C122.667 -42.5924 96.7216 -46.6418 79.9794 -46.6418V153.358C66.1705 153.358 42.5447 150.002 20.4001 132.01L146.519 -23.2133ZM79.9794 -46.6418H72.6994V153.358H79.9794V-46.6418ZM172.699 53.3582V48.9182H-27.3006V53.3582H172.699ZM72.6994 148.918H79.2994V-51.0818H72.6994V148.918ZM79.2994 148.918C96.5413 148.918 123.356 144.543 147.459 123.884L17.3003 -27.9675C39.9093 -47.3467 64.6708 -51.0818 79.2994 -51.0818V148.918ZM147.673 123.699C173.346 101.567 183.539 71.4716 183.539 45.2382H-16.4606C-16.4606 34.5071 -14.6232 21.3564 -8.73495 7.54956C-2.719 -6.55683 6.33132 -18.5121 17.0854 -27.7828L147.673 123.699ZM183.539 45.2382C183.539 18.2482 172.635 -13.4129 144.519 -35.7116L20.2399 120.988C8.53613 111.706 -1.44149 99.3577 -8.07377 84.4923C-14.5379 70.0037 -16.4606 56.2201 -16.4606 45.2382H183.539ZM145.853 -34.6345C121.796 -54.3958 95.6063 -58.2818 79.2994 -58.2818V141.718C65.6057 141.718 41.4694 138.445 18.9054 119.911L145.853 -34.6345ZM79.2994 -58.2818H73.0994V141.718H79.2994V-58.2818ZM-26.9006 41.7182V61.2782H173.099V41.7182H-26.9006ZM102.543 65.3182L64.9411 157.979L65.1722 158.073L65.4037 158.166L102.543 65.3182ZM97.7028 62.1982L167.014 -9.88515V-9.88515L97.7028 62.1982ZM94.5028 57.4782L1.84153 95.0798L1.93766 95.3167L2.035 95.5531L94.5028 57.4782ZM94.5028 45.5182L2.035 7.44318L2.035 7.44318L94.5028 45.5182ZM97.7028 40.7982L167.014 112.882L167.014 112.881L97.7028 40.7982ZM102.543 37.6782L65.4037 -55.1695L65.1722 -55.0769L64.9411 -54.9831L102.543 37.6782ZM114.743 37.6782L77.1411 130.339L77.3722 130.433L77.6037 130.526L114.743 37.6782ZM119.623 40.7982L50.3119 112.881L50.312 112.881L119.623 40.7982ZM122.823 45.5182L30.355 83.5931L122.823 45.5182ZM122.823 57.4782L215.291 95.5531L215.388 95.3167L215.484 95.0798L122.823 57.4782ZM119.623 62.1982L50.3119 -9.88514L50.3119 -9.88514L119.623 62.1982ZM114.743 65.3182L77.6037 -27.5295L77.3722 -27.4369L77.1411 -27.3431L114.743 65.3182ZM113.663 60.3582L165.808 145.686L165.808 145.686L113.663 60.3582ZM117.023 56.7582L28.8297 9.62041L28.6794 9.90146L28.531 10.1835L117.023 56.7582ZM117.023 46.2382L28.531 92.8129L28.8486 93.4163L29.1744 94.0154L117.023 46.2382ZM113.663 42.6382L165.808 -42.69L165.808 -42.69L113.663 42.6382ZM103.663 42.6382L52.2133 -43.1111L51.8646 -42.902L51.5177 -42.69L103.663 42.6382ZM100.263 46.2382L12.4144 -1.53905L12.0886 -0.939972L11.771 -0.3365L100.263 46.2382ZM100.263 56.7582L11.4411 102.7L11.9182 103.623L12.4144 104.535L100.263 56.7582ZM103.663 60.3582L51.5178 145.686L51.8647 145.898L52.2132 146.107L103.663 60.3582ZM108.663 -33.5618C117.885 -33.5618 128.598 -31.9629 139.682 -27.5295L65.4037 158.166C80.2205 164.093 95.0136 166.438 108.663 166.438V-33.5618ZM140.144 -27.3431C149.699 -23.4659 158.938 -17.6498 167.014 -9.88515L28.3919 134.281C39.2405 144.713 51.7065 152.609 64.9411 157.979L140.144 -27.3431ZM167.014 -9.88515C175.817 -1.42012 182.544 8.65364 186.971 19.4032L2.035 95.5531C7.95462 109.929 16.815 123.15 28.3919 134.281L167.014 -9.88515ZM187.164 19.8765C191.674 30.9913 193.383 41.8864 193.383 51.4782H-6.61719C-6.61719 65.3899 -4.16216 80.285 1.84153 95.0798L187.164 19.8765ZM193.383 51.4782C193.383 61.0506 191.68 72.1572 186.971 83.5931L2.035 7.44318C-4.16723 22.5058 -6.61719 37.5858 -6.61719 51.4782H193.383ZM186.971 83.5931C182.544 94.3427 175.817 104.416 167.014 112.882L28.392 -31.2852C16.815 -20.1535 7.95461 -6.93303 2.035 7.44318L186.971 83.5931ZM167.014 112.881C158.938 120.646 149.699 126.462 140.144 130.339L64.9411 -54.9831C51.7065 -49.6126 39.2405 -41.7164 28.3919 -31.2851L167.014 112.881ZM139.682 130.526C128.598 134.959 117.885 136.558 108.663 136.558V-63.4418C95.0136 -63.4418 80.2205 -61.0962 65.4037 -55.1695L139.682 130.526ZM108.663 136.558C99.4624 136.558 88.5404 134.965 77.1411 130.339L152.344 -54.9831C137.265 -61.1023 122.29 -63.4418 108.663 -63.4418V136.558ZM77.6037 130.526C68.0576 126.707 58.6282 120.878 50.3119 112.881L188.934 -31.2851C177.844 -41.9482 165.161 -49.8577 151.882 -55.1695L77.6037 130.526ZM50.312 112.881C41.5083 104.416 34.7813 94.3427 30.355 83.5931L215.291 7.44319C209.371 -6.93302 200.511 -20.1535 188.934 -31.2852L50.312 112.881ZM30.355 83.5931C25.6461 72.1572 23.9428 61.0506 23.9428 51.4782H223.943C223.943 37.5858 221.493 22.5058 215.291 7.44319L30.355 83.5931ZM23.9428 51.4782C23.9428 41.8864 25.6512 30.9913 30.1615 19.8765L215.484 95.0798C221.488 80.285 223.943 65.3899 223.943 51.4782H23.9428ZM30.355 19.4032C34.7813 8.65365 41.5083 -1.42011 50.3119 -9.88514L188.934 134.281C200.511 123.15 209.371 109.929 215.291 95.5531L30.355 19.4032ZM50.3119 -9.88514C58.6282 -17.8815 68.0576 -23.7111 77.6037 -27.5295L151.882 158.166C165.161 152.854 177.844 144.945 188.934 134.281L50.3119 -9.88514ZM77.1411 -27.3431C88.5404 -31.9689 99.4624 -33.5618 108.663 -33.5618V166.438C122.29 166.438 137.265 164.099 152.344 157.979L77.1411 -27.3431ZM108.663 161.678C126.654 161.678 146.812 157.295 165.808 145.686L61.5178 -24.97C77.634 -34.8188 94.4587 -38.3218 108.663 -38.3218V161.678ZM165.808 145.686C182.922 135.228 196.473 120.513 205.515 103.333L28.531 10.1835C35.973 -3.95635 47.2835 -16.2712 61.5178 -24.97L165.808 145.686ZM205.216 103.896C214.722 86.1102 218.263 67.8077 218.263 51.4782H18.2628C18.2628 39.0953 20.9769 24.3127 28.8297 9.62041L205.216 103.896ZM218.263 51.4782C218.263 35.1862 214.733 16.5941 204.871 -1.53905L29.1744 94.0154C20.9659 78.9222 18.2628 63.8234 18.2628 51.4782H218.263ZM205.515 -0.336536C196.473 -17.5163 182.922 -32.2312 165.808 -42.69L61.5177 127.966C47.2834 119.268 35.973 106.953 28.531 92.8129L205.515 -0.336536ZM165.808 -42.69C146.812 -54.2988 126.654 -58.6818 108.663 -58.6818V141.318C94.4587 141.318 77.634 137.815 61.5178 127.966L165.808 -42.69ZM108.663 -58.6818C90.3822 -58.6818 70.6254 -54.1584 52.2133 -43.1111L155.112 128.387C139.634 137.675 123.21 141.318 108.663 141.318V-58.6818ZM51.5177 -42.69C34.6924 -32.4078 21.4142 -18.087 12.4144 -1.53905L188.111 94.0154C180.765 107.523 169.753 119.444 155.808 127.966L51.5177 -42.69ZM11.771 -0.3365C2.35581 17.5524 -0.937187 35.7078 -0.937187 51.4782H199.063C199.063 63.3019 196.57 77.964 188.755 92.8128L11.771 -0.3365ZM-0.937187 51.4782C-0.937187 67.2887 2.36798 85.1592 11.4411 102.7L189.085 10.8158C196.558 25.2638 199.063 39.6143 199.063 51.4782H-0.937187ZM12.4144 104.535C21.4142 121.083 34.6924 135.404 51.5178 145.686L155.808 -24.97C169.753 -16.4478 180.765 -4.52702 188.111 8.98096L12.4144 104.535ZM52.2132 146.107C70.6254 157.155 90.3822 161.678 108.663 161.678V-38.3218C123.21 -38.3218 139.634 -34.6784 155.112 -25.3911L52.2132 146.107ZM152.993 37.1982H252.993V-62.8018H152.993V37.1982ZM149.713 63.3182L219.077 135.35L219.086 135.342L219.094 135.334L149.713 63.3182ZM131.793 63.3182L61.9718 134.907L62.4191 135.343L62.8717 135.774L131.793 63.3182ZM128.553 37.1982V-62.8018H28.5531V37.1982H128.553ZM133.953 37.1982H233.953V-62.8018H133.953V37.1982ZM135.753 59.7582L62.1001 127.399L62.4478 127.777L62.7994 128.152L135.753 59.7582ZM145.793 59.7582L72.8859 -8.68546L72.8626 -8.66071L72.8394 -8.63595L145.793 59.7582ZM147.633 37.1982V-62.8018H47.6331V37.1982H147.633ZM52.9931 37.1982V54.5182H252.993V37.1982H52.9931ZM52.9931 54.5182C52.9931 38.011 58.4862 12.3491 80.3321 -8.69762L219.094 135.334C245.313 110.074 252.993 78.5453 252.993 54.5182H52.9931ZM80.349 -8.71388C101.512 -29.0933 126.036 -33.5618 140.753 -33.5618V166.438C163.097 166.438 193.594 159.89 219.077 135.35L80.349 -8.71388ZM140.753 -33.5618C155.781 -33.5618 179.884 -28.952 200.715 -9.13765L62.8717 135.774C88.0756 159.748 118.152 166.438 140.753 166.438V-33.5618ZM201.614 -8.27081C223.27 12.8503 228.553 38.367 228.553 54.5182H28.5531C28.5531 78.1893 35.996 109.573 61.9718 134.907L201.614 -8.27081ZM228.553 54.5182V37.1982H28.5531V54.5182H228.553ZM128.553 137.198H133.953V-62.8018H128.553V137.198ZM33.9531 37.1982V54.5182H233.953V37.1982H33.9531ZM33.9531 54.5182C33.9531 75.6527 40.2359 103.591 62.1001 127.399L209.406 -7.88235C228.87 13.3121 233.953 37.7569 233.953 54.5182H33.9531ZM62.7994 128.152C86.8913 153.85 117.405 161.678 140.753 161.678V-38.3218C159.834 -38.3218 187.015 -31.7739 208.707 -8.63597L62.7994 128.152ZM140.753 161.678C163.703 161.678 194.418 154.104 218.747 128.152L72.8394 -8.63595C94.7687 -32.0272 122.123 -38.3218 140.753 -38.3218V161.678ZM218.7 128.202C240.99 104.459 247.633 76.233 247.633 54.5182H47.6331C47.6331 37.1767 53.05 12.444 72.8859 -8.68546L218.7 128.202ZM247.633 54.5182V37.1982H47.6331V54.5182H247.633ZM147.633 137.198H152.993V-62.8018H147.633V137.198ZM171.202 65.7982V165.798H271.202V65.7982H171.202ZM165.803 65.7982H65.8025V165.798H165.803V65.7982ZM165.803 41.3982V-58.6018H65.8025V41.3982H165.803ZM171.202 41.3982H271.202V-58.6018H171.202V41.3982ZM180.163 41.7982V141.798H280.163V41.7982H180.163ZM156.842 41.7982H56.8425V141.798H156.842V41.7982ZM156.842 37.1982V-62.8018H56.8425V37.1982H156.842ZM180.163 37.1982H280.163V-62.8018H180.163V37.1982ZM171.202 -34.2018H165.803V165.798H171.202V-34.2018ZM265.803 65.7982V41.3982H65.8025V65.7982H265.803ZM165.803 141.398H171.202V-58.6018H165.803V141.398ZM71.2025 41.3982V65.7982H271.202V41.3982H71.2025ZM180.163 -58.2018H156.842V141.798H180.163V-58.2018ZM256.842 41.7982V37.1982H56.8425V41.7982H256.842ZM156.842 137.198H180.163V-62.8018H156.842V137.198ZM80.1625 37.1982V41.7982H280.163V37.1982H80.1625ZM216.353 37.1982H316.353V-62.8018H216.353V37.1982ZM213.072 63.3182L282.437 135.35L282.445 135.342L282.454 135.334L213.072 63.3182ZM195.152 63.3182L125.331 134.907L125.778 135.343L126.231 135.774L195.152 63.3182ZM191.913 37.1982V-62.8018H91.9125V37.1982H191.913ZM197.312 37.1982H297.312V-62.8018H197.312V37.1982ZM199.113 59.7582L125.46 127.399L125.807 127.777L126.159 128.152L199.113 59.7582ZM209.152 59.7582L136.245 -8.68546L136.222 -8.66071L136.199 -8.63595L209.152 59.7582ZM210.993 37.1982V-62.8018H110.993V37.1982H210.993ZM116.353 37.1982V54.5182H316.353V37.1982H116.353ZM116.353 54.5182C116.353 38.011 121.846 12.3491 143.691 -8.69762L282.454 135.334C308.673 110.074 316.353 78.5453 316.353 54.5182H116.353ZM143.708 -8.71388C164.872 -29.0933 189.395 -33.5618 204.113 -33.5618V166.438C226.456 166.438 256.953 159.89 282.437 135.35L143.708 -8.71388ZM204.113 -33.5618C219.141 -33.5618 243.243 -28.952 264.074 -9.13765L126.231 135.774C151.435 159.748 181.511 166.438 204.113 166.438V-33.5618ZM264.974 -8.27081C286.63 12.8503 291.913 38.367 291.913 54.5182H91.9125C91.9125 78.1893 99.3554 109.573 125.331 134.907L264.974 -8.27081ZM291.913 54.5182V37.1982H91.9125V54.5182H291.913ZM191.913 137.198H197.312V-62.8018H191.913V137.198ZM97.3125 37.1982V54.5182H297.312V37.1982H97.3125ZM97.3125 54.5182C97.3125 75.6527 103.595 103.591 125.46 127.399L272.765 -7.88235C292.23 13.3121 297.312 37.7569 297.312 54.5182H97.3125ZM126.159 128.152C150.251 153.85 180.765 161.678 204.113 161.678V-38.3218C223.194 -38.3218 250.374 -31.7739 272.066 -8.63597L126.159 128.152ZM204.113 161.678C227.062 161.678 257.777 154.104 282.106 128.152L136.199 -8.63595C158.128 -32.0272 185.483 -38.3218 204.113 -38.3218V161.678ZM282.06 128.202C304.349 104.459 310.992 76.233 310.992 54.5182H110.993C110.993 37.1767 116.409 12.444 136.245 -8.68546L282.06 128.202ZM310.992 54.5182V37.1982H110.993V54.5182H310.992ZM210.993 137.198H216.353V-62.8018H210.993V137.198ZM219.928 61.1182L149.217 -9.59253L81.5137 58.1106L146.212 128.691L219.928 61.1182ZM223.568 57.4782L302.117 -4.40907L232.453 -92.8285L152.857 -13.2325L223.568 57.4782ZM226.087 59.7582L171.668 143.654L171.668 143.654L226.087 59.7582ZM229.288 61.2382L258.226 -34.483H258.226L229.288 61.2382ZM236.167 61.2782L204.545 -33.5902L204.139 -33.455L203.735 -33.3164L236.167 61.2782ZM238.368 59.9182L162.907 -5.69973L162.796 -5.57196L162.685 -5.44382L238.368 59.9182ZM237.607 55.2382L182.646 138.78L183.91 139.611L185.198 140.404L237.607 55.2382ZM232.128 53.6382L247.108 -45.2334L246.76 -45.2861L246.412 -45.3363L232.128 53.6382ZM225.807 51.9982L184.771 143.19L185.052 143.317L185.333 143.441L225.807 51.9982ZM222.247 49.2782L139.667 105.674L140.131 106.353L140.606 107.025L222.247 49.2782ZM222.568 40.7982L142.183 -18.6861L141.795 -18.1618L141.414 -17.6324L222.568 40.7982ZM239.288 37.9982L282.561 -52.1541L282.561 -52.1542L239.288 37.9982ZM244.368 41.8782L315.078 112.589L380.381 47.286L320.469 -22.9953L244.368 41.8782ZM240.768 45.4782L161.746 106.761L231.264 196.403L311.478 116.189L240.768 45.4782ZM237.128 42.3582L188.421 129.695L188.773 129.891L189.126 130.084L237.128 42.3582ZM228.247 42.2782L281.802 126.729L282.528 126.268L283.247 125.795L228.247 42.2782ZM227.247 46.6782L154.427 115.215L154.427 115.215L227.247 46.6782ZM229.368 47.8382L198.517 142.96L200.032 143.452L201.562 143.895L229.368 47.8382ZM233.447 48.6782L218.01 147.479L218.088 147.492L218.165 147.504L233.447 48.6782ZM239.768 50.4382L196.832 140.752L197.716 141.172L198.609 141.575L239.768 50.4382ZM243.447 53.3182L160.825 109.652L160.825 109.652L243.447 53.3182ZM243.128 62.2382L163.511 1.72979L163.511 1.72984L243.128 62.2382ZM238.928 65.3582L276.305 158.11L276.898 157.871L277.487 157.625L238.928 65.3582ZM225.368 64.9982L183.818 155.958L184.285 156.171L184.754 156.379L225.368 64.9982ZM290.638 131.829L294.278 128.189L152.857 -13.2325L149.217 -9.59253L290.638 131.829ZM145.018 119.365C152.827 129.276 161.948 137.349 171.668 143.654L280.507 -24.138C288.254 -19.1126 295.695 -12.5595 302.117 -4.40907L145.018 119.365ZM171.668 143.654C180.697 149.51 190.364 153.941 200.349 156.959L258.226 -34.483C265.918 -32.1576 273.452 -28.7142 280.507 -24.138L171.668 143.654ZM200.349 156.959C210.896 160.148 221.821 161.758 232.807 161.758V-38.2418C241.394 -38.2418 249.972 -36.9785 258.226 -34.483L200.349 156.959ZM232.807 161.758C241.787 161.758 254.463 160.72 268.6 155.873L203.735 -33.3164C216.006 -37.5235 226.441 -38.2418 232.807 -38.2418V161.758ZM267.79 156.146C280.732 151.832 298.707 143.046 314.05 125.28L162.685 -5.44382C177.015 -22.036 193.523 -29.9162 204.545 -33.5902L267.79 156.146ZM313.828 125.536C329.908 107.044 339.168 83.1346 339.168 57.7982H139.168C139.168 34.0617 147.894 11.5653 162.907 -5.69973L313.828 125.536ZM339.168 57.7982C339.168 16.4408 315.562 -14.208 290.017 -29.9277L185.198 140.404C175.205 134.254 162.974 124.134 153.383 108.395C143.442 92.0808 139.168 74.334 139.168 57.7982H339.168ZM292.569 -28.3035C271.895 -41.9047 250.891 -44.6603 247.108 -45.2334L217.147 152.51C215.667 152.286 212.137 151.699 207.451 150.33C203.589 149.203 193.774 146.101 182.646 138.78L292.569 -28.3035ZM246.412 -45.3363C248.07 -45.0971 250.588 -44.6601 253.725 -43.846C256.812 -43.0449 261.178 -41.7041 266.282 -39.4447L185.333 143.441C198.215 149.143 210.034 151.486 217.843 152.613L246.412 -45.3363ZM266.844 -39.194C276.602 -34.8028 291.632 -25.7977 303.889 -8.46832L140.606 107.025C154.41 126.541 171.813 137.359 184.771 143.19L266.844 -39.194ZM304.828 -7.118C316.847 10.4817 321.128 29.437 321.128 45.3982H121.128C121.128 64.346 126.155 85.888 139.667 105.674L304.828 -7.118ZM321.128 45.3982C321.128 63.4106 315.712 82.5749 303.721 99.2287L141.414 -17.6324C127.503 1.68805 121.128 23.9191 121.128 45.3982H321.128ZM302.952 100.282C292.31 114.663 278.982 123.916 266.689 129.294L186.526 -53.9376C170.819 -47.066 154.798 -35.7329 142.183 -18.6861L302.952 100.282ZM266.689 129.294C253.753 134.954 241.688 136.558 232.447 136.558V-63.4418C218.834 -63.4418 202.875 -61.0905 186.526 -53.9376L266.689 129.294ZM232.447 136.558C222.331 136.558 209.452 134.601 196.014 128.15L282.561 -52.1542C265.123 -60.5244 247.684 -63.4418 232.447 -63.4418V136.558ZM196.014 128.15C185.915 123.303 176.282 116.155 168.266 106.752L320.469 -22.9953C309.68 -35.6521 296.66 -45.3864 282.561 -52.1541L196.014 128.15ZM173.657 -28.8325L170.057 -25.2325L311.478 116.189L315.078 112.589L173.657 -28.8325ZM319.789 -15.8042C310.589 -27.6684 298.91 -37.8275 285.129 -45.3681L189.126 130.084C178.172 124.09 168.92 116.011 161.746 106.761L319.789 -15.8042ZM285.834 -44.9782C268.448 -54.6744 249.927 -58.8018 232.488 -58.8018V141.198C218.461 141.198 203.034 137.844 188.421 129.695L285.834 -44.9782ZM232.488 -58.8018C217.421 -58.8018 195.185 -55.6848 173.248 -41.2389L283.247 125.795C263.497 138.801 244.088 141.198 232.488 141.198V-58.8018ZM174.693 -42.1727C148.237 -25.3953 126.607 5.64779 126.607 45.0782H326.608C326.608 60.7022 322.766 77.8872 313.306 94.0385C304.086 109.779 292.082 120.21 281.802 126.729L174.693 -42.1727ZM126.607 45.0782C126.607 71.5871 136.834 96.5212 154.427 115.215L300.068 -21.8583C316.808 -4.07159 326.608 19.7958 326.608 45.0782H126.607ZM154.427 115.215C171.664 133.529 190.944 140.504 198.517 142.96L260.218 -47.2841C264.063 -46.0371 269.68 -43.9302 276.099 -40.4181C282.412 -36.9636 291.307 -31.1665 300.068 -21.8583L154.427 115.215ZM201.562 143.895C208.366 145.864 214.396 146.915 218.01 147.479L248.885 -50.123C249.251 -50.0658 250.101 -49.927 251.313 -49.6776C252.453 -49.4428 254.517 -48.9873 257.173 -48.2183L201.562 143.895ZM218.165 147.504C215.098 147.029 206.944 145.559 196.832 140.752L282.703 -39.8752C269.338 -46.2294 256.971 -48.8729 248.73 -50.1472L218.165 147.504ZM198.609 141.575C188.088 136.824 172.892 127.35 160.825 109.652L326.07 -3.01549C312.403 -23.0605 294.753 -34.4543 280.926 -40.6989L198.609 141.575ZM160.825 109.652C148.715 91.8914 144.647 72.9727 144.647 57.5182H344.647C344.647 38.8103 339.78 17.0916 326.07 -3.01557L160.825 109.652ZM144.647 57.5182C144.647 39.3975 150.183 19.2664 163.511 1.72979L322.744 122.747C338.098 102.543 344.647 79.2654 344.647 57.5182H144.647ZM163.511 1.72984C174.717 -13.0152 188.483 -21.9418 200.368 -26.9087L277.487 157.625C292.945 151.165 309.511 140.158 322.744 122.746L163.511 1.72984ZM201.55 -27.3937C213.928 -32.3819 224.984 -33.5618 232.727 -33.5618V166.438C245.165 166.438 260.354 164.538 276.305 158.11L201.55 -27.3937ZM232.727 -33.5618C241.724 -33.5618 253.449 -31.9528 265.981 -26.383L184.754 156.379C201.606 163.869 218.237 166.438 232.727 166.438V-33.5618ZM266.917 -25.9614C275.783 -21.9113 285.242 -15.6184 293.643 -6.45431L146.212 128.691C157.546 141.055 170.632 149.934 183.818 155.958L266.917 -25.9614Z" fill="#101729" mask="url(#path-2-inside-1_461_4979)" />
               </svg>
 
             </div>
             <div className="about_content">
-              <p>DigitalMnA is a full-service Merger and acquisition company helping companies sell and buy assets by creating value</p>
+              <p> <span>DigitalMnA</span>  is a full-service Merger and acquisition company helping companies sell and buy assets by creating value</p>
             </div>
-            <div className="about_btn">
+            <div data-aos="fade-up" className="about_btn">
               <button><span>Learn about our Approach</span>
-                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M6.9 18L5.5 16.6L15.1 7H6.5V5H18.5V17H16.5V8.4L6.9 18Z" fill="white" />
+                <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.9 13L0.5 11.6L10.1 2H1.5V0H13.5V12H11.5V3.4L1.9 13Z" fill="#3464FD" />
                 </svg>
 
               </button>
             </div>
-            <div className="voice_gif">
+            {/* <div className="voice_gif">
               <img src="./images/voice.gif" alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="service_hone">
-          <div className="main_hone">
-            <div className="sell">
-              <h3>Sell-Side Advisory</h3>
-              <svg width="303" height="1" viewBox="0 0 303 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line y1="0.5" x2="303" y2="0.5" stroke="#B9E6FE" />
+        <div className="our_home_services">
+          <div className="our_services">
+            <div className="ser_svg_icon">
+              <svg width="337" height="84" viewBox="0 0 337 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="35" cy="35" r="35" fill="#32B5FB" />
+                <mask id="path-2-inside-1_465_5515" fill="white">
+                  <path d="M51.28 66.998C49.0667 66.998 47.0267 66.6247 45.16 65.878C43.32 65.1314 41.7067 64.0914 40.32 62.758C38.9333 61.4247 37.8667 59.8514 37.12 58.038C36.3733 56.198 36 54.198 36 52.038C36 49.878 36.3733 47.8914 37.12 46.078C37.8667 44.2647 38.9333 42.6914 40.32 41.358C41.7067 40.0247 43.32 38.9847 45.16 38.238C47.0267 37.4914 49.0667 37.118 51.28 37.118C53.4933 37.118 55.52 37.4914 57.36 38.238C59.2267 38.9847 60.8533 40.0247 62.24 41.358C63.6267 42.6914 64.6933 44.2647 65.44 46.078C66.1867 47.8914 66.56 49.878 66.56 52.038C66.56 54.198 66.1867 56.198 65.44 58.038C64.6933 59.8514 63.6267 61.4247 62.24 62.758C60.8533 64.0914 59.2267 65.1314 57.36 65.878C55.52 66.6247 53.4933 66.998 51.28 66.998ZM51.28 62.238C53.1733 62.238 54.84 61.798 56.28 60.918C57.72 60.038 58.84 58.838 59.64 57.318C60.4667 55.7714 60.88 54.0114 60.88 52.038C60.88 50.0647 60.4667 48.318 59.64 46.798C58.84 45.278 57.72 44.078 56.28 43.198C54.84 42.318 53.1733 41.878 51.28 41.878C49.4133 41.878 47.7467 42.318 46.28 43.198C44.84 44.078 43.7067 45.278 42.88 46.798C42.08 48.318 41.68 50.0647 41.68 52.038C41.68 54.0114 42.08 55.7714 42.88 57.318C43.7067 58.838 44.84 60.038 46.28 60.918C47.7467 61.798 49.4133 62.238 51.28 62.238ZM95.6103 37.758V55.078C95.6103 58.838 94.517 61.7714 92.3303 63.878C90.1703 65.958 87.1836 66.998 83.3703 66.998C79.5836 66.998 76.597 65.958 74.4103 63.878C72.2503 61.7714 71.1703 58.838 71.1703 55.078V37.758H76.5703V55.078C76.5703 57.2647 77.1703 59.0114 78.3703 60.318C79.5703 61.598 81.237 62.238 83.3703 62.238C85.5303 62.238 87.2103 61.598 88.4103 60.318C89.637 59.0114 90.2503 57.2647 90.2503 55.078V37.758H95.6103ZM106.42 66.358H101.02V37.758H112.62C114.673 37.758 116.46 38.1314 117.98 38.878C119.526 39.598 120.726 40.6114 121.58 41.918C122.46 43.2247 122.9 44.7447 122.9 46.478C122.9 48.2114 122.46 49.7447 121.58 51.078C120.726 52.3847 119.526 53.4114 117.98 54.158C116.46 54.878 114.673 55.238 112.62 55.238H106.02V50.678H112.62C114.113 50.678 115.286 50.3047 116.14 49.558C116.993 48.8114 117.42 47.7847 117.42 46.478C117.42 45.198 116.993 44.1847 116.14 43.438C115.286 42.6914 114.113 42.318 112.62 42.318H106.42V66.358ZM125.82 66.358H119.22L109.1 53.038H115.3L125.82 66.358ZM135.553 61.678L139.193 58.038C139.886 58.918 140.726 59.678 141.713 60.318C142.699 60.958 143.766 61.4514 144.913 61.798C146.059 62.1447 147.233 62.318 148.433 62.318C149.739 62.318 150.859 62.158 151.793 61.838C152.753 61.518 153.486 61.0647 153.993 60.478C154.526 59.8647 154.793 59.158 154.793 58.358C154.793 57.2914 154.273 56.438 153.233 55.798C152.219 55.1314 150.393 54.598 147.753 54.198C145.166 53.8247 143.059 53.278 141.433 52.558C139.833 51.838 138.646 50.9314 137.873 49.838C137.126 48.7447 136.753 47.4514 136.753 45.958C136.753 44.2247 137.233 42.6914 138.193 41.358C139.179 40.0247 140.526 38.9847 142.233 38.238C143.939 37.4914 145.886 37.118 148.073 37.118C150.633 37.118 152.913 37.598 154.913 38.558C156.913 39.518 158.606 40.8114 159.993 42.438L156.393 46.038C155.379 44.7314 154.166 43.6914 152.753 42.918C151.366 42.1447 149.819 41.758 148.113 41.758C146.379 41.758 144.966 42.118 143.873 42.838C142.779 43.5314 142.233 44.4647 142.233 45.638C142.233 46.2514 142.446 46.7847 142.873 47.238C143.299 47.6914 144.006 48.078 144.993 48.398C146.006 48.6914 147.366 48.9714 149.073 49.238C151.659 49.638 153.766 50.2247 155.393 50.998C157.046 51.7447 158.273 52.7047 159.073 53.878C159.873 55.0514 160.273 56.4514 160.273 58.078C160.273 59.8914 159.766 61.4647 158.753 62.798C157.739 64.1314 156.339 65.1714 154.553 65.918C152.766 66.638 150.699 66.998 148.353 66.998C145.606 66.998 143.153 66.518 140.993 65.558C138.833 64.5714 137.019 63.278 135.553 61.678ZM185.241 66.358H165.121V37.758H185.241V42.318H170.521V61.798H185.241V66.358ZM184.481 54.158H170.121V49.598H184.481V54.158ZM195.287 66.358H189.887V37.758H201.487C203.54 37.758 205.327 38.1314 206.847 38.878C208.394 39.598 209.594 40.6114 210.447 41.918C211.327 43.2247 211.767 44.7447 211.767 46.478C211.767 48.2114 211.327 49.7447 210.447 51.078C209.594 52.3847 208.394 53.4114 206.847 54.158C205.327 54.878 203.54 55.238 201.487 55.238H194.887V50.678H201.487C202.98 50.678 204.154 50.3047 205.007 49.558C205.86 48.8114 206.287 47.7847 206.287 46.478C206.287 45.198 205.86 44.1847 205.007 43.438C204.154 42.6914 202.98 42.318 201.487 42.318H195.287V66.358ZM214.687 66.358H208.087L197.967 53.038H204.167L214.687 66.358ZM230.436 66.358H224.956L213.676 37.758H219.556L228.516 62.158H227.036L235.996 37.758H241.676L230.436 66.358ZM251.107 66.358H245.707V37.758H251.107V66.358ZM279.121 58.038L282.681 61.638C281.428 63.238 279.774 64.5314 277.721 65.518C275.694 66.5047 273.468 66.998 271.041 66.998C268.828 66.998 266.801 66.638 264.961 65.918C263.121 65.1714 261.521 64.1314 260.161 62.798C258.828 61.438 257.788 59.8514 257.041 58.038C256.321 56.2247 255.961 54.2247 255.961 52.038C255.961 49.9047 256.334 47.9314 257.081 46.118C257.854 44.278 258.921 42.6914 260.281 41.358C261.641 39.998 263.241 38.958 265.081 38.238C266.948 37.4914 268.974 37.118 271.161 37.118C273.588 37.118 275.801 37.6114 277.801 38.598C279.801 39.5847 281.428 40.878 282.681 42.478L279.121 46.078C278.241 44.798 277.108 43.7847 275.721 43.038C274.361 42.2647 272.841 41.878 271.161 41.878C269.348 41.878 267.721 42.318 266.281 43.198C264.868 44.078 263.748 45.278 262.921 46.798C262.094 48.318 261.681 50.0647 261.681 52.038C261.681 54.0114 262.094 55.7714 262.921 57.318C263.748 58.838 264.868 60.038 266.281 60.918C267.721 61.798 269.348 62.238 271.161 62.238C272.841 62.238 274.361 61.8647 275.721 61.118C277.108 60.3447 278.241 59.318 279.121 58.038ZM306.999 66.358H286.879V37.758H306.999V42.318H292.279V61.798H306.999V66.358ZM306.239 54.158H291.879V49.598H306.239V54.158ZM310.045 61.678L313.685 58.038C314.378 58.918 315.218 59.678 316.205 60.318C317.191 60.958 318.258 61.4514 319.405 61.798C320.551 62.1447 321.725 62.318 322.925 62.318C324.231 62.318 325.351 62.158 326.285 61.838C327.245 61.518 327.978 61.0647 328.485 60.478C329.018 59.8647 329.285 59.158 329.285 58.358C329.285 57.2914 328.765 56.438 327.725 55.798C326.711 55.1314 324.885 54.598 322.245 54.198C319.658 53.8247 317.551 53.278 315.925 52.558C314.325 51.838 313.138 50.9314 312.365 49.838C311.618 48.7447 311.245 47.4514 311.245 45.958C311.245 44.2247 311.725 42.6914 312.685 41.358C313.671 40.0247 315.018 38.9847 316.725 38.238C318.431 37.4914 320.378 37.118 322.565 37.118C325.125 37.118 327.405 37.598 329.405 38.558C331.405 39.518 333.098 40.8114 334.485 42.438L330.885 46.038C329.871 44.7314 328.658 43.6914 327.245 42.918C325.858 42.1447 324.311 41.758 322.605 41.758C320.871 41.758 319.458 42.118 318.365 42.838C317.271 43.5314 316.725 44.4647 316.725 45.638C316.725 46.2514 316.938 46.7847 317.365 47.238C317.791 47.6914 318.498 48.078 319.485 48.398C320.498 48.6914 321.858 48.9714 323.565 49.238C326.151 49.638 328.258 50.2247 329.885 50.998C331.538 51.7447 332.765 52.7047 333.565 53.878C334.365 55.0514 334.765 56.4514 334.765 58.078C334.765 59.8914 334.258 61.4647 333.245 62.798C332.231 64.1314 330.831 65.1714 329.045 65.918C327.258 66.638 325.191 66.998 322.845 66.998C320.098 66.998 317.645 66.518 315.485 65.558C313.325 64.5714 311.511 63.278 310.045 61.678Z" />
+                </mask>
+                <path d="M51.28 66.998C49.0667 66.998 47.0267 66.6247 45.16 65.878C43.32 65.1314 41.7067 64.0914 40.32 62.758C38.9333 61.4247 37.8667 59.8514 37.12 58.038C36.3733 56.198 36 54.198 36 52.038C36 49.878 36.3733 47.8914 37.12 46.078C37.8667 44.2647 38.9333 42.6914 40.32 41.358C41.7067 40.0247 43.32 38.9847 45.16 38.238C47.0267 37.4914 49.0667 37.118 51.28 37.118C53.4933 37.118 55.52 37.4914 57.36 38.238C59.2267 38.9847 60.8533 40.0247 62.24 41.358C63.6267 42.6914 64.6933 44.2647 65.44 46.078C66.1867 47.8914 66.56 49.878 66.56 52.038C66.56 54.198 66.1867 56.198 65.44 58.038C64.6933 59.8514 63.6267 61.4247 62.24 62.758C60.8533 64.0914 59.2267 65.1314 57.36 65.878C55.52 66.6247 53.4933 66.998 51.28 66.998ZM51.28 62.238C53.1733 62.238 54.84 61.798 56.28 60.918C57.72 60.038 58.84 58.838 59.64 57.318C60.4667 55.7714 60.88 54.0114 60.88 52.038C60.88 50.0647 60.4667 48.318 59.64 46.798C58.84 45.278 57.72 44.078 56.28 43.198C54.84 42.318 53.1733 41.878 51.28 41.878C49.4133 41.878 47.7467 42.318 46.28 43.198C44.84 44.078 43.7067 45.278 42.88 46.798C42.08 48.318 41.68 50.0647 41.68 52.038C41.68 54.0114 42.08 55.7714 42.88 57.318C43.7067 58.838 44.84 60.038 46.28 60.918C47.7467 61.798 49.4133 62.238 51.28 62.238ZM95.6103 37.758V55.078C95.6103 58.838 94.517 61.7714 92.3303 63.878C90.1703 65.958 87.1836 66.998 83.3703 66.998C79.5836 66.998 76.597 65.958 74.4103 63.878C72.2503 61.7714 71.1703 58.838 71.1703 55.078V37.758H76.5703V55.078C76.5703 57.2647 77.1703 59.0114 78.3703 60.318C79.5703 61.598 81.237 62.238 83.3703 62.238C85.5303 62.238 87.2103 61.598 88.4103 60.318C89.637 59.0114 90.2503 57.2647 90.2503 55.078V37.758H95.6103ZM106.42 66.358H101.02V37.758H112.62C114.673 37.758 116.46 38.1314 117.98 38.878C119.526 39.598 120.726 40.6114 121.58 41.918C122.46 43.2247 122.9 44.7447 122.9 46.478C122.9 48.2114 122.46 49.7447 121.58 51.078C120.726 52.3847 119.526 53.4114 117.98 54.158C116.46 54.878 114.673 55.238 112.62 55.238H106.02V50.678H112.62C114.113 50.678 115.286 50.3047 116.14 49.558C116.993 48.8114 117.42 47.7847 117.42 46.478C117.42 45.198 116.993 44.1847 116.14 43.438C115.286 42.6914 114.113 42.318 112.62 42.318H106.42V66.358ZM125.82 66.358H119.22L109.1 53.038H115.3L125.82 66.358ZM135.553 61.678L139.193 58.038C139.886 58.918 140.726 59.678 141.713 60.318C142.699 60.958 143.766 61.4514 144.913 61.798C146.059 62.1447 147.233 62.318 148.433 62.318C149.739 62.318 150.859 62.158 151.793 61.838C152.753 61.518 153.486 61.0647 153.993 60.478C154.526 59.8647 154.793 59.158 154.793 58.358C154.793 57.2914 154.273 56.438 153.233 55.798C152.219 55.1314 150.393 54.598 147.753 54.198C145.166 53.8247 143.059 53.278 141.433 52.558C139.833 51.838 138.646 50.9314 137.873 49.838C137.126 48.7447 136.753 47.4514 136.753 45.958C136.753 44.2247 137.233 42.6914 138.193 41.358C139.179 40.0247 140.526 38.9847 142.233 38.238C143.939 37.4914 145.886 37.118 148.073 37.118C150.633 37.118 152.913 37.598 154.913 38.558C156.913 39.518 158.606 40.8114 159.993 42.438L156.393 46.038C155.379 44.7314 154.166 43.6914 152.753 42.918C151.366 42.1447 149.819 41.758 148.113 41.758C146.379 41.758 144.966 42.118 143.873 42.838C142.779 43.5314 142.233 44.4647 142.233 45.638C142.233 46.2514 142.446 46.7847 142.873 47.238C143.299 47.6914 144.006 48.078 144.993 48.398C146.006 48.6914 147.366 48.9714 149.073 49.238C151.659 49.638 153.766 50.2247 155.393 50.998C157.046 51.7447 158.273 52.7047 159.073 53.878C159.873 55.0514 160.273 56.4514 160.273 58.078C160.273 59.8914 159.766 61.4647 158.753 62.798C157.739 64.1314 156.339 65.1714 154.553 65.918C152.766 66.638 150.699 66.998 148.353 66.998C145.606 66.998 143.153 66.518 140.993 65.558C138.833 64.5714 137.019 63.278 135.553 61.678ZM185.241 66.358H165.121V37.758H185.241V42.318H170.521V61.798H185.241V66.358ZM184.481 54.158H170.121V49.598H184.481V54.158ZM195.287 66.358H189.887V37.758H201.487C203.54 37.758 205.327 38.1314 206.847 38.878C208.394 39.598 209.594 40.6114 210.447 41.918C211.327 43.2247 211.767 44.7447 211.767 46.478C211.767 48.2114 211.327 49.7447 210.447 51.078C209.594 52.3847 208.394 53.4114 206.847 54.158C205.327 54.878 203.54 55.238 201.487 55.238H194.887V50.678H201.487C202.98 50.678 204.154 50.3047 205.007 49.558C205.86 48.8114 206.287 47.7847 206.287 46.478C206.287 45.198 205.86 44.1847 205.007 43.438C204.154 42.6914 202.98 42.318 201.487 42.318H195.287V66.358ZM214.687 66.358H208.087L197.967 53.038H204.167L214.687 66.358ZM230.436 66.358H224.956L213.676 37.758H219.556L228.516 62.158H227.036L235.996 37.758H241.676L230.436 66.358ZM251.107 66.358H245.707V37.758H251.107V66.358ZM279.121 58.038L282.681 61.638C281.428 63.238 279.774 64.5314 277.721 65.518C275.694 66.5047 273.468 66.998 271.041 66.998C268.828 66.998 266.801 66.638 264.961 65.918C263.121 65.1714 261.521 64.1314 260.161 62.798C258.828 61.438 257.788 59.8514 257.041 58.038C256.321 56.2247 255.961 54.2247 255.961 52.038C255.961 49.9047 256.334 47.9314 257.081 46.118C257.854 44.278 258.921 42.6914 260.281 41.358C261.641 39.998 263.241 38.958 265.081 38.238C266.948 37.4914 268.974 37.118 271.161 37.118C273.588 37.118 275.801 37.6114 277.801 38.598C279.801 39.5847 281.428 40.878 282.681 42.478L279.121 46.078C278.241 44.798 277.108 43.7847 275.721 43.038C274.361 42.2647 272.841 41.878 271.161 41.878C269.348 41.878 267.721 42.318 266.281 43.198C264.868 44.078 263.748 45.278 262.921 46.798C262.094 48.318 261.681 50.0647 261.681 52.038C261.681 54.0114 262.094 55.7714 262.921 57.318C263.748 58.838 264.868 60.038 266.281 60.918C267.721 61.798 269.348 62.238 271.161 62.238C272.841 62.238 274.361 61.8647 275.721 61.118C277.108 60.3447 278.241 59.318 279.121 58.038ZM306.999 66.358H286.879V37.758H306.999V42.318H292.279V61.798H306.999V66.358ZM306.239 54.158H291.879V49.598H306.239V54.158ZM310.045 61.678L313.685 58.038C314.378 58.918 315.218 59.678 316.205 60.318C317.191 60.958 318.258 61.4514 319.405 61.798C320.551 62.1447 321.725 62.318 322.925 62.318C324.231 62.318 325.351 62.158 326.285 61.838C327.245 61.518 327.978 61.0647 328.485 60.478C329.018 59.8647 329.285 59.158 329.285 58.358C329.285 57.2914 328.765 56.438 327.725 55.798C326.711 55.1314 324.885 54.598 322.245 54.198C319.658 53.8247 317.551 53.278 315.925 52.558C314.325 51.838 313.138 50.9314 312.365 49.838C311.618 48.7447 311.245 47.4514 311.245 45.958C311.245 44.2247 311.725 42.6914 312.685 41.358C313.671 40.0247 315.018 38.9847 316.725 38.238C318.431 37.4914 320.378 37.118 322.565 37.118C325.125 37.118 327.405 37.598 329.405 38.558C331.405 39.518 333.098 40.8114 334.485 42.438L330.885 46.038C329.871 44.7314 328.658 43.6914 327.245 42.918C325.858 42.1447 324.311 41.758 322.605 41.758C320.871 41.758 319.458 42.118 318.365 42.838C317.271 43.5314 316.725 44.4647 316.725 45.638C316.725 46.2514 316.938 46.7847 317.365 47.238C317.791 47.6914 318.498 48.078 319.485 48.398C320.498 48.6914 321.858 48.9714 323.565 49.238C326.151 49.638 328.258 50.2247 329.885 50.998C331.538 51.7447 332.765 52.7047 333.565 53.878C334.365 55.0514 334.765 56.4514 334.765 58.078C334.765 59.8914 334.258 61.4647 333.245 62.798C332.231 64.1314 330.831 65.1714 329.045 65.918C327.258 66.638 325.191 66.998 322.845 66.998C320.098 66.998 317.645 66.518 315.485 65.558C313.325 64.5714 311.511 63.278 310.045 61.678Z" fill="white" />
+                <path d="M45.16 65.878L7.55832 158.539L7.78939 158.633L8.02093 158.726L45.16 65.878ZM40.32 62.758L109.631 -9.32527L109.631 -9.32528L40.32 62.758ZM37.12 58.038L-55.5413 95.6397L-55.4452 95.8766L-55.3478 96.113L37.12 58.038ZM37.12 46.078L-55.3478 8.00305L-55.3478 8.00306L37.12 46.078ZM40.32 41.358L109.631 113.441L109.631 113.441L40.32 41.358ZM45.16 38.238L8.02093 -54.6096L7.7894 -54.517L7.55833 -54.4233L45.16 38.238ZM57.36 38.238L19.7583 130.899L19.9894 130.993L20.2209 131.086L57.36 38.238ZM62.24 41.358L-7.07089 113.441L-7.07085 113.441L62.24 41.358ZM65.44 46.078L-27.0278 84.153L65.44 46.078ZM65.44 58.038L157.908 96.113L158.005 95.8766L158.101 95.6397L65.44 58.038ZM62.24 62.758L-7.07088 -9.32527L-7.07088 -9.32526L62.24 62.758ZM57.36 65.878L20.2209 -26.9696L19.9894 -26.877L19.7583 -26.7833L57.36 65.878ZM56.28 60.918L108.425 146.246L108.425 146.246L56.28 60.918ZM59.64 57.318L-28.5532 10.1803L-28.7034 10.4613L-28.8518 10.7433L59.64 57.318ZM59.64 46.798L-28.8518 93.3727L-28.5342 93.9762L-28.2084 94.5752L59.64 46.798ZM56.28 43.198L108.425 -42.1301L108.425 -42.1302L56.28 43.198ZM46.28 43.198L-5.16956 -42.5513L-5.51817 -42.3421L-5.86507 -42.1301L46.28 43.198ZM42.88 46.798L-44.9684 -0.979179L-45.2942 -0.380096L-45.6118 0.223375L42.88 46.798ZM42.88 57.318L-45.9417 103.26L-45.4646 104.183L-44.9684 105.095L42.88 57.318ZM46.28 60.918L-5.86502 146.246L-5.51815 146.458L-5.16957 146.667L46.28 60.918ZM51.28 -33.002C60.5025 -33.002 71.2156 -31.403 82.2991 -26.9696L8.02093 158.726C22.8377 164.652 37.6308 166.998 51.28 166.998V-33.002ZM82.7617 -26.7833C92.3163 -22.906 101.556 -17.0899 109.631 -9.32528L-28.9909 134.841C-18.1423 145.273 -5.67627 153.169 7.55832 158.539L82.7617 -26.7833ZM109.631 -9.32528C118.435 -0.860243 125.162 9.21352 129.588 19.963L-55.3478 96.113C-49.4282 110.489 -40.5678 123.71 -28.9909 134.841L109.631 -9.32528ZM129.781 20.4364C134.292 31.5512 136 42.4462 136 52.038H-64C-64 65.9498 -61.545 80.8449 -55.5413 95.6397L129.781 20.4364ZM136 52.038C136 61.6104 134.297 72.7171 129.588 84.153L-55.3478 8.00306C-61.55 23.0656 -64 38.1456 -64 52.038H136ZM129.588 84.153C125.162 94.9025 118.434 104.976 109.631 113.441L-28.9908 -30.7253C-40.5678 -19.5936 -49.4282 -6.37315 -55.3478 8.00305L129.588 84.153ZM109.631 113.441C101.556 121.206 92.3163 127.022 82.7617 130.899L7.55833 -54.4233C-5.67627 -49.0527 -18.1423 -41.1566 -28.9909 -30.7253L109.631 113.441ZM82.2991 131.086C71.2156 135.519 60.5025 137.118 51.28 137.118V-62.882C37.6308 -62.882 22.8377 -60.5364 8.02093 -54.6096L82.2991 131.086ZM51.28 137.118C42.0796 137.118 31.1576 135.525 19.7583 130.899L94.9617 -54.4233C79.8824 -60.5424 64.907 -62.882 51.28 -62.882V137.118ZM20.2209 131.086C10.6748 127.267 1.24535 121.438 -7.07089 113.441L131.551 -30.7253C120.461 -41.3883 107.779 -49.2979 94.4991 -54.6096L20.2209 131.086ZM-7.07085 113.441C-15.8745 104.976 -22.6015 94.9025 -27.0278 84.153L157.908 8.00306C151.988 -6.37314 143.128 -19.5936 131.551 -30.7253L-7.07085 113.441ZM-27.0278 84.153C-31.7367 72.7171 -33.44 61.6104 -33.44 52.038H166.56C166.56 38.1456 164.11 23.0656 157.908 8.00306L-27.0278 84.153ZM-33.44 52.038C-33.44 42.4462 -31.7316 31.5512 -27.2213 20.4364L158.101 95.6397C164.105 80.8449 166.56 65.9498 166.56 52.038H-33.44ZM-27.0278 19.9631C-22.6015 9.21353 -15.8745 -0.860231 -7.07088 -9.32527L131.551 134.841C143.128 123.71 151.988 110.489 157.908 96.113L-27.0278 19.9631ZM-7.07088 -9.32526C1.24536 -17.3216 10.6748 -23.1512 20.2209 -26.9696L94.4991 158.726C107.779 153.414 120.461 145.504 131.551 134.841L-7.07088 -9.32526ZM19.7583 -26.7833C31.1576 -31.4091 42.0796 -33.002 51.28 -33.002V166.998C64.907 166.998 79.8824 164.658 94.9617 158.539L19.7583 -26.7833ZM51.28 162.238C69.2708 162.238 89.4288 157.855 108.425 146.246L4.13502 -24.4102C20.2512 -34.2589 37.0759 -37.762 51.28 -37.762V162.238ZM108.425 146.246C125.539 135.787 139.09 121.073 148.132 103.893L-28.8518 10.7433C-21.4098 -3.39647 -10.0994 -15.7114 4.13496 -24.4101L108.425 146.246ZM147.833 104.456C157.339 86.6701 160.88 68.3676 160.88 52.038H-39.12C-39.12 39.6551 -36.406 24.8726 -28.5532 10.1803L147.833 104.456ZM160.88 52.038C160.88 35.7461 157.35 17.154 147.488 -0.979177L-28.2084 94.5752C-36.417 79.4821 -39.12 64.3833 -39.12 52.038H160.88ZM148.132 0.223339C139.09 -16.9565 125.539 -31.6713 108.425 -42.1301L4.13491 128.526C-10.0994 119.827 -21.4098 107.513 -28.8518 93.3727L148.132 0.223339ZM108.425 -42.1302C89.4288 -53.7389 69.2708 -58.122 51.28 -58.122V141.878C37.0759 141.878 20.2512 138.375 4.13502 128.526L108.425 -42.1302ZM51.28 -58.122C32.9993 -58.122 13.2426 -53.5986 -5.16956 -42.5513L97.7296 128.947C82.2507 138.235 65.8273 141.878 51.28 141.878V-58.122ZM-5.86507 -42.1301C-22.6905 -31.8479 -35.9686 -17.5271 -44.9684 -0.979179L130.728 94.5752C123.382 108.083 112.37 120.004 98.4251 128.526L-5.86507 -42.1301ZM-45.6118 0.223375C-55.027 18.1122 -58.32 36.2677 -58.32 52.038H141.68C141.68 63.8617 139.187 78.5238 131.372 93.3727L-45.6118 0.223375ZM-58.32 52.038C-58.32 67.8486 -55.0148 85.7191 -45.9417 103.26L131.702 11.3757C139.175 25.8237 141.68 40.1742 141.68 52.038H-58.32ZM-44.9684 105.095C-35.9686 121.643 -22.6904 135.964 -5.86502 146.246L98.425 -24.4101C112.37 -15.8879 123.382 -3.96714 130.728 9.54083L-44.9684 105.095ZM-5.16957 146.667C13.2426 157.715 32.9993 162.238 51.28 162.238V-37.762C65.8273 -37.762 82.2507 -34.1186 97.7296 -24.8313L-5.16957 146.667ZM95.6103 37.758H195.61V-62.242H95.6103V37.758ZM92.3303 63.878L161.694 135.91L161.703 135.902L161.711 135.894L92.3303 63.878ZM74.4103 63.878L4.58898 135.467L5.03625 135.903L5.48894 136.334L74.4103 63.878ZM71.1703 37.758V-62.242H-28.8297V37.758H71.1703ZM76.5703 37.758H176.57V-62.242H76.5703V37.758ZM78.3703 60.318L4.71733 127.959L5.06503 128.337L5.4166 128.712L78.3703 60.318ZM88.4103 60.318L15.503 -8.12559L15.4798 -8.10084L15.4566 -8.07607L88.4103 60.318ZM90.2503 37.758V-62.242H-9.74969V37.758H90.2503ZM-4.38969 37.758V55.078H195.61V37.758H-4.38969ZM-4.38969 55.078C-4.38969 38.5708 1.10334 12.9089 22.9493 -8.13774L161.711 135.894C187.931 110.634 195.61 79.1052 195.61 55.078H-4.38969ZM22.9662 -8.154C44.1294 -28.5334 68.6532 -33.002 83.3703 -33.002V166.998C105.714 166.998 136.211 160.449 161.694 135.91L22.9662 -8.154ZM83.3703 -33.002C98.3984 -33.002 122.501 -28.3922 143.332 -8.57777L5.48894 136.334C30.6928 160.308 60.7689 166.998 83.3703 166.998V-33.002ZM144.232 -7.71094C165.887 13.4101 171.17 38.9269 171.17 55.078H-28.8297C-28.8297 78.7492 -21.3868 110.133 4.58898 135.467L144.232 -7.71094ZM171.17 55.078V37.758H-28.8297V55.078H171.17ZM71.1703 137.758H76.5703V-62.242H71.1703V137.758ZM-23.4297 37.758V55.078H176.57V37.758H-23.4297ZM-23.4297 55.078C-23.4297 76.2126 -17.1469 104.151 4.71733 127.959L152.023 -7.32247C171.488 13.872 176.57 38.3168 176.57 55.078H-23.4297ZM5.4166 128.712C29.5084 154.41 60.0225 162.238 83.3703 162.238V-37.762C102.451 -37.762 129.632 -31.214 151.324 -8.07609L5.4166 128.712ZM83.3703 162.238C106.32 162.238 137.035 154.663 161.364 128.712L15.4566 -8.07607C37.3859 -31.4673 64.7406 -37.762 83.3703 -37.762V162.238ZM161.318 128.762C183.607 105.019 190.25 76.7928 190.25 55.078H-9.74969C-9.74969 37.7366 -4.33284 13.0039 15.503 -8.12559L161.318 128.762ZM190.25 55.078V37.758H-9.74969V55.078H190.25ZM90.2503 137.758H95.6103V-62.242H90.2503V137.758ZM106.42 66.358V166.358H206.42V66.358H106.42ZM101.02 66.358H1.01969V166.358H101.02V66.358ZM101.02 37.758V-62.242H1.01969V37.758H101.02ZM117.98 38.878L73.8893 128.633L74.8283 129.095L75.7767 129.536L117.98 38.878ZM121.58 41.918L37.8526 96.5969L38.2401 97.1903L38.636 97.7781L121.58 41.918ZM121.58 51.078L38.1188 -4.0062L37.9852 -3.80384L37.8526 -3.60085L121.58 51.078ZM117.98 54.158L160.788 144.532L161.122 144.374L161.455 144.213L117.98 54.158ZM106.02 55.238H6.01969V155.238H106.02V55.238ZM106.02 50.678V-49.322H6.01969V50.678H106.02ZM106.42 42.318V-57.682H6.41969V42.318H106.42ZM125.82 66.358V166.358H332.226L204.296 4.37832L125.82 66.358ZM119.22 66.358L39.5943 126.854L69.6077 166.358H119.22V66.358ZM109.1 53.038V-46.962H-92.4643L29.4743 113.534L109.1 53.038ZM115.3 53.038L193.776 -8.94168L163.748 -46.962H115.3V53.038ZM106.42 -33.642H101.02V166.358H106.42V-33.642ZM201.02 66.358V37.758H1.01969V66.358H201.02ZM101.02 137.758H112.62V-62.242H101.02V137.758ZM112.62 137.758C102.587 137.758 88.6993 135.909 73.8893 128.633L162.07 -50.8774C144.22 -59.6458 126.759 -62.242 112.62 -62.242V137.758ZM75.7767 129.536C62.0285 123.136 48.1526 112.369 37.8526 96.5969L205.307 -12.7608C193.3 -31.1461 177.024 -43.9401 160.183 -51.7802L75.7767 129.536ZM38.636 97.7781C27.2904 80.9316 22.8997 62.5665 22.8997 46.478H222.9C222.9 26.9229 217.629 5.51775 204.523 -13.942L38.636 97.7781ZM22.8997 46.478C22.8997 30.365 27.2912 12.3991 38.1188 -4.0062L205.041 106.162C217.628 87.0902 222.9 66.0577 222.9 46.478H22.8997ZM37.8526 -3.60085C47.9311 -19.0335 61.3634 -29.553 74.5048 -35.8971L161.455 144.213C177.689 136.376 193.522 123.803 205.307 105.757L37.8526 -3.60085ZM75.1711 -36.2158C89.6558 -43.0769 103.074 -44.762 112.62 -44.762V155.238C126.272 155.238 143.264 152.833 160.788 144.532L75.1711 -36.2158ZM112.62 -44.762H106.02V155.238H112.62V-44.762ZM206.02 55.238V50.678H6.01969V55.238H206.02ZM106.02 150.678H112.62V-49.322H106.02V150.678ZM112.62 150.678C130.523 150.678 157.781 145.999 181.99 124.816L50.2892 -25.6996C72.7921 -45.3896 97.7032 -49.322 112.62 -49.322V150.678ZM181.99 124.816C207.958 102.094 217.42 71.7532 217.42 46.478H17.4197C17.4197 36.2334 19.1102 23.4382 24.7566 9.85166C30.5489 -4.08618 39.411 -16.1812 50.2892 -25.6996L181.99 124.816ZM217.42 46.478C217.42 20.5037 207.479 -9.51693 181.99 -31.8196L50.2892 118.696C39.6605 109.396 30.8006 97.4919 24.9362 83.5637C19.1995 69.9392 17.4197 57.0037 17.4197 46.478H217.42ZM181.99 -31.8196C157.781 -53.003 130.523 -57.682 112.62 -57.682V142.318C97.7032 142.318 72.7921 138.386 50.2892 118.696L181.99 -31.8196ZM112.62 -57.682H106.42V142.318H112.62V-57.682ZM6.41969 42.318V66.358H206.42V42.318H6.41969ZM125.82 -33.642H119.22V166.358H125.82V-33.642ZM198.845 5.86183L188.725 -7.45817L29.4743 113.534L39.5943 126.854L198.845 5.86183ZM109.1 153.038H115.3V-46.962H109.1V153.038ZM36.8235 115.018L47.3435 128.338L204.296 4.37832L193.776 -8.94168L36.8235 115.018ZM135.552 61.678L64.8418 -9.03265L-2.86129 58.6705L61.8371 129.25L135.552 61.678ZM139.192 58.038L217.742 -3.84919L148.078 -92.2687L68.4818 -12.6726L139.192 58.038ZM141.713 60.318L87.2934 144.214L87.2934 144.214L141.713 60.318ZM144.912 61.798L173.851 -33.9231H173.851L144.912 61.798ZM151.793 61.838L120.17 -33.0303L119.764 -32.8952L119.36 -32.7566L151.793 61.838ZM153.993 60.478L78.532 -5.13986L78.4209 -5.01209L78.3102 -4.88394L153.993 60.478ZM153.232 55.798L98.2708 139.34L99.5345 140.171L100.823 140.964L153.232 55.798ZM147.753 54.198L162.733 -44.6735L162.385 -44.7262L162.037 -44.7764L147.753 54.198ZM141.433 52.558L100.396 143.75L100.677 143.876L100.958 144.001L141.433 52.558ZM137.872 49.838L55.2924 106.234L55.7561 106.913L56.2309 107.585L137.872 49.838ZM138.192 41.358L57.8083 -18.1263L57.4203 -17.6019L57.0391 -17.0725L138.192 41.358ZM154.912 38.558L198.186 -51.5943L198.186 -51.5943L154.912 38.558ZM159.993 42.438L230.703 113.149L296.006 47.8459L236.094 -22.4354L159.993 42.438ZM156.393 46.038L77.3705 107.32L146.889 196.963L227.103 116.749L156.393 46.038ZM152.753 42.918L104.046 130.254L104.398 130.451L104.751 130.644L152.753 42.918ZM143.872 42.838L197.427 127.289L198.153 126.828L198.872 126.355L143.872 42.838ZM142.872 47.238L70.0525 115.774L70.0525 115.774L142.872 47.238ZM144.993 48.398L114.142 143.52L115.657 144.012L117.187 144.454L144.993 48.398ZM149.073 49.238L133.635 148.039L133.713 148.051L133.79 148.063L149.073 49.238ZM155.393 50.998L112.457 141.311L113.341 141.732L114.234 142.135L155.393 50.998ZM159.073 53.878L76.4497 110.212L76.4498 110.212L159.073 53.878ZM158.753 62.798L79.1363 2.28967L79.1363 2.28972L158.753 62.798ZM154.553 65.918L191.93 158.67L192.523 158.431L193.112 158.185L154.553 65.918ZM140.993 65.558L99.4431 156.518L99.9098 156.731L100.379 156.939L140.993 65.558ZM206.263 132.389L209.903 128.749L68.4818 -12.6726L64.8418 -9.03265L206.263 132.389ZM60.6433 119.925C68.4515 129.836 77.5727 137.909 87.2934 144.214L196.132 -23.5781C203.879 -18.5528 211.32 -11.9996 217.742 -3.84919L60.6433 119.925ZM87.2934 144.214C96.3217 150.07 105.989 154.5 115.974 157.519L173.851 -33.9231C181.543 -31.5978 189.077 -28.1543 196.132 -23.5781L87.2934 144.214ZM115.974 157.519C126.521 160.708 137.446 162.318 148.433 162.318V-37.682C157.019 -37.682 165.597 -36.4186 173.851 -33.9231L115.974 157.519ZM148.433 162.318C157.412 162.318 170.088 161.28 184.225 156.433L119.36 -32.7566C131.631 -36.9636 142.066 -37.682 148.433 -37.682V162.318ZM183.415 156.706C196.357 152.392 214.332 143.605 229.675 125.84L78.3102 -4.88394C92.6398 -21.4761 109.148 -29.3563 120.17 -33.0303L183.415 156.706ZM229.453 126.096C245.533 107.604 254.792 83.6945 254.792 58.358H54.7925C54.7925 34.6216 63.5189 12.1252 78.532 -5.13986L229.453 126.096ZM254.792 58.358C254.792 17.0007 231.187 -13.6481 205.642 -29.3678L100.823 140.964C90.8296 134.814 78.5993 124.694 69.0084 108.955C59.0668 92.6406 54.7925 74.8939 54.7925 58.358H254.792ZM208.194 -27.7437C187.52 -41.3448 166.516 -44.1004 162.733 -44.6735L132.772 153.07C131.292 152.845 127.762 152.258 123.076 150.89C119.214 149.763 109.399 146.661 98.2708 139.34L208.194 -27.7437ZM162.037 -44.7764C163.695 -44.5372 166.213 -44.1003 169.35 -43.2861C172.437 -42.485 176.803 -41.1443 181.907 -38.8848L100.958 144.001C113.84 149.703 125.659 152.045 133.468 153.172L162.037 -44.7764ZM182.469 -38.6341C192.227 -34.2429 207.257 -25.2378 219.514 -7.90844L56.2309 107.585C70.035 127.101 87.4377 137.919 100.396 143.75L182.469 -38.6341ZM220.453 -6.55812C232.472 11.0416 236.753 29.9968 236.753 45.958H36.7525C36.7525 64.9059 41.7798 86.4478 55.2924 106.234L220.453 -6.55812ZM236.753 45.958C236.753 63.9704 231.337 83.1348 219.346 99.7885L57.0391 -17.0725C43.1284 2.24792 36.7525 24.479 36.7525 45.958H236.753ZM218.577 100.842C207.935 115.222 194.607 124.476 182.314 129.854L102.151 -53.3777C86.4443 -46.5062 70.4229 -35.173 57.8083 -18.1263L218.577 100.842ZM182.314 129.854C169.378 135.513 157.313 137.118 148.073 137.118V-62.882C134.459 -62.882 118.5 -60.5307 102.151 -53.3777L182.314 129.854ZM148.073 137.118C137.956 137.118 125.077 135.161 111.639 128.71L198.186 -51.5943C180.748 -59.9645 163.309 -62.882 148.073 -62.882V137.118ZM111.639 128.71C101.54 123.863 91.9071 116.715 83.891 107.311L236.094 -22.4354C225.305 -35.0923 212.285 -44.8265 198.186 -51.5943L111.639 128.71ZM89.2818 -28.2726L85.6818 -24.6726L227.103 116.749L230.703 113.149L89.2818 -28.2726ZM235.414 -15.2444C226.214 -27.1085 214.535 -37.2676 200.754 -44.8082L104.751 130.644C93.797 124.65 84.5447 116.571 77.3705 107.32L235.414 -15.2444ZM201.459 -44.4184C184.073 -54.1145 165.552 -58.242 148.113 -58.242V141.758C134.086 141.758 118.659 138.404 104.046 130.254L201.459 -44.4184ZM148.113 -58.242C133.046 -58.242 110.81 -55.1249 88.8734 -40.679L198.872 126.355C179.122 139.361 159.713 141.758 148.113 141.758V-58.242ZM90.3183 -41.6129C63.8617 -24.8355 42.2325 6.20766 42.2325 45.638H242.232C242.232 61.2621 238.391 78.4471 228.931 94.5983C219.711 110.339 207.707 120.77 197.427 127.289L90.3183 -41.6129ZM42.2325 45.638C42.2325 72.147 52.4587 97.0811 70.0525 115.774L215.693 -21.2984C232.433 -3.51172 242.232 20.3557 242.232 45.638H42.2325ZM70.0525 115.774C87.2895 134.089 106.569 141.064 114.142 143.52L175.843 -46.7243C179.688 -45.4772 185.305 -43.3703 191.724 -39.8582C198.037 -36.4037 206.932 -30.6066 215.693 -21.2984L70.0525 115.774ZM117.187 144.454C123.991 146.424 130.021 147.475 133.635 148.039L164.51 -49.5632C164.876 -49.506 165.726 -49.3671 166.938 -49.1177C168.078 -48.883 170.142 -48.4274 172.798 -47.6584L117.187 144.454ZM133.79 148.063C130.723 147.589 122.569 146.119 112.457 141.311L198.328 -39.3154C184.963 -45.6695 172.596 -48.313 164.355 -49.5873L133.79 148.063ZM114.234 142.135C103.713 137.384 88.5168 127.91 76.4497 110.212L241.695 -2.45561C228.028 -22.5006 210.378 -33.8944 196.551 -40.139L114.234 142.135ZM76.4498 110.212C64.3404 92.4513 60.2725 73.5326 60.2725 58.078H260.273C260.273 39.3702 255.405 17.6514 241.695 -2.45569L76.4498 110.212ZM60.2725 58.078C60.2725 39.9574 65.8084 19.8263 79.1363 2.28967L238.369 123.306C253.723 103.103 260.273 79.8253 260.273 58.078H60.2725ZM79.1363 2.28972C90.3425 -12.4553 104.108 -21.3819 115.993 -26.3489L193.112 158.185C208.57 151.725 225.136 140.718 238.369 123.306L79.1363 2.28972ZM117.175 -26.8339C129.553 -31.822 140.609 -33.002 148.353 -33.002V166.998C160.79 166.998 175.979 165.098 191.93 158.67L117.175 -26.8339ZM148.353 -33.002C157.349 -33.002 169.074 -31.393 181.606 -25.8231L100.379 156.939C117.231 164.429 133.862 166.998 148.353 166.998V-33.002ZM182.542 -25.4015C191.408 -21.3514 200.867 -15.0586 209.268 -5.89443L61.8371 129.25C73.1709 141.615 86.2566 150.494 99.4431 156.518L182.542 -25.4015ZM185.241 66.358V166.358H285.241V66.358H185.241ZM165.121 66.358H65.1213V166.358H165.121V66.358ZM165.121 37.758V-62.242H65.1213V37.758H165.121ZM185.241 37.758H285.241V-62.242H185.241V37.758ZM185.241 42.318V142.318H285.241V42.318H185.241ZM170.521 42.318V-57.682H70.5213V42.318H170.521ZM170.521 61.798H70.5213V161.798H170.521V61.798ZM185.241 61.798H285.241V-38.202H185.241V61.798ZM184.481 54.158V154.158H284.481V54.158H184.481ZM170.121 54.158H70.1213V154.158H170.121V54.158ZM170.121 49.598V-50.402H70.1213V49.598H170.121ZM184.481 49.598H284.481V-50.402H184.481V49.598ZM185.241 -33.642H165.121V166.358H185.241V-33.642ZM265.121 66.358V37.758H65.1213V66.358H265.121ZM165.121 137.758H185.241V-62.242H165.121V137.758ZM85.2412 37.758V42.318H285.241V37.758H85.2412ZM185.241 -57.682H170.521V142.318H185.241V-57.682ZM70.5213 42.318V61.798H270.521V42.318H70.5213ZM170.521 161.798H185.241V-38.202H170.521V161.798ZM85.2412 61.798V66.358H285.241V61.798H85.2412ZM184.481 -45.842H170.121V154.158H184.481V-45.842ZM270.121 54.158V49.598H70.1213V54.158H270.121ZM170.121 149.598H184.481V-50.402H170.121V149.598ZM84.4813 49.598V54.158H284.481V49.598H84.4813ZM195.287 66.358V166.358H295.287V66.358H195.287ZM189.887 66.358H89.8869V166.358H189.887V66.358ZM189.887 37.758V-62.242H89.8869V37.758H189.887ZM206.847 38.878L162.757 128.633L163.695 129.095L164.644 129.536L206.847 38.878ZM210.447 41.918L126.72 96.5969L127.107 97.1903L127.503 97.7781L210.447 41.918ZM210.447 51.078L126.986 -4.0062L126.852 -3.80384L126.72 -3.60085L210.447 51.078ZM206.847 54.158L249.655 144.532L249.989 144.374L250.322 144.213L206.847 54.158ZM194.887 55.238H94.8869V155.238H194.887V55.238ZM194.887 50.678V-49.322H94.8869V50.678H194.887ZM195.287 42.318V-57.682H95.2869V42.318H195.287ZM214.687 66.358V166.358H421.093L293.163 4.37832L214.687 66.358ZM208.087 66.358L128.461 126.854L158.475 166.358H208.087V66.358ZM197.967 53.038V-46.962H-3.59712L118.341 113.534L197.967 53.038ZM204.167 53.038L282.643 -8.94168L252.615 -46.962H204.167V53.038ZM195.287 -33.642H189.887V166.358H195.287V-33.642ZM289.887 66.358V37.758H89.8869V66.358H289.887ZM189.887 137.758H201.487V-62.242H189.887V137.758ZM201.487 137.758C191.454 137.758 177.566 135.909 162.757 128.633L250.937 -50.8774C233.087 -59.6458 215.626 -62.242 201.487 -62.242V137.758ZM164.644 129.536C150.896 123.136 137.02 112.369 126.72 96.5969L294.174 -12.7608C282.167 -31.1461 265.891 -43.9401 249.05 -51.7802L164.644 129.536ZM127.503 97.7781C116.158 80.9316 111.767 62.5665 111.767 46.478H311.767C311.767 26.9229 306.496 5.51775 293.391 -13.942L127.503 97.7781ZM111.767 46.478C111.767 30.365 116.158 12.3991 126.986 -4.0062L293.908 106.162C306.495 87.0902 311.767 66.0577 311.767 46.478H111.767ZM126.72 -3.60085C136.798 -19.0335 150.231 -29.553 163.372 -35.8971L250.322 144.213C266.557 136.376 282.389 123.803 294.174 105.757L126.72 -3.60085ZM164.038 -36.2158C178.523 -43.0769 191.941 -44.762 201.487 -44.762V155.238C215.139 155.238 232.131 152.833 249.655 144.532L164.038 -36.2158ZM201.487 -44.762H194.887V155.238H201.487V-44.762ZM294.887 55.238V50.678H94.8869V55.238H294.887ZM194.887 150.678H201.487V-49.322H194.887V150.678ZM201.487 150.678C219.39 150.678 246.648 145.999 270.857 124.816L139.156 -25.6996C161.659 -45.3896 186.57 -49.322 201.487 -49.322V150.678ZM270.857 124.816C296.825 102.094 306.287 71.7532 306.287 46.478H106.287C106.287 36.2334 107.977 23.4382 113.624 9.85166C119.416 -4.08618 128.278 -16.1812 139.156 -25.6996L270.857 124.816ZM306.287 46.478C306.287 20.5037 296.346 -9.51693 270.857 -31.8196L139.156 118.696C128.528 109.396 119.668 97.4919 113.803 83.5637C108.067 69.9392 106.287 57.0037 106.287 46.478H306.287ZM270.857 -31.8196C246.648 -53.003 219.39 -57.682 201.487 -57.682V142.318C186.57 142.318 161.659 138.386 139.156 118.696L270.857 -31.8196ZM201.487 -57.682H195.287V142.318H201.487V-57.682ZM95.2869 42.318V66.358H295.287V42.318H95.2869ZM214.687 -33.642H208.087V166.358H214.687V-33.642ZM287.712 5.86183L277.592 -7.45817L118.341 113.534L128.461 126.854L287.712 5.86183ZM197.967 153.038H204.167V-46.962H197.967V153.038ZM125.691 115.018L136.211 128.338L293.163 4.37832L282.643 -8.94168L125.691 115.018ZM230.436 66.358V166.358H298.58L323.506 102.935L230.436 66.358ZM224.956 66.358L131.93 103.048L156.899 166.358H224.956V66.358ZM213.676 37.758V-62.242H66.7383L120.65 74.448L213.676 37.758ZM219.556 37.758L313.427 3.28736L289.363 -62.242H219.556V37.758ZM228.516 62.158V162.158H371.766L322.387 27.6874L228.516 62.158ZM227.036 62.158L133.165 27.6874L83.7852 162.158H227.036V62.158ZM235.996 37.758V-62.242H166.188L142.125 3.28735L235.996 37.758ZM241.676 37.758L334.746 74.3354L388.422 -62.242H241.676V37.758ZM230.436 -33.642H224.956V166.358H230.436V-33.642ZM317.982 29.668L306.702 1.06804L120.65 74.448L131.93 103.048L317.982 29.668ZM213.676 137.758H219.556V-62.242H213.676V137.758ZM125.685 72.2287L134.645 96.6287L322.387 27.6874L313.427 3.28736L125.685 72.2287ZM228.516 -37.842H227.036V162.158H228.516V-37.842ZM320.907 96.6287L329.867 72.2287L142.125 3.28735L133.165 27.6874L320.907 96.6287ZM235.996 137.758H241.676V-62.242H235.996V137.758ZM148.605 1.18071L137.365 29.7807L323.506 102.935L334.746 74.3354L148.605 1.18071ZM251.107 66.358V166.358H351.107V66.358H251.107ZM245.707 66.358H145.707V166.358H245.707V66.358ZM245.707 37.758V-62.242H145.707V37.758H245.707ZM251.107 37.758H351.107V-62.242H251.107V37.758ZM251.107 -33.642H245.707V166.358H251.107V-33.642ZM345.707 66.358V37.758H145.707V66.358H345.707ZM245.707 137.758H251.107V-62.242H245.707V137.758ZM151.107 37.758V66.358H351.107V37.758H151.107ZM279.121 58.038L350.226 -12.2765L265.212 -98.2449L196.717 1.38515L279.121 58.038ZM282.681 61.638L361.404 123.304L415.725 53.9585L353.786 -8.67654L282.681 61.638ZM277.721 65.518L234.41 -24.616L234.179 -24.505L233.949 -24.3929L277.721 65.518ZM264.961 65.918L227.359 158.579L227.939 158.814L228.521 159.042L264.961 65.918ZM260.161 62.798L188.754 132.805L189.447 133.512L190.154 134.205L260.161 62.798ZM257.041 58.038L164.099 94.9413L164.333 95.5287L164.573 96.113L257.041 58.038ZM257.081 46.118L164.892 7.37206L164.751 7.70705L164.613 8.04306L257.081 46.118ZM260.281 41.358L330.288 112.765L330.642 112.419L330.992 112.069L260.281 41.358ZM265.081 38.238L301.521 131.362L301.871 131.225L302.22 131.086L265.081 38.238ZM282.681 42.478L353.786 112.793L415.725 50.1576L361.404 -19.1882L282.681 42.478ZM279.121 46.078L196.717 102.731L265.212 202.361L350.225 116.393L279.121 46.078ZM275.721 43.038L226.291 129.967L227.294 130.538L228.311 131.085L275.721 43.038ZM266.281 43.198L214.136 -42.1302L213.78 -41.9124L213.425 -41.6916L266.281 43.198ZM262.921 46.798L175.073 -0.979197L175.073 -0.97916L262.921 46.798ZM262.921 57.318L174.728 104.456L174.899 104.776L175.073 105.095L262.921 57.318ZM266.281 60.918L213.425 145.808L213.78 146.028L214.136 146.246L266.281 60.918ZM275.721 61.118L323.847 148.776L324.138 148.616L324.428 148.454L275.721 61.118ZM208.016 128.353L211.576 131.953L353.786 -8.67654L350.226 -12.2765L208.016 128.353ZM203.958 -0.0282021C213.258 -11.9007 224.318 -19.7669 234.41 -24.616L321.032 155.652C335.23 148.83 349.597 138.377 361.404 123.304L203.958 -0.0282021ZM233.949 -24.3929C246.585 -30.5448 259.485 -33.002 271.041 -33.002V166.998C287.451 166.998 304.804 163.554 321.493 155.429L233.949 -24.3929ZM271.041 -33.002C279.804 -33.002 290.316 -31.5438 301.401 -27.2062L228.521 159.042C243.286 164.82 257.851 166.998 271.041 166.998V-33.002ZM302.563 -26.7433C312.283 -22.7989 321.82 -16.7938 330.168 -8.60926L190.154 134.205C201.222 145.057 213.959 153.142 227.359 158.579L302.563 -26.7433ZM331.568 -7.20911C339.513 0.894722 345.504 10.2365 349.509 19.9631L164.573 96.113C170.072 109.466 178.142 121.981 188.754 132.805L331.568 -7.20911ZM349.983 21.1347C354.456 32.401 355.961 43.1087 355.961 52.038H155.961C155.961 65.3407 158.186 80.0484 164.099 94.9413L349.983 21.1347ZM355.961 52.038C355.961 61.8113 354.197 72.9042 349.549 84.193L164.613 8.04306C158.471 22.9585 155.961 37.9981 155.961 52.038H355.961ZM349.27 84.864C345.145 94.6788 338.872 104.35 330.288 112.765L190.274 -30.0493C178.97 -18.9674 170.564 -6.12278 164.892 7.37206L349.27 84.864ZM330.992 112.069C322.327 120.733 312.168 127.196 301.521 131.362L228.641 -54.8863C214.314 -49.2798 200.955 -40.7374 189.57 -29.3526L330.992 112.069ZM302.22 131.086C291.277 135.463 280.575 137.118 271.161 137.118V-62.882C257.373 -62.882 242.618 -60.4803 227.942 -54.6096L302.22 131.086ZM271.161 137.118C259.62 137.118 246.502 134.664 233.559 128.279L322.043 -51.0826C305.1 -59.4414 287.555 -62.882 271.161 -62.882V137.118ZM233.559 128.279C223.436 123.285 212.823 115.461 203.958 104.144L361.404 -19.1882C350.033 -33.7046 336.166 -44.1153 322.043 -51.0826L233.559 128.279ZM211.576 -27.8365L208.016 -24.2365L350.225 116.393L353.786 112.793L211.576 -27.8365ZM361.525 -10.5749C351.512 -25.1399 338.309 -36.8362 323.131 -45.0091L228.311 131.085C215.906 124.406 204.97 114.736 196.717 102.731L361.525 -10.5749ZM325.151 -43.8909C307.617 -53.8614 288.851 -58.122 271.161 -58.122V141.878C256.831 141.878 241.105 138.391 226.291 129.967L325.151 -43.8909ZM271.161 -58.122C252.372 -58.122 232.45 -53.3218 214.136 -42.1302L318.426 128.526C302.992 137.958 286.323 141.878 271.161 141.878V-58.122ZM213.425 -41.6916C196.747 -31.3072 183.822 -17.066 175.073 -0.979197L350.769 94.5753C343.674 107.622 332.988 119.463 319.137 128.088L213.425 -41.6916ZM175.073 -0.97916C165.211 17.154 161.681 35.7461 161.681 52.038H361.681C361.681 64.3833 358.978 79.482 350.769 94.5752L175.073 -0.97916ZM161.681 52.038C161.681 68.3676 165.222 86.6701 174.728 104.456L351.114 10.1803C358.967 24.8726 361.681 39.6551 361.681 52.038H161.681ZM175.073 105.095C183.822 121.182 196.747 135.423 213.425 145.808L319.137 -23.9717C332.988 -15.3472 343.674 -3.50598 350.769 9.54081L175.073 105.095ZM214.136 146.246C232.449 157.438 252.372 162.238 271.161 162.238V-37.762C286.323 -37.762 302.992 -33.8418 318.426 -24.4101L214.136 146.246ZM271.161 162.238C288.234 162.238 306.533 158.282 323.847 148.776L227.595 -26.5398C242.189 -34.5524 257.448 -37.762 271.161 -37.762V162.238ZM324.428 148.454C338.951 140.355 351.726 128.944 361.525 114.691L196.717 1.38515C204.756 -10.3077 215.265 -19.6658 227.014 -26.2183L324.428 148.454ZM306.999 66.358V166.358H406.999V66.358H306.999ZM286.879 66.358H186.879V166.358H286.879V66.358ZM286.879 37.758V-62.242H186.879V37.758H286.879ZM306.999 37.758H406.999V-62.242H306.999V37.758ZM306.999 42.318V142.318H406.999V42.318H306.999ZM292.279 42.318V-57.682H192.279V42.318H292.279ZM292.279 61.798H192.279V161.798H292.279V61.798ZM306.999 61.798H406.999V-38.202H306.999V61.798ZM306.239 54.158V154.158H406.239V54.158H306.239ZM291.879 54.158H191.879V154.158H291.879V54.158ZM291.879 49.598V-50.402H191.879V49.598H291.879ZM306.239 49.598H406.239V-50.402H306.239V49.598ZM306.999 -33.642H286.879V166.358H306.999V-33.642ZM386.879 66.358V37.758H186.879V66.358H386.879ZM286.879 137.758H306.999V-62.242H286.879V137.758ZM206.999 37.758V42.318H406.999V37.758H206.999ZM306.999 -57.682H292.279V142.318H306.999V-57.682ZM192.279 42.318V61.798H392.279V42.318H192.279ZM292.279 161.798H306.999V-38.202H292.279V161.798ZM206.999 61.798V66.358H406.999V61.798H206.999ZM306.239 -45.842H291.879V154.158H306.239V-45.842ZM391.879 54.158V49.598H191.879V54.158H391.879ZM291.879 149.598H306.239V-50.402H291.879V149.598ZM206.239 49.598V54.158H406.239V49.598H206.239ZM310.045 61.678L239.334 -9.03265L171.631 58.6705L236.329 129.25L310.045 61.678ZM313.685 58.038L392.234 -3.84919L322.57 -92.2687L242.974 -12.6726L313.685 58.038ZM316.205 60.318L261.786 144.214L261.786 144.214L316.205 60.318ZM319.405 61.798L348.344 -33.9231L319.405 61.798ZM326.285 61.838L294.662 -33.0303L294.257 -32.8952L293.852 -32.7566L326.285 61.838ZM328.485 60.478L253.024 -5.13986L252.913 -5.01209L252.802 -4.88394L328.485 60.478ZM327.725 55.798L272.763 139.34L274.027 140.171L275.315 140.964L327.725 55.798ZM322.245 54.198L337.225 -44.6735L336.878 -44.7262L336.53 -44.7764L322.245 54.198ZM315.925 52.558L274.888 143.75L275.169 143.876L275.45 144.001L315.925 52.558ZM312.365 49.838L229.785 106.234L230.248 106.913L230.723 107.585L312.365 49.838ZM312.685 41.358L232.3 -18.1263L231.912 -17.6019L231.531 -17.0725L312.685 41.358ZM329.405 38.558L372.678 -51.5943L372.678 -51.5943L329.405 38.558ZM334.485 42.438L405.195 113.149L470.498 47.8459L410.586 -22.4354L334.485 42.438ZM330.885 46.038L251.863 107.32L321.381 196.963L401.595 116.749L330.885 46.038ZM327.245 42.918L278.538 130.254L278.89 130.451L279.244 130.644L327.245 42.918ZM318.365 42.838L371.919 127.289L372.645 126.828L373.364 126.355L318.365 42.838ZM317.365 47.238L244.545 115.774L244.545 115.774L317.365 47.238ZM319.485 48.398L288.634 143.52L290.149 144.012L291.679 144.454L319.485 48.398ZM323.565 49.238L308.127 148.039L308.205 148.051L308.282 148.063L323.565 49.238ZM329.885 50.998L286.949 141.311L287.833 141.732L288.726 142.135L329.885 50.998ZM333.565 53.878L250.942 110.212L250.942 110.212L333.565 53.878ZM333.245 62.798L253.628 2.28967L253.628 2.28972L333.245 62.798ZM329.045 65.918L366.422 158.67L367.015 158.431L367.604 158.185L329.045 65.918ZM315.485 65.558L273.935 156.518L274.402 156.731L274.871 156.939L315.485 65.558ZM380.755 132.389L384.395 128.749L242.974 -12.6726L239.334 -9.03265L380.755 132.389ZM235.136 119.925C242.944 129.836 252.065 137.909 261.786 144.214L370.624 -23.5781C378.371 -18.5528 385.812 -11.9996 392.234 -3.84919L235.136 119.925ZM261.786 144.214C270.814 150.07 280.481 154.5 290.466 157.519L348.344 -33.9231C356.035 -31.5978 363.569 -28.1543 370.624 -23.5781L261.786 144.214ZM290.466 157.519C301.013 160.708 311.938 162.318 322.925 162.318V-37.682C331.511 -37.682 340.089 -36.4186 348.344 -33.9231L290.466 157.519ZM322.925 162.318C331.904 162.318 344.58 161.28 358.717 156.433L293.852 -32.7566C306.123 -36.9636 316.558 -37.682 322.925 -37.682V162.318ZM357.907 156.706C370.849 152.392 388.824 143.605 404.167 125.84L252.802 -4.88394C267.132 -21.4761 283.64 -29.3563 294.662 -33.0303L357.907 156.706ZM403.945 126.096C420.025 107.604 429.285 83.6945 429.285 58.358H229.285C229.285 34.6216 238.011 12.1252 253.024 -5.13986L403.945 126.096ZM429.285 58.358C429.285 17.0007 405.679 -13.6481 380.134 -29.3678L275.315 140.964C265.322 134.814 253.091 124.694 243.501 108.955C233.559 92.6406 229.285 74.8939 229.285 58.358H429.285ZM382.686 -27.7437C362.013 -41.3448 341.008 -44.1004 337.225 -44.6735L307.264 153.07C305.784 152.845 302.254 152.258 297.568 150.89C293.706 149.763 283.891 146.661 272.763 139.34L382.686 -27.7437ZM336.53 -44.7764C338.187 -44.5372 340.705 -44.1003 343.842 -43.2861C346.93 -42.485 351.295 -41.1443 356.399 -38.8848L275.45 144.001C288.332 149.703 300.151 152.045 307.96 153.172L336.53 -44.7764ZM356.961 -38.6341C366.719 -34.2429 381.749 -25.2378 394.006 -7.90844L230.723 107.585C244.527 127.101 261.93 137.919 274.888 143.75L356.961 -38.6341ZM394.945 -6.55812C406.964 11.0416 411.245 29.9968 411.245 45.958H211.245C211.245 64.9059 216.272 86.4478 229.785 106.234L394.945 -6.55812ZM411.245 45.958C411.245 63.9704 405.829 83.1348 393.838 99.7885L231.531 -17.0725C217.621 2.24792 211.245 24.479 211.245 45.958H411.245ZM393.069 100.842C382.428 115.222 369.1 124.476 356.807 129.854L276.643 -53.3777C260.936 -46.5062 244.915 -35.173 232.3 -18.1263L393.069 100.842ZM356.807 129.854C343.87 135.513 331.805 137.118 322.565 137.118V-62.882C308.951 -62.882 292.992 -60.5307 276.643 -53.3777L356.807 129.854ZM322.565 137.118C312.448 137.118 299.57 135.161 286.132 128.71L372.678 -51.5943C355.24 -59.9645 337.801 -62.882 322.565 -62.882V137.118ZM286.132 128.71C276.032 123.863 266.399 116.715 258.383 107.311L410.586 -22.4354C399.797 -35.0923 386.777 -44.8265 372.678 -51.5943L286.132 128.71ZM263.774 -28.2726L260.174 -24.6726L401.595 116.749L405.195 113.149L263.774 -28.2726ZM409.907 -15.2444C400.706 -27.1085 389.027 -37.2676 375.246 -44.8082L279.244 130.644C268.289 124.65 259.037 116.571 251.863 107.32L409.907 -15.2444ZM375.951 -44.4184C358.565 -54.1145 340.045 -58.242 322.605 -58.242V141.758C308.578 141.758 293.151 138.404 278.538 130.254L375.951 -44.4184ZM322.605 -58.242C307.538 -58.242 285.302 -55.1249 263.366 -40.679L373.364 126.355C353.614 139.361 334.205 141.758 322.605 141.758V-58.242ZM264.811 -41.6129C238.354 -24.8355 216.725 6.20766 216.725 45.638H416.725C416.725 61.2621 412.883 78.4471 403.423 94.5983C394.203 110.339 382.199 120.77 371.919 127.289L264.811 -41.6129ZM216.725 45.638C216.725 72.147 226.951 97.0811 244.545 115.774L390.185 -21.2984C406.925 -3.51172 416.725 20.3557 416.725 45.638H216.725ZM244.545 115.774C261.782 134.089 281.062 141.064 288.634 143.52L350.335 -46.7243C354.18 -45.4772 359.797 -43.3703 366.216 -39.8582C372.529 -36.4037 381.424 -30.6066 390.185 -21.2984L244.545 115.774ZM291.679 144.454C298.483 146.424 304.513 147.475 308.127 148.039L339.002 -49.5632C339.368 -49.506 340.218 -49.3671 341.43 -49.1177C342.57 -48.883 344.634 -48.4274 347.291 -47.6584L291.679 144.454ZM308.282 148.063C305.215 147.589 297.061 146.119 286.949 141.311L372.821 -39.3154C359.455 -45.6695 347.088 -48.313 338.847 -49.5873L308.282 148.063ZM288.726 142.135C278.205 137.384 263.009 127.91 250.942 110.212L416.187 -2.45561C402.52 -22.5006 384.871 -33.8944 371.043 -40.139L288.726 142.135ZM250.942 110.212C238.833 92.4513 234.765 73.5326 234.765 58.078H434.765C434.765 39.3702 429.897 17.6514 416.187 -2.45569L250.942 110.212ZM234.765 58.078C234.765 39.9574 240.301 19.8263 253.628 2.28967L412.861 123.306C428.215 103.103 434.765 79.8253 434.765 58.078H234.765ZM253.628 2.28972C264.835 -12.4553 278.6 -21.3819 290.485 -26.3489L367.604 158.185C383.063 151.725 399.628 140.718 412.861 123.306L253.628 2.28972ZM291.667 -26.8339C304.045 -31.822 315.101 -33.002 322.845 -33.002V166.998C335.282 166.998 350.471 165.098 366.422 158.67L291.667 -26.8339ZM322.845 -33.002C331.841 -33.002 343.566 -31.393 356.099 -25.8231L274.871 156.939C291.723 164.429 308.355 166.998 322.845 166.998V-33.002ZM357.034 -25.4015C365.901 -21.3514 375.36 -15.0586 383.76 -5.89443L236.329 129.25C247.663 141.615 260.749 150.494 273.935 156.518L357.034 -25.4015Z" fill="white" mask="url(#path-2-inside-1_465_5515)" />
               </svg>
             </div>
-            <div className="sell_para">
-              <p>Strategies, actions and process</p>
-              <p>that enhance your Company</p>
-              <p>Valuation</p>
-            </div>
-            <div className="st">
-              <div className="small_para">
-                <p>Benefit from DigitalMnA’ expertise to ensure you’re selling at the right time. Make
-                </p>
-                <p>certain the legacy you’ve built continues to thrive.</p>
-              </div>
+            <div className="services_flex">
+              <div data-aos="fade-right" className="services_box">
+                <div className="box_ssvg">
+                  <img src="./images/sellSide.svg" alt="" />
 
-            </div>
-
-            <div className="service_hone_main">
-              <div className="service_flex_main">
-                <div className="hone_left">
-                  <div className="cont-top">
-                    <div class="container">
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="monitor">
-                        <div class="camera o-x">
-                          <div class="camera o-y">
-                            <div class="camera o-z">
-                              <div class="vr">
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  {/* <img src="./images/CFol.gif" alt="" /> */}
-                  {/* <div><iframe src="https://gifer.com/embed/V5y" width="100%" height="100%"  frameBorder="0" allowFullScreen></iframe></div><p><a href="https://gifer.com">via GIFER</a></p> */}
                 </div>
-                <div className="hone_right">
-                  <div className="hone_box">
-                    <div className="hone_svg">
-                      <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.776 38.384C21.448 38.384 20.296 38.032 19.32 37.328C18.36 36.608 17.624 35.584 17.112 34.256C16.6 32.912 16.344 31.304 16.344 29.432C16.344 26.6 16.912 24.4 18.048 22.832C19.2 21.248 20.776 20.456 22.776 20.456C24.792 20.456 26.368 21.248 27.504 22.832C28.656 24.4 29.232 26.6 29.232 29.432C29.232 31.304 28.976 32.912 28.464 34.256C27.952 35.584 27.216 36.608 26.256 37.328C25.296 38.032 24.136 38.384 22.776 38.384ZM22.776 36.464C24.088 36.464 25.096 35.864 25.8 34.664C26.52 33.448 26.88 31.704 26.88 29.432C26.88 27.144 26.52 25.4 25.8 24.2C25.096 22.984 24.088 22.376 22.776 22.376C21.48 22.376 20.472 22.984 19.752 24.2C19.032 25.4 18.672 27.144 18.672 29.432C18.672 31.704 19.032 33.448 19.752 34.664C20.472 35.864 21.48 36.464 22.776 36.464ZM36.9939 20.84H39.0819V38H36.8259V23.264L32.4579 26.576V24.2L36.9939 20.84Z" fill="white" />
-                        <circle cx="29" cy="29" r="28.5" stroke="url(#paint0_linear_304_5235)" />
-                        <defs>
-                          <linearGradient id="paint0_linear_304_5235" x1="29" y1="0" x2="29" y2="58" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#56C5FF" />
-                            <stop offset="1" stop-color="#ECE370" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-
-                    </div>
-                    <h3>Strategic Planning</h3>
-                    <div className="stratic">
-                      <div className="stratic_flex">
-                        <p>Operational Efficiency</p>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg>
-                      </div>
-                      <div className="stratic_flex">
-                        <p>Market Position and Competitive Advantage</p>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg>
-                      </div>
-                      <div className="stratic_flex">
-                        <p>Technology and Innovation</p>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg>
-                      </div>
-                      <div className="stratic_flex">
-                        <p>Scalability and Growth Potential</p>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg>
-                      </div>
-                      <div className="stratic_flex">
-                        <p>Synergy Identification</p>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg>
-                      </div>
-                      <div className="stratic_flex">
-                        <p>Strategic Partnerships</p>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg>
-                      </div>
-                    </div>
+                <div className="box_con11">
+                  <div className="box_head11">
+                    <h3>Sell-Side</h3>
+                    <h3>Advisory</h3>
                   </div>
+                  <p>Strategies, actions and process that enhance your Company Valuation</p>
+                  <button><span>Know more</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
+                    </svg>
+                  </button>
                 </div>
               </div>
-              <div className="service_flex_main mty">
-                <div className="hone_left">
-                  <div className="hone_box">
-                    <div className="hone_svg">
-                      <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.776 38.384C21.448 38.384 20.296 38.032 19.32 37.328C18.36 36.608 17.624 35.584 17.112 34.256C16.6 32.912 16.344 31.304 16.344 29.432C16.344 26.6 16.912 24.4 18.048 22.832C19.2 21.248 20.776 20.456 22.776 20.456C24.792 20.456 26.368 21.248 27.504 22.832C28.656 24.4 29.232 26.6 29.232 29.432C29.232 31.304 28.976 32.912 28.464 34.256C27.952 35.584 27.216 36.608 26.256 37.328C25.296 38.032 24.136 38.384 22.776 38.384ZM22.776 36.464C24.088 36.464 25.096 35.864 25.8 34.664C26.52 33.448 26.88 31.704 26.88 29.432C26.88 27.144 26.52 25.4 25.8 24.2C25.096 22.984 24.088 22.376 22.776 22.376C21.48 22.376 20.472 22.984 19.752 24.2C19.032 25.4 18.672 27.144 18.672 29.432C18.672 31.704 19.032 33.448 19.752 34.664C20.472 35.864 21.48 36.464 22.776 36.464ZM43.2819 38H31.7859V36.128L37.9059 30.416C38.8819 29.488 39.6259 28.648 40.1379 27.896C40.6659 27.144 40.9299 26.368 40.9299 25.568C40.9299 24.976 40.7859 24.44 40.4979 23.96C40.2259 23.48 39.8419 23.096 39.3459 22.808C38.8499 22.52 38.2739 22.376 37.6179 22.376C36.7059 22.376 35.8739 22.632 35.1219 23.144C34.3699 23.64 33.7139 24.344 33.1539 25.256L31.5939 23.792C32.4099 22.688 33.3219 21.856 34.3299 21.296C35.3539 20.736 36.4819 20.456 37.7139 20.456C38.8179 20.456 39.7779 20.688 40.5939 21.152C41.4099 21.6 42.0419 22.208 42.4899 22.976C42.9539 23.744 43.1859 24.616 43.1859 25.592C43.1859 26.328 43.0259 27.032 42.7059 27.704C42.4019 28.376 41.9459 29.064 41.3379 29.768C40.7299 30.472 39.9539 31.248 39.0099 32.096C38.5299 32.544 38.0419 33 37.5459 33.464C37.0499 33.912 36.5539 34.36 36.0579 34.808C35.5779 35.256 35.0979 35.696 34.6179 36.128H43.2819V38Z" fill="white" />
-                        <circle cx="29" cy="29" r="28.5" stroke="url(#paint0_linear_365_1381)" />
-                        <defs>
-                          <linearGradient id="paint0_linear_365_1381" x1="29" y1="0" x2="29" y2="58" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#56C5FF" />
-                            <stop offset="1" stop-color="#ECE370" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                    </div>
-                    <h3>Business Valuation</h3>
-                    <div className="stratic">
-                      <div className="stratic_flex static_flex1">
-                        <p>Conduct a thorough business valuation to determine <br /> the appropriate asking price.</p>
-                        {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg> */}
-                      </div>
-                      <div className="stratic_flex static_flex1">
-                        <p>Consider various valuation methods and market <br /> benchmarks.</p>
-                        {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                        </svg> */}
-                      </div>
-
-                    </div>
-                  </div>
+              <div data-aos="fade-up" className="services_box">
+                <div className="box_ssvg">
+                  <img src="./images/sellSide.svg" alt="" />
                 </div>
-                <div className="hone_right">
-                  <div className="cont-top">
-                    <div class="container">
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="monitor">
-                        <div class="camera o-x">
-                          <div class="camera o-y">
-                            <div class="camera o-z">
-                              <div class="vr">
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                <div className="box_con11">
+                  <div className="box_head11">
+                    <h3>buy-Side</h3>
+                    <h3>Advisory</h3>
                   </div>
+                  <p>Strategies, actions and process that enhance your Company Valuation</p>
+                  <button><span>Know more</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
+                    </svg>
+                  </button>
                 </div>
               </div>
-              <div className="service_flex_main mty">
-                <div className="hone_left">
-                <div className="cont-top">
-                    <div class="container">
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="monitor">
-                        <div class="camera o-x">
-                          <div class="camera o-y">
-                            <div class="camera o-z">
-                              <div class="vr">
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              <div data-aos="fade-left" className="services_box">
+                <div className="box_ssvg">
+                  <img src="./images/sellSide.svg" alt="" />
                 </div>
-                <div className="hone_right">
-                  <div className="hone_box">
-                    <div className="hone_svg">
-                      <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.776 38.384C21.448 38.384 20.296 38.032 19.32 37.328C18.36 36.608 17.624 35.584 17.112 34.256C16.6 32.912 16.344 31.304 16.344 29.432C16.344 26.6 16.912 24.4 18.048 22.832C19.2 21.248 20.776 20.456 22.776 20.456C24.792 20.456 26.368 21.248 27.504 22.832C28.656 24.4 29.232 26.6 29.232 29.432C29.232 31.304 28.976 32.912 28.464 34.256C27.952 35.584 27.216 36.608 26.256 37.328C25.296 38.032 24.136 38.384 22.776 38.384ZM22.776 36.464C24.088 36.464 25.096 35.864 25.8 34.664C26.52 33.448 26.88 31.704 26.88 29.432C26.88 27.144 26.52 25.4 25.8 24.2C25.096 22.984 24.088 22.376 22.776 22.376C21.48 22.376 20.472 22.984 19.752 24.2C19.032 25.4 18.672 27.144 18.672 29.432C18.672 31.704 19.032 33.448 19.752 34.664C20.472 35.864 21.48 36.464 22.776 36.464ZM31.4259 35.336L32.9859 33.872C33.5619 34.672 34.2499 35.304 35.0499 35.768C35.8499 36.232 36.7539 36.464 37.7619 36.464C38.9299 36.464 39.8659 36.16 40.5699 35.552C41.2899 34.928 41.6499 34.136 41.6499 33.176C41.6499 32.52 41.4739 31.96 41.1219 31.496C40.7699 31.016 40.2899 30.656 39.6819 30.416C39.0739 30.16 38.3859 30.032 37.6179 30.032H35.9619V28.112H37.6179C38.2899 28.112 38.8899 27.992 39.4179 27.752C39.9619 27.512 40.3859 27.184 40.6899 26.768C41.0099 26.336 41.1699 25.84 41.1699 25.28C41.1699 24.416 40.8579 23.72 40.2339 23.192C39.6259 22.648 38.8259 22.376 37.8339 22.376C36.9059 22.376 36.0819 22.608 35.3619 23.072C34.6419 23.52 34.0099 24.152 33.4659 24.968L31.9059 23.504C32.6739 22.544 33.5539 21.8 34.5459 21.272C35.5539 20.728 36.6579 20.456 37.8579 20.456C38.9779 20.456 39.9539 20.664 40.7859 21.08C41.6339 21.496 42.2979 22.064 42.7779 22.784C43.2579 23.488 43.4979 24.288 43.4979 25.184C43.4979 25.984 43.2499 26.704 42.7539 27.344C42.2739 27.984 41.5939 28.488 40.7139 28.856C39.8499 29.208 38.8499 29.384 37.7139 29.384L38.0499 28.496C39.2179 28.496 40.2499 28.704 41.1459 29.12C42.0419 29.52 42.7379 30.072 43.2339 30.776C43.7299 31.48 43.9779 32.296 43.9779 33.224C43.9779 34.2 43.7139 35.08 43.1859 35.864C42.6739 36.632 41.9539 37.248 41.0259 37.712C40.0979 38.16 39.0259 38.384 37.8099 38.384C36.5139 38.384 35.3219 38.12 34.2339 37.592C33.1619 37.048 32.2259 36.296 31.4259 35.336Z" fill="white" />
-                        <circle cx="29" cy="29" r="28.5" stroke="url(#paint0_linear_365_1396)" />
-                        <defs>
-                          <linearGradient id="paint0_linear_365_1396" x1="29" y1="0" x2="29" y2="58" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#56C5FF" />
-                            <stop offset="1" stop-color="#ECE370" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                    </div>
-                    <h3>Information <br /> Memorandum</h3>
-                    <div className="stratic">
-                      <div className="stratic_flex static_flex1">
-                        <p>Prepare a comprehensive Information Memorandum <br /> (IM) or Offering Memorandum that provides detailed <br /> information  about the company.</p>
-
-                      </div>
-                      <div className="stratic_flex static_flex1">
-                        <p>Include financials, operations, market position, and <br /> growth opportunities.</p>
-                      </div>
-                    </div>
+                <div className="box_con11">
+                  <div className="box_head11">
+                    <h3>raising</h3>
+                    <h3>Capital</h3>
                   </div>
+                  <p>Strategies, actions and process that enhance your Company Valuation</p>
+                  <button><span>Know more</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
+                    </svg>
+                  </button>
                 </div>
-              </div>
-              <div className="service_flex_main mty">
-                <div className="hone_left">
-                  <div className="hone_box">
-                    <div className="hone_svg">
-                      <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.776 38.384C21.448 38.384 20.296 38.032 19.32 37.328C18.36 36.608 17.624 35.584 17.112 34.256C16.6 32.912 16.344 31.304 16.344 29.432C16.344 26.6 16.912 24.4 18.048 22.832C19.2 21.248 20.776 20.456 22.776 20.456C24.792 20.456 26.368 21.248 27.504 22.832C28.656 24.4 29.232 26.6 29.232 29.432C29.232 31.304 28.976 32.912 28.464 34.256C27.952 35.584 27.216 36.608 26.256 37.328C25.296 38.032 24.136 38.384 22.776 38.384ZM22.776 36.464C24.088 36.464 25.096 35.864 25.8 34.664C26.52 33.448 26.88 31.704 26.88 29.432C26.88 27.144 26.52 25.4 25.8 24.2C25.096 22.984 24.088 22.376 22.776 22.376C21.48 22.376 20.472 22.984 19.752 24.2C19.032 25.4 18.672 27.144 18.672 29.432C18.672 31.704 19.032 33.448 19.752 34.664C20.472 35.864 21.48 36.464 22.776 36.464ZM42.7539 38H40.5219V33.896H31.5699V32.072L40.5219 20.84H42.7539V32.072H45.3219V33.896H42.7539V38ZM40.5219 23.72L33.8499 32.072H40.5219V23.72Z" fill="white" />
-                        <circle cx="29" cy="29" r="28.5" stroke="url(#paint0_linear_365_1368)" />
-                        <defs>
-                          <linearGradient id="paint0_linear_365_1368" x1="29" y1="0" x2="29" y2="58" gradientUnits="userSpaceOnUse">
-                            <stop stop-color="#56C5FF" />
-                            <stop offset="1" stop-color="#ECE370" />
-                          </linearGradient>
-                        </defs>
-                      </svg>
-                    </div>
-                    <h3>Identify Potential <br /> Buyers</h3>
-                    <div className="stratic">
-                      <div className="stratic_flex static_flex1">
-                        <p>1.Identify and target potential buyers, which may <br /> include strategic acquirers, private equity firms, or <br /> other investors.</p>
-
-                      </div>
-                      <div className="stratic_flex static_flex1">
-                        <p>Market Position and Competitive Advantage</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="hone_right">
-                <div className="cont-top">
-                    <div class="container">
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="monitor">
-                        <div class="camera o-x">
-                          <div class="camera o-y">
-                            <div class="camera o-z">
-                              <div class="vr">
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="seei">
-                <button className='see_all'><span>Explore all Services</span>
-                  <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.4 13.0967L0 11.6967L9.6 2.09668H1V0.0966797H13V12.0967H11V3.49668L1.4 13.0967Z" fill="#3464FD" />
-                  </svg>
-                </button>
               </div>
             </div>
           </div>
@@ -2672,11 +150,11 @@ export default function Home() {
             <div className="work_flex_man">
               <div className="work_lef">
                 <h2>Our<span>Work</span></h2>
-                <p>DigitalMnR is a full-service Merger and acquisition company helping
+                <p data-aos="fade-right">DigitalMnR is a full-service Merger and acquisition company helping
                   companies sell and buy assets by creating value</p>
                 <button><span>Explore all works</span>
-                  <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.4 13.0967L0 11.6967L9.6 2.09668H1V0.0966797H13V12.0967H11V3.49668L1.4 13.0967Z" fill="#3464FD" />
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#3464FD" />
                   </svg>
                 </button>
               </div>
@@ -2693,134 +171,123 @@ export default function Home() {
                       type: "loop",
                       interval: 2000,
                       drag: true,
-                      wheel: true,
-                      releaseWheel: true,
-                      waitForTransition: true
                     }}
-                  >
-                    <SplideSlide>
-                      <div className='d_ring'>
-                        <img src="./images/tryinh.png" alt="" />
-                        <img src="./images/tryinh.png" alt="" />
-                        <img src="./images/tryinh.png" alt="" />
-                      </div>
-                    </SplideSlide>
-                    <SplideSlide>
-                      <div className='d_ring'>
-                        <img src="./images/tryinh.png" alt="" />
-                        <img src="./images/tryinh.png" alt="" />
-                        <img src="./images/tryinh.png" alt="" />
-                      </div>
-                    </SplideSlide>
-                  </Splide> */}
-                  <Splide
-                    className=" w-full"
-                    aria-label="Our Services"
-                    options={{
-                      perPage: 1,
-                      perMove: 1,
-                      autoplay: true,
-                      pauseOnHover: true,
-                      type: "loop",
-                      interval: 2000,
-                      drag: true,
-                    }}
-                  >
-                    <SplideSlide>
-                      <div className='d_ring'>
-                        <div className="box_bis">
-                          <a target='_blank' href="https://economictimes.indiatimes.com/tech/ites/tech-mahindra-acquires-zen3-infosolutions-announces-interim-dividend/articleshow/74288423.cms"><button><span>view case study</span>
-                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1.4 13.5L0 12.1L9.6 2.5H1V0.5H13V12.5H11V3.9L1.4 13.5Z" fill="white" />
-                            </svg>
-                          </button></a>
-                          <div className="box_img1">
-                            <img src="./images/ty.svg" alt="" />
-                          </div>
-                          <div className="box_img2">
-                            <img src="./images/pin1.png" alt="" />
-                          </div>
-                        </div>
-                        <div className="box_bis">
-                          <a href="https://www.einnews.com/pr_news/556359663/people-tech-group-aims-to-be-a-250m-arr-company-by-dec-2023-announces-acquisition-of-laurel-group-and-aegis-company"><button><span>view case study</span>
-                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1.4 13.5L0 12.1L9.6 2.5H1V0.5H13V12.5H11V3.9L1.4 13.5Z" fill="white" />
-                            </svg>
-                          </button></a>
-                          <div className="box_img1">
-                            <img src="./images/rami.svg" alt="" />
-                          </div>
-                          <div className="box_img2">
-                            <img src="./images/three.png" alt="" />
-                          </div>
+                  > */}
 
-                        </div>
-                        <div className="box_bis">
-                          <button><span>view case study</span>
-                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1.4 13.5L0 12.1L9.6 2.5H1V0.5H13V12.5H11V3.9L1.4 13.5Z" fill="white" />
-                            </svg>
-                          </button>
-                          <div className="box_img1">
-                            <img src="./images/ty.svg" alt="" />
-                          </div>
-                          <div className="box_img2">
-                            <img src="./images/pin1.png" alt="" />
-                          </div>
-                        </div>
+                  <div className='d_ring'>
+                    <div className="box_bis">
+                      {/* <div className="st_img">
+                            <img src="./images/imk1.svg" alt="" />
+                          </div> */}
+                      <div className="imk_para">
+                        <p data-aos="fade-up">Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
                       </div>
-                    </SplideSlide>
-                    <SplideSlide>
+                      <div className="st_img">
+                        <img src="./images/bis1.svg" alt="" />
+                        <img src="./images/bis2.svg" alt="" />
+                      </div>
+                      <div className="svg_btn11">
+                        <button><span>View case study</span>
+                          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    <div className="box_bis">
+                      {/* <div className="st_img">
+                            <img src="./images/imk2.svg" alt="" />
+                          </div> */}
+                      <div className="imk_para">
+                        <p data-aos="fade-up">Shashi led the Microsoft business unit for Tech Mahindra. Created a multi 100 million business through organic growth, Microsoft  Partnership and  acquicitions</p>
+                      </div>
+                      <div className="st_img st_img1">
+                        <img src="./images/bis3.svg" alt="" />
+                        <img src="./images/bis4.svg" alt="" />
+                      </div>
+                      <div className="svg_btn11">
+                        <button><span>View case study</span>
+                          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    {/* <div className="box_bis">
+                          <div className="st_img">
+                            <img src="./images/imk1.svg" alt="" />
+                          </div>
+                          <div className="imk_para">
+                            <p data-aos="fade-up">Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
+                          </div>
+                          <div className="svg_btn11">
+                            <button><span>View case study</span>
+                              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
+                              </svg>
+                            </button>
+                          </div>
+                        </div> */}
+
+                  </div>
+
+                  {/* <SplideSlide>
                       <div className='d_ring'>
                         <div className="box_bis">
-                          <a target='_blank' href="https://economictimes.indiatimes.com/tech/ites/tech-mahindra-acquires-zen3-infosolutions-announces-interim-dividend/articleshow/74288423.cms"><button><span>view case study</span>
-                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1.4 13.5L0 12.1L9.6 2.5H1V0.5H13V12.5H11V3.9L1.4 13.5Z" fill="white" />
-                            </svg>
-                          </button></a>
-                          <div className="box_img1">
-                            <img src="./images/ty.svg" alt="" />
+                          <div className="st_img">
+                            <img src="./images/imk1.svg" alt="" />
                           </div>
-                          <div className="box_img2">
-                            <img src="./images/pin1.png" alt="" />
+                          <div className="imk_para">
+                            <p data-aos="fade-up">Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
+                          </div>
+                          <div className="svg_btn11">
+                            <button><span>View case study</span>
+                              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
+                              </svg>
+                            </button>
                           </div>
                         </div>
                         <div className="box_bis">
-                          <a href="https://www.einnews.com/pr_news/556359663/people-tech-group-aims-to-be-a-250m-arr-company-by-dec-2023-announces-acquisition-of-laurel-group-and-aegis-company"><button><span>view case study</span>
-                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1.4 13.5L0 12.1L9.6 2.5H1V0.5H13V12.5H11V3.9L1.4 13.5Z" fill="white" />
-                            </svg>
-                          </button></a>
-                          <div className="box_img1">
-                            <img src="./images/rami.svg" alt="" />
+                          <div className="st_img">
+                            <img src="./images/imk2.svg" alt="" />
                           </div>
-                          <div className="box_img2">
-                            <img src="./images/three.png" alt="" />
+                          <div className="imk_para">
+                            <p data-aos="fade-up">Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
                           </div>
+                          <div className="svg_btn11">
+                            <button><span>View case study</span>
+                              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                        <div className="box_bis">
+                          <div className="st_img">
+                            <img src="./images/imk1.svg" alt="" />
+                          </div>
+                          <div className="imk_para">
+                            <p data-aos="fade-up">Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
+                          </div>
+                          <div className="svg_btn11">
+                            <button><span>View case study</span>
+                              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
 
-                        </div>
-                        <div className="box_bis">
-                          <button><span>view case study</span>
-                            <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1.4 13.5L0 12.1L9.6 2.5H1V0.5H13V12.5H11V3.9L1.4 13.5Z" fill="white" />
-                            </svg>
-                          </button>
-                          <div className="box_img1">
-                            <img src="./images/ty.svg" alt="" />
-                          </div>
-                          <div className="box_img2">
-                            <img src="./images/pin1.png" alt="" />
-                          </div>
-                        </div>
                       </div>
-                    </SplideSlide>
-                  </Splide>
+                    </SplideSlide> */}
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="why_digitala">
+        {/* <div className="why_digitala">
           <div className="digital_here">
             <h2>Why <span>DIGITALMnR</span></h2>
             <div className="digital_flex">
@@ -2840,7 +307,7 @@ export default function Home() {
               </div>
               <div className="digi2">
                 <div className="dif_img">
-                  {/* <img src="./images/pera.png" alt="" /> */}
+                 
                   <svg width="555" height="476" viewBox="0 0 555 476" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g opacity="0.66">
                       <path d="M226.597 324.285C226.597 324.285 225.571 323.651 223.993 322.701C223.204 322.226 222.336 321.593 221.389 320.96C220.442 320.327 219.417 319.614 218.47 318.902C216.576 317.398 214.603 315.894 213.262 314.707C211.842 313.519 210.974 312.728 210.974 312.728L213.656 309.72C213.656 309.72 214.524 310.511 215.866 311.619C217.207 312.807 219.022 314.232 220.916 315.656C221.863 316.369 222.81 317.002 223.678 317.635C224.624 318.269 225.414 318.902 226.124 319.298C227.623 320.248 228.57 320.881 228.57 320.881L226.597 324.285Z" fill="#35FFFF" fill-opacity="0.3" />
@@ -2986,124 +453,101 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-        <div id="ourPoint_section">
-          <div className="ourPoint_container">
-            <div className="ourPoint_content">
-              <div className="ourPoint_top">
-                <h2>
-                  our Point <span>of Views</span>
-                </h2>
-              </div>
-              <div className="ourPoint_down">
-                <div className="card">
-                  <img src="./images/ofview.png" alt="" />
-                  <div className="ourPoint_detail">
-                    <h2>
-                      For <br />
-                      Developers
-                    </h2>
-                    <p>Build privacy-centric solutions with open standards</p>
-                    <button>
-                      <span>Read more</span>
-                    </button>
-                  </div>
+        </div> */}
+        <div className="bloging">
+          <div className="bloging_tect">
+            <h2>Industry News and our <span>Point of View</span></h2>
+            <div className="blog_flex">
+              <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" className="bloging_box">
+                <div className="bloging_img">
+                  <img src="./images/point1.svg" alt="" />
                 </div>
-                <div className="card">
-                  <div>
-                    <img src="./images/ofview.png" alt="" />
-                    <div className="ourPoint_detail">
-                      <h2>
-                        For <br />
-                        Developers
-                      </h2>
-                      <p>Build privacy-centric solutions with open standards</p>
-                      <button>
-                        <span>Read more</span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <div className="card">
-                  <div>
-                    <img src="./images/ofview.png" alt="" />
-                    <div className="ourPoint_detail">
-                      <h2>
-                        For <br />
-                        Developers
-                      </h2>
-                      <p>Build privacy-centric solutions with open standards</p>
-                      <button>
-                        <span>Read more</span>
-                      </button>
-                    </div>
-                  </div>
+                <div className="bloging_para">
+                  <h3>IT Services M&A picks up steam.</h3>
+                  {/* <p>Hello world! I’m excited to introduce Ballpark, a brand new product from the...</p> */}
+                  <button><span>Read More</span>
+                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />
+                    </svg>
+                  </button>
                 </div>
               </div>
-              <div className="sight_btn">
-                <button><span>Explore all Blogs</span>
-                  <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.4 13.0967L0 11.6967L9.6 2.09668H1V0.0966797H13V12.0967H11V3.49668L1.4 13.0967Z" fill="#3464FD" />
-                  </svg>
-                </button>
+              <div data-aos="fade-bottom"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" className="bloging_box">
+                <div className="bloging_img">
+                  <img src="./images/point2.svg" alt="" />
+                </div>
+                <div className="bloging_para">
+                  <h3>Digital IT for Growth</h3>
+                  <button><span>Read More</span>
+                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />
+                    </svg>
+                  </button>
+                </div>
               </div>
+              <div data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" className="bloging_box">
+                <div className="bloging_img">
+                  <img src="./images/point3.svg" alt="" />
+                </div>
+                <div className="bloging_para">
+                  <h3>Explore Gen AI for your sustainability and growth! Build solutions around GenAI</h3>
+                  <button><span>Read More</span>
+                    <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="blogin_b">
+              <button>
+                <span>Explore all Blogs</span>
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.6735 9H0.498535V7H12.6735L7.07354 1.4L8.49854 0L16.4985 8L8.49854 16L7.07354 14.6L12.6735 9Z" fill="#3464FD" />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
         <div className="feel_free">
           <div className="feel_touch">
             <div className="touch_flex">
-              <div className="touch_left">
+              <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" className="touch_left">
                 <div className="touch_sing">
-                  <h3>Feel free to</h3>
-                  <h3>get in touch</h3>
-                  <h3 className='conting'>contact</h3>
-                  <h3>With us</h3>
+                  <h3>Subscribe To Our</h3>
+                  <h3>M&A Updates</h3>
                 </div>
               </div>
-              <div className="touch_right">
+              <div data-aos="fade-left"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" className="touch_right">
                 <form action="">
-                  <div className="contact_soft">
-                    <div className="input_filed">
-                      <label htmlFor="">First name*</label>
-                      <input type="text" placeholder='Your name' />
+                  <div className="">
+                    <div className="">
+                      {/* <label htmlFor="">First name*</label> */}
+                      <input type="text" placeholder='First name' />
                     </div>
-                    <div className="input_filed input_field1">
-                      <label htmlFor="">Last name*</label>
+                    <div className="">
+                      {/* <label htmlFor="">Last name</label> */}
                       <input type="text" placeholder='Last name' />
                     </div>
-                  </div>
-                  <div className="contact_soft">
-                    <div className="input_filed">
-                      <label htmlFor="">Preferred Method of contact*</label>
-                      <select name="" id="">
-                        <option value="">Please  select</option>
-                        <option value="">Please  select</option>
-                      </select>
-                    </div>
-                    <div className="input_filed input_field1">
-                      <label htmlFor="">How did you here about us?</label>
-                      <select name="" id="">
-                        <option value="">Please  select</option>
-                        <option value="">Please  select</option>
-                      </select>
+                    <div className="">
+                      {/* <label htmlFor="">Email</label> */}
+                      <input type="text" placeholder='Email' />
                     </div>
                   </div>
-                  <div className="contact_soft">
-                    <div className="input_filed">
-                      <label htmlFor="">How can we help you?</label>
-                      <textarea placeholder='Your message here' name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-                  </div>
-                  <div className="checkbox">
-                    <input className='ch' type="checkbox" />
-                    <span>I have read and agree to DigitalMNR Privacy Policy.*</span>
-                  </div>
-                  <div className="ct_btn">
-                    <button><span>Submit</span>
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.4 18L5 16.6L14.6 7H6V5H18V17H16V8.4L6.4 18Z" fill="#1869FF" />
-                      </svg>
+
+                  <div className="ct_btn1">
+                    <button>
+                      Subscribe
                     </button>
                   </div>
                 </form>
@@ -3112,7 +556,6 @@ export default function Home() {
           </div>
         </div>
         <Footer />
-
       </div>
     </>
   );
