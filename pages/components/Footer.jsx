@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
+
   return (
     <div className="footer_main">
       <div className='foot'>
@@ -102,7 +103,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

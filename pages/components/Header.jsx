@@ -1,9 +1,11 @@
-import Link from 'next/link'
+import Link from 'next/link';
 import React from 'react'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/ro;uter';
+
 const Header = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
+
   return (
     <div className="header">
       <nav className="navbar">
@@ -30,7 +32,7 @@ const Header = () => {
         </div>
       </nav>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
