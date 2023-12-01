@@ -1544,7 +1544,7 @@ const service = () => {
                   <h3>Presentation Materials</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Crafting compelling historical financials and future <br /> projections to enhance the company's <br /> presentations.</p>
+                      <p>Crafting compelling historical financials and future <br /> projections to enhance the companys <br /> presentations.</p>
 
                     </div>
 
@@ -4578,10 +4578,8 @@ const service = () => {
                   <h3>Management <br /> Presentations</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Actively participating in management presentations <br /> to convey the business's strengths and <br /> opportunities.</p>
-
+                      <p>Actively participating in management presentations <br /> to convey the businesss strengths and <br /> opportunities.</p>
                     </div>
-
                   </div>
                 </div>
               </div>
