@@ -5,7 +5,7 @@ const service = () => {
   return (
     <>
       <Header />
-      <div className="service_hone">
+      <div className="service_hone service_hone1">
         <div className="main_hone">
           <div className="sell" data-aos="fade-right"
             data-aos-offset="300"
