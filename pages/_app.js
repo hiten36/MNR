@@ -8,6 +8,7 @@ export default function App({ Component, pageProps }) {
          duration: 800,
          once: false,
        })
+       AOS.init({disable: 'mobile'});
  }, [])
   return <Component {...pageProps} />
 }

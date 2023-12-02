@@ -7,18 +7,20 @@ const service = () => {
       <Header />
       <div className="service_hone">
         <div className="main_hone">
-          <div className="sell" data-aos="fade-right"
-            data-aos-offset="300"
+          <div className="sell" data-aos="fade-up"
+            data-aos-offset="200"
             data-aos-easing="ease-in-sine">
-            <h3>Sell-Side Advisory</h3>
+            <h3 >Sell-Side Advisory</h3>
           </div>
-          <div className="sell_para">
+          <div  data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" className="sell_para">
             <p>Strategic Planning is a key differentiator</p>
             <p>for us</p>
             {/* <p></p> */}
           </div>
           <div className="st">
-            <div className="small_para">
+            <div  className="small_para">
               <p>Benefit from DigitalMnA’ expertise to ensure you’re selling
               </p>
               <p> at the right time. Make certain the legacy you’ve built</p>
@@ -28,7 +30,7 @@ const service = () => {
           <div className="service_hone_main">
             <div className="service_flex_main">
               <div className="hone_left">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -501,7 +503,7 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
               </div>
               <div className="hone_right">
@@ -566,7 +568,7 @@ const service = () => {
             <div className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box" data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -595,7 +597,7 @@ const service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -1068,12 +1070,12 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="service_flex_main mty">
               <div className="hone_left">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -1546,11 +1548,11 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="hone_right">
                 <div className="hone_box" data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1580,7 +1582,7 @@ const service = () => {
             <div className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box" data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1607,7 +1609,7 @@ const service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -2080,7 +2082,7 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             {/* <div className="seei">

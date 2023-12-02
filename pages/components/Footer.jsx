@@ -37,20 +37,7 @@ const Footer = () => {
             </div> */}
             <Link href="/about"><p>About Us</p></Link>
           </div>
-          <div className="foot1">
-            {/* <div className="foot_icon">
-              <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle opacity="0.05" cx="47" cy="47" r="47" fill="#3464FD" />
-                <circle cx="47" cy="47" r="18.5" stroke="#3464FD" />
-                <path d="M40.5404 53.0791C40.2364 53.0791 39.9704 52.9651 39.7424 52.7371C39.5144 52.5091 39.4004 52.2431 39.4004 51.9391V42.0591C39.4004 41.7551 39.5144 41.4891 39.7424 41.2611C39.9704 41.0331 40.2364 40.9191 40.5404 40.9191H53.4604C53.7644 40.9191 54.0304 41.0331 54.2584 41.2611C54.4864 41.4891 54.6004 41.7551 54.6004 42.0591V51.9391C54.6004 52.2431 54.4864 52.5091 54.2584 52.7371C54.0304 52.9651 53.7644 53.0791 53.4604 53.0791H40.5404ZM47.0004 47.3411L53.4604 43.1041V42.0591L47.0004 46.2011L40.5404 42.0591V43.1041L47.0004 47.3411Z" fill="#3464FD" />
-              </svg>
-            </div>
-            <div className="foot_content">
-              <h4>send us mail</h4>
-              <p>info@digitalmna.com</p>
-            </div> */}
-            <p>Careers</p>
-          </div>
+          
           <div className="foot1">
             {/* <div className="foot_icon">
               <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">

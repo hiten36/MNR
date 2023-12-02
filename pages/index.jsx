@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+// import Head from 'next/head';
 import Header from './components/Header';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
@@ -17,10 +18,10 @@ export default function Home() {
           <div className="banner_home">
             <div className="banner_sect">
               <div className="banner_left">
-                <h2>Creating <span className='syn'>
+                <h2>Creating <br /> <span className='syn'>
                   <Typed
-                    strings={['Synergy', 'asit',
-                      'Search']}
+                    strings={['Higher Valuation', 'Synergy',
+                      'Digital Differentiation']}
                     typeSpeed={60}
                     backSpeed={60}
                     loop
@@ -36,9 +37,12 @@ export default function Home() {
                   <p>companies sell and buy assets by creating value</p>
                 </div>
                 <div className="btn_home">
-                  <button data-aos="fade-up"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine"><span>Learn about our approach</span>
+                  <button
+                  // data-aos="fade-up"
+                  //   data-aos-offset="300"
+                  //   data-aos-easing="ease-in-sine"
+                  >
+                    <span>Learn about our approach</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#3464FD" />
                     </svg>
@@ -49,8 +53,12 @@ export default function Home() {
           </div>
         </div>
         <div className="about_section">
-          <div className="about_mai">
-            <div className="about_icon">
+          <div
+
+            className="about_mai">
+            <div data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine" className="about_icon">
               <svg width="247" height="83" viewBox="0 0 247 83" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="35" cy="35" r="35" fill="#32B5FB" />
                 <mask id="path-2-inside-1_461_4979" fill="white">
@@ -61,11 +69,15 @@ export default function Home() {
               </svg>
 
             </div>
-            <div className="about_content">
+            <div data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" className="about_content">
               <p> <span>DigitalMnA</span>  is a full-service Merger and acquisition company helping companies sell and buy assets by creating value</p>
             </div>
-            <div data-aos="fade-up" className="about_btn">
-              <button><span>Learn about our Approach</span>
+            <div className="about_btn">
+              <button data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"><span>Learn about our Approach</span>
                 <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.9 13L0.5 11.6L10.1 2H1.5V0H13.5V12H11.5V3.4L1.9 13Z" fill="#3464FD" />
                 </svg>
@@ -79,7 +91,9 @@ export default function Home() {
         </div>
         <div className="our_home_services">
           <div className="our_services">
-            <div className="ser_svg_icon">
+            <div data-aos="fade-up"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine" className="ser_svg_icon">
               <svg width="337" height="84" viewBox="0 0 337 84" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="35" cy="35" r="35" fill="#32B5FB" />
                 <mask id="path-2-inside-1_465_5515" fill="white">
@@ -90,9 +104,11 @@ export default function Home() {
               </svg>
             </div>
             <div className="services_flex">
-              <div data-aos="fade-right" className="services_box">
+              <div
+                data-aos="fade-right"
+                className="services_box">
                 <div className="box_ssvg">
-                  <img src="./images/sellSide.svg" alt="" />
+                  <img src="./images/sell3.svg" alt="" />
 
                 </div>
                 <div className="box_con11">
@@ -108,9 +124,11 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-              <div data-aos="fade-up" className="services_box">
+              <div
+                data-aos="fade-up"
+                className="services_box">
                 <div className="box_ssvg">
-                  <img src="./images/sellSide.svg" alt="" />
+                  <img src="./images/sell1.svg" alt="" />
                 </div>
                 <div className="box_con11">
                   <div className="box_head11">
@@ -125,9 +143,11 @@ export default function Home() {
                   </button>
                 </div>
               </div>
-              <div data-aos="fade-left" className="services_box">
+              <div
+                data-aos="fade-left"
+                className="services_box">
                 <div className="box_ssvg">
-                  <img src="./images/sellSide.svg" alt="" />
+                  <img src="./images/sell2.svg" alt="" />
                 </div>
                 <div className="box_con11">
                   <div className="box_head11">
@@ -148,7 +168,9 @@ export default function Home() {
         <div className="work_here">
           <div className="work_man">
             <div className="work_flex_man">
-              <div className="work_lef">
+              <div data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine" className="work_lef">
                 <h2>Our<span>Work</span></h2>
                 <p data-aos="fade-right">DigitalMnR is a full-service Merger and acquisition company helping
                   companies sell and buy assets by creating value</p>
@@ -158,77 +180,47 @@ export default function Home() {
                   </svg>
                 </button>
               </div>
-              <div className="work_rig">
+              <div data-aos="fade-right"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine" className="work_rig">
                 <div className="work_boxing">
-                  {/* <Splide
-                    className=" w-full"
-                    aria-label="Our Services"
-                    options={{
-                      perPage: 1,
-                      perMove: 1,
-                      autoplay: true,
-                      pauseOnHover: true,
-                      type: "loop",
-                      interval: 2000,
-                      drag: true,
-                    }}
-                  > */}
-
                   <div className='d_ring'>
                     <div className="box_bis">
-                      {/* <div className="st_img">
-                            <img src="./images/imk1.svg" alt="" />
-                          </div> */}
                       <div className="imk_para">
-                        <p data-aos="fade-up">Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
+                        <p
+                        // data-aos="fade-up"
+                        >Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
                       </div>
                       <div className="st_img">
                         <img src="./images/bis1.svg" alt="" />
                         <img src="./images/bis2.svg" alt="" />
                       </div>
                       <div className="svg_btn11">
-                        <button><span>View case study</span>
+                        <a target='_blank' href="https://www.einnews.com/pr_news/556359663/people-tech-group-aims-to-be-a-250m-arr-company-by-dec-2023-announces-acquisition-of-laurel-group-and-aegis-company"> <button><span>Explore more</span>
                           <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
                           </svg>
-                        </button>
+                        </button></a>
                       </div>
                     </div>
                     <div className="box_bis">
-                      {/* <div className="st_img">
-                            <img src="./images/imk2.svg" alt="" />
-                          </div> */}
                       <div className="imk_para">
-                        <p data-aos="fade-up">Shashi led the Microsoft business unit for Tech Mahindra. Created a multi 100 million business through organic growth, Microsoft  Partnership and  acquicitions</p>
+                        <p
+                        // data-aos="fade-up"
+                        >Shashi led the Microsoft business unit for Tech Mahindra. Created a multi 100 million business through organic growth, Microsoft  Partnership and  acquicitions</p>
                       </div>
                       <div className="st_img st_img1">
                         <img src="./images/bis3.svg" alt="" />
                         <img src="./images/bis4.svg" alt="" />
                       </div>
                       <div className="svg_btn11">
-                        <button><span>View case study</span>
+                        <button><span>Explore more</span>
                           <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
                           </svg>
                         </button>
                       </div>
                     </div>
-                    {/* <div className="box_bis">
-                          <div className="st_img">
-                            <img src="./images/imk1.svg" alt="" />
-                          </div>
-                          <div className="imk_para">
-                            <p data-aos="fade-up">Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
-                          </div>
-                          <div className="svg_btn11">
-                            <button><span>View case study</span>
-                              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
-                              </svg>
-                            </button>
-                          </div>
-                        </div> */}
-
                   </div>
 
                   {/* <SplideSlide>
@@ -456,52 +448,60 @@ export default function Home() {
         </div> */}
         <div className="bloging">
           <div className="bloging_tect">
-            <h2>Industry News and our <span>Point of View</span></h2>
+            <h2 data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine" >Industry News and our <span>Point of View</span></h2>
             <div className="blog_flex">
-              <div data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="bloging_box">
+              <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                className="bloging_box">
                 <div className="bloging_img">
                   <img src="./images/point1.svg" alt="" />
                 </div>
                 <div className="bloging_para">
                   <h3>IT Services M&A picks up steam.</h3>
                   {/* <p>Hello world! I’m excited to introduce Ballpark, a brand new product from the...</p> */}
-                  <button><span>Read More</span>
+                  <a target='_blank' href="https://www.techtarget.com/searchitchannel/news/366557934/IT-services-MA-picks-up-in-Q3-with-deals-in-Europe"><button><span>Read More</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />
                     </svg>
-                  </button>
+                  </button></a>
                 </div>
               </div>
-              <div data-aos="fade-bottom"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="bloging_box">
+              <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine" 
+                className="bloging_box">
                 <div className="bloging_img">
                   <img src="./images/point2.svg" alt="" />
                 </div>
                 <div className="bloging_para">
                   <h3>Digital IT for Growth</h3>
-                  <button><span>Read More</span>
+                  <a target='_blank' href="https://www.mckinsey.com/industries/private-equity-and-principal-investors/our-insights/the-potential-of-m-and-a-in-it-services-three-charts"><button><span>Read More</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />
                     </svg>
-                  </button>
+                  </button></a>
                 </div>
               </div>
-              <div data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="bloging_box">
+              <div
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine"
+                className="bloging_box">
                 <div className="bloging_img">
                   <img src="./images/point3.svg" alt="" />
                 </div>
                 <div className="bloging_para">
                   <h3>Explore Gen AI for your sustainability and growth! Build solutions around GenAI</h3>
-                  <button><span>Read More</span>
+                  <a target='_blank' href="https://aws.amazon.com/q/"><button><span>Read More</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />
                     </svg>
-                  </button>
+                  </button></a>
                 </div>
               </div>
             </div>
@@ -518,17 +518,21 @@ export default function Home() {
         <div className="feel_free">
           <div className="feel_touch">
             <div className="touch_flex">
-              <div data-aos="fade-right"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="touch_left">
+              <div
+                data-aos="fade-right"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine" 
+                className="touch_left">
                 <div className="touch_sing">
                   <h3>Subscribe To Our</h3>
                   <h3>M&A Updates</h3>
                 </div>
               </div>
-              <div data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-easing="ease-in-sine" className="touch_right">
+              <div
+                data-aos="fade-left"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-sine" 
+                className="touch_right">
                 <form action="">
                   <div className="">
                     <div className="">

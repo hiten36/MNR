@@ -14,6 +14,7 @@ const contact = () => {
         <div className="schedule">
           <div className="schedule_inner">
             <div className="schedule1">
+            <a target='_blank' href="http://booking.microsoft.com">
               <div className="team_sch">
                 <div className="sch_svg">
                   <img src="./images/cl1.svg" alt="" />
@@ -22,6 +23,7 @@ const contact = () => {
                   <h3>Schedule time with <br /> the Team</h3>
                 </div>
               </div>
+              </a>
               <div className="talk">
                 <h3>Talk or email the Team</h3>
                 <div className="talk_flex">

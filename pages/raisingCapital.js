@@ -7,15 +7,14 @@ const service = () => {
       <Header />
       <div className="service_hone service_hone1">
         <div className="main_hone">
-          <div className="sell" data-aos="fade-right"
-            data-aos-offset="300"
+          <div className="sell" data-aos="fade-up"
+            data-aos-offset="200"
             data-aos-easing="ease-in-sine">
             <h3>raising Capital</h3>
-            {/* <svg width="303" height="1" viewBox="0 0 303 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <line y1="0.5" x2="303" y2="0.5" stroke="#B9E6FE" />
-              </svg> */}
           </div>
-          <div className="sell_para">
+          <div data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine" className="sell_para">
             <p>
               our capital raising services involve helping business owners raise capital either through the issuance of equity, debt, or both. This includes business valuation, creating investor/lender presentations, research and outreach to investors/lenders, participation in management presentations, analysis of offers, and deal negotiation.
             </p>
@@ -25,7 +24,6 @@ const service = () => {
               <p>Our Capital Raising services encompass a
               </p>
               <p>comprehensive approach, including:</p>
-
             </div>
           </div>
           <div className="service_hone_main">
@@ -509,7 +507,7 @@ const service = () => {
               </div>
               <div className="hone_right">
                 <div className="hone_box" data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -538,7 +536,7 @@ const service = () => {
             <div className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box" data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -572,7 +570,7 @@ const service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -1045,12 +1043,12 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="service_flex_main mty">
               <div className="hone_left">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -1523,11 +1521,11 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="hone_right">
                 <div className="hone_box" data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1555,7 +1553,7 @@ const service = () => {
             <div className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box" data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1580,7 +1578,7 @@ const service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -2053,12 +2051,12 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="service_flex_main mty">
               <div className="hone_left">
-                <div className="cont-top">
+                {/* <div className="cont-top">
                   <div class="container">
                     <div class="trigger"></div>
                     <div class="trigger"></div>
@@ -2531,11 +2529,11 @@ const service = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="hone_right">
                 <div className="hone_box" data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                   <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2565,7 +2563,7 @@ const service = () => {
             <div className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box" data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3067,8 +3065,6 @@ const service = () => {
                   </div> */}
               </div>
             </div>
-
-
             <div className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -3548,7 +3544,7 @@ const service = () => {
               </div>
               <div className="hone_right">
                 <div className="hone_box" data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -3574,11 +3570,10 @@ const service = () => {
                 </div>
               </div>
             </div>
-
             <div className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box" data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4080,7 +4075,6 @@ const service = () => {
                   </div> */}
               </div>
             </div>
-
             <div className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -4560,7 +4554,7 @@ const service = () => {
               </div>
               <div className="hone_right">
                 <div className="hone_box" data-aos="fade-left"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -4584,11 +4578,10 @@ const service = () => {
                 </div>
               </div>
             </div>
-
             <div className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box" data-aos="fade-right"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <div className="hone_svg">
                     <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -5090,10 +5083,7 @@ const service = () => {
                   </div> */}
               </div>
             </div>
-
           </div>
-
-
         </div>
       </div>
       <Footer />
