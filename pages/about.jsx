@@ -142,6 +142,7 @@ const about = () => {
                   </div>
                 </div>
                 <div className="director">
+                   <h4>Managing Partner</h4>
                   <p>A short description for a team member typically includes key information about their role, skills, and contributions.</p>
                 </div>
               </div>
@@ -161,6 +162,7 @@ const about = () => {
                   </div>
                 </div>
                 <div className="director">
+                  <h4>Managing Partner</h4>
                   <p>A short description for a team member typically includes key information about their role, skills, and contributions.</p>
                 </div>
               </div>
@@ -180,6 +182,7 @@ const about = () => {
                   </div>
                 </div>
                 <div className="director">
+                  <h4>Managing Director</h4>
                   <p>A short description for a team member typically includes key information about their role, skills, and contributions.</p>
                 </div>
               </div>
