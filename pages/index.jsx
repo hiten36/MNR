@@ -519,11 +519,11 @@ export default function Home() {
         </div>
         <div className="feel_free">
           <div className="feel_touch">
-            <div className="touch_flex">
-              <div
-                data-aos="fade-left"
+            <div data-aos="fade-up"
                 data-aos-offset="200"
-                data-aos-easing="ease-in-sine"
+                data-aos-easing="ease-in-sine" className="touch_flex">
+              <div
+                
                 className="touch_left">
                 <div className="touch_sing">
                   <h3>Subscribe To Our</h3>
@@ -531,9 +531,9 @@ export default function Home() {
                 </div>
               </div>
               <div
-                data-aos="fade-right"
-                data-aos-offset="200"
-                data-aos-easing="ease-in-sine"
+                // data-aos="fade-right"
+                // data-aos-offset="200"
+                // data-aos-easing="ease-in-sine"
                 className="touch_right">
                 <form action="">
                   <div className="">
