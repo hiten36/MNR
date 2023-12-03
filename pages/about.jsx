@@ -10,7 +10,7 @@ const about = () => {
           <div className="abouty">
             <div className="abouty_flex">
               <div className="abouty_left">
-                <h3 data-aos="fade-right"
+                <h3 data-aos="fade-up"
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine">
                   <span>DigitalMnA</span> is a full-service Merger and acquisition company helping companies sell and buy assets by creating value
@@ -21,8 +21,8 @@ const about = () => {
                   {/* <img data-aos="fade-left"
                     data-aos-offset="300"
                     data-aos-easing="ease-in-sine" src="./images/linking.svg" alt="" /> */}
-                  <img data-aos="fade-left"
-                    data-aos-offset="300"
+                  <img data-aos="fade-down"
+                    data-aos-offset="200"
                     data-aos-easing="ease-in-sine" src="./images/aboutTant.svg" alt="" />
                 </div>
               </div>
@@ -83,9 +83,15 @@ const about = () => {
         <div className="ask_mail">
           <div className="ask_inner">
             <div className="ask_flex">
-              <div className="ask_right">
-                <h3>Ask them to email</h3>
-                <h3>the resume</h3>
+              <div className="ask_right"
+                
+              >
+                <h3 data-aos="fade-down"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine">Ask them to email</h3>
+                <h3 data-aos="fade-down"
+                  data-aos-offset="200"
+                  data-aos-easing="ease-in-sine">the resume</h3>
                 <div className="ask_para">
                   <p>If you are interested in deal making in the M&A space, tell us why you are interested and how you can make a difference</p>
                 </div>
@@ -95,7 +101,9 @@ const about = () => {
                 </div>
               </div>
               <div className="ask_left">
-                <div className="ask_img">
+                <div data-aos="fade-up"
+                  data-aos-offset="300"
+                  data-aos-easing="ease-in-sine" className="ask_img">
                   <img src="./images/hj.svg" alt="" />
                 </div>
               </div>
@@ -105,7 +113,9 @@ const about = () => {
 
         <div className="meet_team">
           <div className="our_team">
-            <h2>Meet Our <span>Team</span></h2>
+            <h2 data-aos="fade-up"
+                  data-aos-offset="100"
+                  data-aos-easing="ease-in-sine">Meet Our <span>Team</span></h2>
             <div className="meet_flex">
               {/* <div className="meet_box">
                 <div data-aos="fade-right"

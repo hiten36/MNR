@@ -70,7 +70,9 @@ const contact = () => {
               </div>
             </div>
             <div className="schedule2">
-              <form>
+              <form data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
                 <div className="flex_form_input">
                   <div className="left_filed">
                     <div className="filed_section">
