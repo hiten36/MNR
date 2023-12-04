@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 import Typed from 'react-typed';
 import CustomCursor from './components/CustomCursor';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -39,16 +40,13 @@ export default function Home() {
                   <p>companies sell and buy assets by creating value</p>
                 </div>
                 <div className="btn_home">
-                  <button
-                  // data-aos="fade-up"
-                  //   data-aos-offset="300"
-                  //   data-aos-easing="ease-in-sine"
+                <Link href="/about"><button
                   >
                     <span>Learn about our approach</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#3464FD" />
                     </svg>
-                  </button>
+                  </button></Link>
                 </div>
               </div>
             </div>
