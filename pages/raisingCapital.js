@@ -12,7 +12,7 @@ const service = () => {
           <div className="sell" data-aos="fade-up"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine">
-            <h3>raising Capital</h3>
+            <h3>Raising capital</h3>
           </div>
           <div data-aos="fade-up"
             data-aos-offset="300"
@@ -30,7 +30,7 @@ const service = () => {
           </div>
           <div className="service_hone_main">
             <div data-aos="fade-up"
-                  data-aos-offset="500"
+                  data-aos-offset="50"
                   data-aos-easing="ease-in-sine" className="service_flex_main">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -536,7 +536,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="400"
+                  data-aos-offset="300"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
@@ -1049,7 +1049,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -1553,7 +1553,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
+                  data-aos-offset="100"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
@@ -2057,7 +2057,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="500"
+                  data-aos-offset="50"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -2563,7 +2563,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="400"
+                  data-aos-offset="300"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
@@ -3068,7 +3068,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -3573,7 +3573,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
+                  data-aos-offset="100"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
@@ -4078,7 +4078,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
+                  data-aos-offset="100"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -4581,7 +4581,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
+                  data-aos-offset="100"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">

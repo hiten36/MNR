@@ -5,8 +5,9 @@ import 'aos/dist/aos.css';
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
-         duration: 800,
-         once: false,
+         duration: 400,
+         once: true,
+        //  mirror: true
        }) 
  }, [])
   return <Component {...pageProps} />

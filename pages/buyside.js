@@ -12,7 +12,7 @@ const service = () => {
           <div className="sell" data-aos="fade-up"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine">
-            <h3>buy-Side Advisory</h3>
+            <h3>Buy-side advisory</h3>
             
           </div>
           <div data-aos="fade-up"
@@ -32,7 +32,7 @@ const service = () => {
           </div>
           <div className="service_hone_main">
             <div data-aos="fade-up"
-                  data-aos-offset="500"
+                  data-aos-offset="50"
                   data-aos-easing="ease-in-sine" className="service_flex_main">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -541,7 +541,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="400"
+                  data-aos-offset="300"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
@@ -1052,7 +1052,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -1558,7 +1558,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
+                  data-aos-offset="100"
                   data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">

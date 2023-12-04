@@ -23,8 +23,8 @@ export default function Home() {
               <div className="banner_left">
                 <h2>Creating <br /> <span className='syn'>
                   <Typed
-                    strings={['Higher Valuation', 'Synergy',
-                      'Digital Differentiation']}
+                    strings={['higher valuation', 'synergy',
+                      'digital differentiation']}
                     typeSpeed={60}
                     backSpeed={60}
                     loop
@@ -35,7 +35,7 @@ export default function Home() {
                 </span>  <br />
                   for sellers</h2>
                 <div className='mting'>
-                  <p>DigitalMnR is a full-service Merger and acquisition company helping
+                  <p>DigitalMna is a full-service Merger and acquisition company helping
                   </p>
                   <p>companies sell and buy assets by creating value</p>
                 </div>
@@ -54,10 +54,9 @@ export default function Home() {
         </div>
         <div className="about_section">
           <div
-
             className="about_mai">
             <div data-aos="fade-up"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-easing="ease-in-sine" className="about_icon">
               <svg width="247" height="83" viewBox="0 0 247 83" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="35" cy="35" r="35" fill="#32B5FB" />
@@ -70,13 +69,13 @@ export default function Home() {
 
             </div>
             <div data-aos="fade-up"
-              data-aos-offset="300"
+              data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="about_content">
               <p> <span>DigitalMnA</span>  is a full-service Merger and acquisition company helping companies sell and buy assets by creating value</p>
             </div>
             <div className="about_btn">
               <button data-aos="fade-up"
-                data-aos-offset="300"
+                data-aos-offset="200"
                 data-aos-easing="ease-in-sine"><span>Learn about our Approach</span>
                 <svg width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.9 13L0.5 11.6L10.1 2H1.5V0H13.5V12H11.5V3.4L1.9 13Z" fill="#3464FD" />
@@ -92,7 +91,7 @@ export default function Home() {
         <div className="our_home_services">
           <div className="our_services">
             <div data-aos="fade-up"
-              data-aos-offset="300"
+              data-aos-offset="100"
               data-aos-easing="ease-in-sine" className="ser_svg_icon">
               <svg width="337" height="84" viewBox="0 0 337 84" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="35" cy="35" r="35" fill="#32B5FB" />
@@ -115,8 +114,8 @@ export default function Home() {
                 </div>
                 <div className="box_con11">
                   <div className="box_head11">
-                    <h3>Sell-Side</h3>
-                    <h3>Advisory</h3>
+                    <h3>Sell-side</h3>
+                    <h3>advisory</h3>
                   </div>
                   <p>Strategies, actions and process that enhance your Company Valuation</p>
                   <button><span>Know more</span>
@@ -134,8 +133,8 @@ export default function Home() {
                 </div>
                 <div className="box_con11">
                   <div className="box_head11">
-                    <h3>buy-Side</h3>
-                    <h3>Advisory</h3>
+                    <h3>Buy-side</h3>
+                    <h3>advisory</h3>
                   </div>
                   <p>Strategies, actions and process that enhance your Company Valuation</p>
                   <button><span>Know more</span>
@@ -153,8 +152,8 @@ export default function Home() {
                 </div>
                 <div className="box_con11">
                   <div className="box_head11">
-                    <h3>raising</h3>
-                    <h3>Capital</h3>
+                    <h3>Raising</h3>
+                    <h3>capital</h3>
                   </div>
                   <p>Strategies, actions and process that enhance your Company Valuation</p>
                   <button><span>Know more</span>
@@ -171,19 +170,19 @@ export default function Home() {
           <div className="work_man">
             <div className="work_flex_man">
               <div data-aos="fade-left"
-                data-aos-offset="200"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine" className="work_lef">
-                <h2>Our<span>Work</span></h2>
-                <p data-aos="fade-right">DigitalMnR is a full-service Merger and acquisition company helping
+                <h2>Our<span>work</span></h2>
+                <p data-aos="fade-right">DigitalmnA is a full-service Merger and acquisition company helping
                   companies sell and buy assets by creating value</p>
-                <button><span>Explore all works</span>
+                {/* <button><span>Explore all works</span>
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#3464FD" />
                   </svg>
-                </button>
+                </button> */}
               </div>
               <div data-aos="fade-right"
-                data-aos-offset="200"
+                data-aos-offset="100"
                 data-aos-easing="ease-in-sine" className="work_rig">
                 <div className="work_boxing">
                   <div className='d_ring'>
@@ -199,7 +198,7 @@ export default function Home() {
                       </div>
                       <div className="svg_btn11">
                         <a target='_blank' href="https://www.einnews.com/pr_news/556359663/people-tech-group-aims-to-be-a-250m-arr-company-by-dec-2023-announces-acquisition-of-laurel-group-and-aegis-company"> <button><span>Explore more</span>
-                          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg width="11" height="11" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
                           </svg>
                         </button></a>
@@ -217,7 +216,7 @@ export default function Home() {
                       </div>
                       <div className="svg_btn11">
                        <a target='_blank'  href="https://economictimes.indiatimes.com/tech/ites/tech-mahindra-acquires-zen3-infosolutions-announces-interim-dividend/articleshow/74288423.cms"><button><span>Explore more</span>
-                          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <svg width="11" height="11" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
                           </svg>
                         </button></a>
@@ -451,8 +450,8 @@ export default function Home() {
         <div className="bloging">
           <div className="bloging_tect">
             <h2 data-aos="fade-up"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine" >Industry News and our <span>Point of View</span></h2>
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" >Industry news and our <span>point of view</span></h2>
             <div className="blog_flex">
               <div
                 data-aos="fade-up"
@@ -508,26 +507,26 @@ export default function Home() {
               </div>
             </div>
             <div className="blogin_b">
-              <button>
+              {/* <button>
                 <span>Explore all Blogs</span>
                 <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M12.6735 9H0.498535V7H12.6735L7.07354 1.4L8.49854 0L16.4985 8L8.49854 16L7.07354 14.6L12.6735 9Z" fill="#3464FD" />
                 </svg>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
         <div className="feel_free">
           <div className="feel_touch">
             <div data-aos="fade-up"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-easing="ease-in-sine" className="touch_flex">
               <div
 
                 className="touch_left">
                 <div className="touch_sing">
-                  <h3>Subscribe To Our</h3>
-                  <h3>M&A Updates</h3>
+                  <h3>Subscribe to our</h3>
+                  <h3>M&A updates</h3>
                 </div>
               </div>
               <div

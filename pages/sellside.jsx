@@ -1,8 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
 const service = () => {
+  const [showing, setShowing] = useState(false);
+  const [showing1, setShowing1] = useState(false);
+  const [showing2, setShowing2] = useState(false);
+  const [showing3, setShowing3] = useState(false);
+  const [showing4, setShowing4] = useState(false);
+  const [showing5, setShowing5] = useState(false);
+
+  const toggle = () => {
+    setShowing(!showing);
+  }
+  const toggle1 = () => {
+    setShowing1(!showing1);
+  }
+  const toggle2 = () => {
+    setShowing2(!showing2);
+  }
+  const toggle3 = () => {
+    setShowing3(!showing3);
+  }
+  const toggle4 = () => {
+    setShowing4(!showing4);
+  }
+  const toggle5 = () => {
+    setShowing5(!showing5);
+  }
   return (
     <>
       <CustomCursor />
@@ -12,12 +37,12 @@ const service = () => {
           <div className="sell" data-aos="fade-up"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine">
-            <h3 >Sell-Side Advisory</h3>
+            <h3 >Sell-side advisory</h3>
           </div>
           <div data-aos="fade-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" className="sell_para">
-            <p>Strategic Planning is a key differentiator</p>
+            <p>Strategic planning is a key differentiator</p>
             <p>for us</p>
             {/* <p></p> */}
           </div>
@@ -31,11 +56,11 @@ const service = () => {
           </div>
           <div className="service_hone_main">
             <div data-aos="fade-up"
-              data-aos-offset="500"
+              data-aos-offset="50"
               data-aos-easing="ease-in-sine"
               className="service_flex_main">
               <div className="hone_left">
-                 <img src="./images/sevg.gif" alt="" />
+                <img src="./images/sevg.gif" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -54,48 +79,86 @@ const service = () => {
                   </div>
                   <h3>Strategic Planning</h3>
                   <div className="stratic">
-                    <div className="stratic_flex">
-                      <p>Operational Efficiency</p>
-                      {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                      </svg> */}
+                    <div>
+                      <div onClick={toggle} className="stratic_flex">
+                        <p>Operational Efficiency</p>
+                        <svg style={{ transform: showing ? "rotate(45deg)" : "rotate(0deg)", transition: ".5s" }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
+                        </svg>
+                      </div>
+                      <ul className='tg1' style={{ display: showing ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
+                        <li>Streamline operations and enhance efficiency <br /> to reduce costs.</li>
+                      </ul>
                     </div>
-                    <div className="stratic_flex">
-                      <p>Market Position and Competitive Advantage</p>
-                      {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                      </svg> */}
+
+                    <div>
+                      <div onClick={toggle1} className="stratic_flex">
+                        <p>Market Position and Competitive Advantage</p>
+                        <svg style={{ transform: showing1 ? "rotate(45deg)" : "rotate(0deg)", transition: ".5s" }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
+                        </svg>
+                      </div>
+                      <ul className='tg1 tg2' style={{ display: showing1 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
+                        <li>Strengthen market position</li>
+                        <li>Develop and highlight unique competitive advantages.</li>
+                      </ul>
                     </div>
-                    <div className="stratic_flex">
-                      <p>Technology and Innovation</p>
-                      {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                      </svg> */}
+
+                    <div>
+                      <div onClick={toggle2} className="stratic_flex">
+                        <p>Technology and Innovation</p>
+                        <svg style={{ transform: showing2 ? "rotate(45deg)" : "rotate(0deg)", transition: ".5s" }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
+                        </svg>
+                      </div>
+                      <ul className='tg1' style={{ display: showing2 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
+                        <li>innovation and staying ahead in technology trends</li>
+                      </ul>
                     </div>
-                    <div className="stratic_flex">
-                      <p>Scalability and Growth Potential</p>
-                      {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                      </svg> */}
+
+                    <div>
+                      <div onClick={toggle3} className="stratic_flex">
+                        <p>Scalability and Growth Potential</p>
+                        <svg style={{ transform: showing3 ? "rotate(45deg)" : "rotate(0deg)", transition: ".5s" }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
+                        </svg>
+                      </div>
+                      <ul className='tg1 tg2' style={{ display: showing3 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
+                        <li>Demonstrate scalability and growth potential in <br /> current and new markets.</li>
+                        <li>Showcase a well-defined strategy for future expansion.</li>
+                      </ul>
                     </div>
-                    <div className="stratic_flex">
-                      <p>Synergy Identification</p>
-                      {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                      </svg> */}
+
+                    <div>
+                      <div onClick={toggle4} className="stratic_flex">
+                        <p>Synergy Identification</p>
+                        <svg style={{ transform: showing4 ? "rotate(45deg)" : "rotate(0deg)", transition: ".5s" }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
+                        </svg>
+                      </div>
+                      <ul className='tg1' style={{ display: showing4 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
+                        <li>Identify potential synergies with acquiring companies.</li>
+                      </ul>
                     </div>
-                    <div className="stratic_flex">
-                      <p>Strategic Partnerships</p>
-                      {/* <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
-                      </svg> */}
+
+                    <div>
+                      <div onClick={toggle5} className="stratic_flex">
+                        <p>Strategic Partnerships</p>
+                        <svg style={{ transform: showing5 ? "rotate(45deg)" : "rotate(0deg)", transition: ".5s" }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
+                        </svg>
+                      </div>
+                      <ul className='tg1' style={{ display: showing5 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
+                        <li>Establish strategic partnerships that <br /> enhance the company's value proposition.</li>
+                      </ul>
                     </div>
+
                   </div>
                 </div>
               </div>
             </div>
             <div data-aos="fade-up"
-              data-aos-offset="400"
+              data-aos-offset="300"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
@@ -603,7 +666,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-              data-aos-offset="300"
+              data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
@@ -1109,7 +1172,7 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">

@@ -98,7 +98,7 @@ body {
   color: #3464FD;
   font-size: 16px;
   font-weight: 500 !important;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   background-color: #F4FAFE;
   box-shadow: inset 0 0 0 0 #3464FD;
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
@@ -163,7 +163,15 @@ body {
 .sty:hover .service_inner {
   display: block;
 }
-
+.inner_hu h3{
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 48px;
+  text-align: center;
+}
+.inner_hu span{
+  color: #3464FD !important;
+}
 .banner_home {
   /* background-image: url('/images/homi.png'); */
   /* background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmMwemxrN3JoaTFlaDgwZmxhdTRmcjBqZDBoMG03ZXUweGd2Y253ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/i4jKn7itdV2Tvjzj6Y/giphy.gif'); */
@@ -209,7 +217,7 @@ body {
   font-weight: 800 !important;
   font-size: 64px;
   line-height: 70px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: 80px;
   font-family: 'Wix Madefor Display', sans-serif;
 }
@@ -232,7 +240,7 @@ body {
   color: #3464FD;
   font-weight: 600;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border: 1px solid #3464FD;
   opacity: 90%;
   margin-top: 30px;
@@ -344,7 +352,7 @@ body {
   color: #3464FD;
   font-weight: 600;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   opacity: 90%;
   margin-top: 40px;
   box-shadow: inset 0 0 0 0 #3464FD;
@@ -424,7 +432,7 @@ body {
   color: #FFFFFF;
   font-weight: 600;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .box_head11 {
   margin-top: 23px;
@@ -434,7 +442,7 @@ body {
   font-weight: 700;
   font-size: 32px;
   line-height: 40.32px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .services_box p {
   color: #FFFFFF;
@@ -487,7 +495,7 @@ body {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 64px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 40px;
 }
 
@@ -546,13 +554,14 @@ body {
   display: flex;
   align-items: center;
   margin: 27px 0px;
+  cursor: pointer;
 }
 
 .stratic P {
   color: #FFFFFF;
   font-weight: 500;
   font-size: 20px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   opacity: .95;
 }
 
@@ -567,7 +576,7 @@ body {
   color: #FFFFFF;
   font-weight: 500;
   font-size: 20px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   opacity: .95;
 }
 .stratic_flex svg {
@@ -668,7 +677,7 @@ body {
   color: #1E1D22;
   font-weight: 800 !important;
   font-size: 40px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .work_lef span {
@@ -783,7 +792,7 @@ body {
   color: #3464FD;
   font-weight: 600;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .tht {
@@ -851,7 +860,7 @@ body {
   font-weight: 800;
   font-size: 36px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .bloging_tect span {
@@ -878,7 +887,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   display: block;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* margin-top: 20px; */
 }
 
@@ -4775,9 +4784,10 @@ body {
   /* border: 1px solid white; */
   border-radius: 50%;
   position: absolute;
+  transition:.2s ;
   pointer-events: none;
   /* z-index: 1; */
-  /* z-index: 10000; */
+  /* z-index:. 10000; */
 }
 
 .cursor::after {
@@ -4791,6 +4801,7 @@ body {
   top: -8px;
   left: -8px;
   z-index: 10000;
+  transition:.2s ;
 }
 
 @keyframes cursorAnim {
@@ -5057,7 +5068,7 @@ body {
   color: #3464FD;
   font-weight: 600;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 10px;
   box-shadow: inset 0 0 0 0 #3464FD;
   transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
@@ -5299,7 +5310,13 @@ body {
   color: #FFFFFF;
   font-weight: 600;
   font-size: 16px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+}
+.tg1 li{
+   color: white;
+}
+.tg2  li{
+  margin: 6px 0px;
 }
 
 /* ===============contact ebd=========== */
@@ -5373,7 +5390,7 @@ body {
   font-weight: 800;
   font-size: 36px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .our_team span {
@@ -5404,7 +5421,7 @@ body {
   color: #101729;
   font-weight: 800;
   font-size: 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .director p {
@@ -5432,7 +5449,7 @@ body {
   font-weight: 800;
   font-size: 36px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .operate_card {
@@ -5559,6 +5576,7 @@ body {
   font-size: 24px;
   line-height: 34px;
   text-align: center;
+  margin-top: 15px;
 }
 
 /* ==================about us page end=============== */
@@ -5580,16 +5598,7 @@ body {
   margin-top: 40px;
 }
 
-.privacy_head {
-  /* max-width: 384px;
-  width: 100%; */
-  background-color: #3464FD;
-  width: 384px;
-  height: 60px;
-  position: relative;
-  /* margin: 0px 35px; */
-  /* display: inline; */
-}
+
 
 .privacy_head h3 {
   color: #101729;
@@ -5597,8 +5606,8 @@ body {
   font-weight: 700;
   font-size: 64px;
   display: inline;
-  position: absolute;
-  top: 10px;
+  /* position: absolute;
+  top: 10px; */
 }
 
 .privacy_para {
@@ -5746,12 +5755,15 @@ body {
   position: relative;
   display: block;
   margin: auto;
-  top: -30px;
+  max-width: 1200px;
+  /* top: -30px; */
 }
 .btn_home a{
   text-decoration: none;
 }
-
+.inner_hu h3{
+  color: #FFFFFF;
+}
 /* ====================blog detail css end================== */
 
 @media only screen and (max-width:1160px) {
