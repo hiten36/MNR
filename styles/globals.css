@@ -4974,6 +4974,49 @@ body {
   }
 }
 
+.cursor {
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid white; */
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  /* z-index: 1; */
+  /* z-index: 10000; */
+}
+
+.cursor::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  border: 2px solid blue;
+  border-radius: 50%;
+  opacity: .9;
+  top: -8px;
+  left: -8px;
+  z-index: 10000;
+}
+
+@keyframes cursorAnim {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(2);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.expand {
+  animation: cursorAnim .5s forwards;
+}
+
 /* ========================contact us page================== */
 .contact_us {
   background-image: url('/images/contactBg1.png');
@@ -5013,30 +5056,25 @@ body {
   position: relative;
   top: -90px;
 }
-
 .map iframe {
   border-radius: 30px;
   margin-top: 30px;
   background: #00000057;
 }
-
 .ing_box {
   display: flex;
   align-items: center;
   margin: 20px 0px;
 }
-
 .ing_para {
   margin-left: 22px;
 }
-
 .ing_para h3 {
   color: #1E1D22;
   font-weight: 600;
   font-size: 20px;
   text-transform: capitalize;
 }
-
 .ing_para p {
   color: #545D6B;
   font-weight: 500;
@@ -5044,13 +5082,11 @@ body {
   opacity: 80%;
   margin-top: 5px;
 }
-
 .contact_mat {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .contact_header {
   background-color: #3464FD;
   /* height: 192px; */
@@ -5062,14 +5098,12 @@ body {
   padding: 25px 40px;
   padding-bottom: 55px;
 }
-
 .contact_header h2 {
   color: #FFFFFF;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
 }
-
 .contact_body {
   background-color: #18181A;
   padding: 25px 40px;
@@ -5709,8 +5743,7 @@ body {
   padding: 60px 120px;
   background-image: url('/images/aboutBanner.png');
   width: 100%;
-  height: 100vh;
-  /* background-position: center; */
+  background-position: center;
   background-size: cover;
 }
 
@@ -5908,6 +5941,14 @@ body {
   margin-top: 8px;
 }
 
+.why_sab img {
+  width: 100%;
+  position: relative;
+  /* max-width: 1440px; */
+  display: block;
+  margin: auto;
+  top: -30px;
+}
 
 /* ====================blog detail css end================== */
 
@@ -6275,7 +6316,10 @@ body {
     align-items: center;
     justify-content: center;
   }
-
+  .why_sab img{
+    top: 0px;
+    margin-top: 30px;
+  }
   .banner_home {
     height: 560px;
     max-height: 100%;
@@ -6374,22 +6418,28 @@ body {
     font-size: 18px;
     line-height: 26px;
   }
+  .cursor{
+    display: none !important;
+  }
 }
 
-@media only screen and (max-width:370px){
-  .banner_left h2{
+@media only screen and (max-width:370px) {
+  .banner_left h2 {
     font-size: 30px;
     line-height: 50px;
   }
-  .st_img img{
+
+  .st_img img {
     width: 90px;
   }
-  .banner_home{
+
+  .banner_home {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .banner_left{
+
+  .banner_left {
     position: relative;
     top: initial !important;
     transform: translateY(0px);

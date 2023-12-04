@@ -8,10 +8,12 @@ import "@splidejs/react-splide/css";
 import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 import Typed from 'react-typed';
+import CustomCursor from './components/CustomCursor';
 
 export default function Home() {
   return (
     <>
+      <CustomCursor />
       <Header />
       <div className='main_home'>
         <div className="banner_main">
@@ -216,11 +218,11 @@ export default function Home() {
                         <img src="./images/bis4.svg" alt="" />
                       </div>
                       <div className="svg_btn11">
-                        <button><span>Explore more</span>
+                       <a target='_blank'  href="https://economictimes.indiatimes.com/tech/ites/tech-mahindra-acquires-zen3-infosolutions-announces-interim-dividend/articleshow/74288423.cms"><button><span>Explore more</span>
                           <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M1.4 13L0 11.6L9.6 2H1V0H13V12H11V3.4L1.4 13Z" fill="#3464FD" />
                           </svg>
-                        </button>
+                        </button></a>
                       </div>
                     </div>
                   </div>
@@ -520,10 +522,10 @@ export default function Home() {
         <div className="feel_free">
           <div className="feel_touch">
             <div data-aos="fade-up"
-                data-aos-offset="200"
-                data-aos-easing="ease-in-sine" className="touch_flex">
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine" className="touch_flex">
               <div
-                
+
                 className="touch_left">
                 <div className="touch_sing">
                   <h3>Subscribe To Our</h3>

@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import CustomCursor from './components/CustomCursor'
 const service = () => {
   return (
     <>
+      <CustomCursor/>
       <Header />
       <div className="service_hone">
         <div className="main_hone">
@@ -12,7 +14,7 @@ const service = () => {
             data-aos-easing="ease-in-sine">
             <h3 >Sell-Side Advisory</h3>
           </div>
-          <div  data-aos="fade-up"
+          <div data-aos="fade-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" className="sell_para">
             <p>Strategic Planning is a key differentiator</p>
@@ -20,7 +22,7 @@ const service = () => {
             {/* <p></p> */}
           </div>
           <div className="st">
-            <div  className="small_para">
+            <div className="small_para">
               <p>Benefit from DigitalMnA’ expertise to ensure you’re selling
               </p>
               <p> at the right time. Make certain the legacy you’ve built</p>
@@ -28,11 +30,11 @@ const service = () => {
             </div>
           </div>
           <div className="service_hone_main">
-            <div 
-             data-aos="fade-up"
-                  data-aos-offset="500"
-                  data-aos-easing="ease-in-sine"
-             className="service_flex_main">
+            <div
+              data-aos="fade-up"
+              data-aos-offset="500"
+              data-aos-easing="ease-in-sine"
+              className="service_flex_main">
               <div className="hone_left">
                 {/* <div className="cont-top">
                   <div class="container">
@@ -568,8 +570,8 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="400"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+              data-aos-offset="400"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -1075,9 +1077,9 @@ const service = () => {
                 </div> */}
               </div>
             </div>
-            <div  data-aos="fade-up"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+            <div data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 {/* <div className="cont-top">
                   <div class="container">
@@ -1582,8 +1584,8 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -2087,13 +2089,6 @@ const service = () => {
                 </div> */}
               </div>
             </div>
-            {/* <div className="seei">
-                <button className='see_all'><span>Explore all Services</span>
-                  <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.4 13.0967L0 11.6967L9.6 2.09668H1V0.0966797H13V12.0967H11V3.49668L1.4 13.0967Z" fill="#3464FD" />
-                  </svg>
-                </button>
-              </div> */}
           </div>
         </div>
       </div>

@@ -2,9 +2,11 @@
 import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import CustomCursor from './components/CustomCursor'
 const privacyPolicy = () => {
   return (
     <>
+      <CustomCursor/>
       <Header />
       <div className="privacy">
         <div className="privacy_sect">
