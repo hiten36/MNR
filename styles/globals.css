@@ -14,7 +14,14 @@
 body {
   overflow-x: hidden !important;
 }
-
+.header{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  z-index: 9999;
+}
 .navbar {
   max-width: 1440px;
   width: 100%;
@@ -358,8 +365,7 @@ body {
 }
 /* =============main page ka service============== */
 .our_home_services {
-  /* background-image: url('/images/servicest.png'); */
-  background-image: url("https://i.gifer.com/4NB4.gif");
+  background-image: url('/images/servicest.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5038,7 +5044,10 @@ body {
   border: none;
   transition: .5s;
 }
-
+.hone_left img{
+  max-width: 350px;
+  width: 100%;
+}
 .ct_btn1 button {
   width: 153px;
   height: 56px;
@@ -5530,7 +5539,8 @@ body {
 
 .why_hu {
   padding: 60px 120px;
-  background-image: url('/images/aboutBanner.png');
+  /* background-image: url('/images/aboutBanner.png'); */
+  background-image: url('/images/whyBack.png');
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -5741,6 +5751,7 @@ body {
 .btn_home a{
   text-decoration: none;
 }
+
 /* ====================blog detail css end================== */
 
 @media only screen and (max-width:1160px) {
@@ -6105,6 +6116,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .navbar {
+    padding: 20px 20px;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    max-width: 100%;
+    width: 100%;
+    right: 0px;
+    transition: .3s;
+    z-index: 100;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
   .why_sab img{
     top: 0px;

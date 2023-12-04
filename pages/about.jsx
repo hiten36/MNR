@@ -40,7 +40,7 @@ const about = () => {
             <div  className="why_sab">
               <img data-aos="fade-up"
               data-aos-offset="300"
-              data-aos-easing="ease-in-sine"  src="./images/energy.gif" alt="" />
+              data-aos-easing="ease-in-sine"  src="./images/ent.gif" alt="" />
             </div>
           </div>
         </div>
