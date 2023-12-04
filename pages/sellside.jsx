@@ -35,6 +35,7 @@ const service = () => {
               data-aos-easing="ease-in-sine"
               className="service_flex_main">
               <div className="hone_left">
+                 <img src="./images/sevg.gif" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
