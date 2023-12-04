@@ -6324,51 +6324,40 @@ body {
     height: 560px;
     max-height: 100%;
   }
-
   .box_bis {
     margin: 15px 0px;
   }
-
   .services_flex {
     flex-direction: column;
     align-items: center;
   }
-
   .stratic_flex p {
     font-size: 16px;
   }
-
   .btsu {
     max-width: 355px;
     width: 100%;
   }
-
   .opearte_box {
     width: 100%;
   }
-
   .ask_para p {
     font-size: 20px;
   }
-
   .about_content p {
     width: 100%;
   }
-
   .privacy {
     padding: 20px 20px;
   }
-
   .privacy_head {
     width: 100%;
     background-color: transparent;
   }
-
   .privacy_head h3 {
     font-size: 40px;
     line-height: 50px;
   }
-
   .tht {
     margin-top: 0px;
   }
@@ -6379,41 +6368,32 @@ body {
   .footer_flex1 {
     flex-direction: column;
   }
-
   .service_inner {
     width: 205px;
     max-width: 100%;
   }
-
   .service_inner ul {
     gap: 25px;
   }
-
   .foot1 {
     margin: 15px 0px;
   }
-
   .filed_section {
     flex-direction: column;
   }
-
   .inp11 {
     margin-top: 0px;
   }
-
   .inp1 {
     margin: 10px 0px;
   }
-
   .schedule2 {
     margin-top: 40px;
   }
-
   .team_sch {
     height: auto;
     padding: 10px 30px;
   }
-
   .sch_para h3 {
     font-size: 18px;
     line-height: 26px;
@@ -6428,17 +6408,14 @@ body {
     font-size: 30px;
     line-height: 50px;
   }
-
   .st_img img {
     width: 90px;
   }
-
   .banner_home {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   .banner_left {
     position: relative;
     top: initial !important;
