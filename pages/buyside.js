@@ -1,9 +1,11 @@
 import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import CustomCursor from './components/CustomCursor'
 const service = () => {
   return (
     <>
+      <CustomCursor/>
       <Header />
       <div className="service_hone">
         <div className="main_hone">
