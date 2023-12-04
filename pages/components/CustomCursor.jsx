@@ -18,7 +18,8 @@ const CustomCursor = () => {
                 if (cursorRef.current == null)
                     return;
                 cursorRef.current.classList.remove("expand");
-            }, 500)
+            }, 300)
+            // pehle 500 tha 
         })
     }, [])
     return (

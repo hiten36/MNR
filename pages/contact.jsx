@@ -7,12 +7,14 @@ const contact = () => {
     <>
       <CustomCursor />
       <Header />
-      <div className="contact">
-        <div className="contact_us">
+      <div data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine" className="contact">
+        {/* <div className="contact_us">
           <div className="contact_sect">
             <h2>Contact Us</h2>
           </div>
-        </div>
+        </div> */}
         <div className="schedule">
           <div className="schedule_inner">
             <div className="schedule1">
@@ -38,7 +40,7 @@ const contact = () => {
                       </svg>
                       <p>425-274-6360</p>
                     </div>
-                   <a href="mailto:shashi@digitalMnA.com"><div className="talk_sis">
+                    <a href="mailto:shashi@digitalMnA.com"><div className="talk_sis">
                       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="13" cy="13" r="12.5" stroke="#3464FD" />
                         <path d="M7.7001 18.5C7.32885 18.5 7.01104 18.3678 6.74666 18.1034C6.48229 17.8391 6.3501 17.5212 6.3501 17.15V9.05C6.3501 8.67875 6.48229 8.36093 6.74666 8.09656C7.01104 7.83218 7.32885 7.7 7.7001 7.7H18.5001C18.8713 7.7 19.1892 7.83218 19.4535 8.09656C19.7179 8.36093 19.8501 8.67875 19.8501 9.05V17.15C19.8501 17.5212 19.7179 17.8391 19.4535 18.1034C19.1892 18.3678 18.8713 18.5 18.5001 18.5H7.7001ZM13.1001 13.775L7.7001 10.4V17.15H18.5001V10.4L13.1001 13.775ZM13.1001 12.425L18.5001 9.05H7.7001L13.1001 12.425ZM7.7001 10.4V9.05V17.15V10.4Z" fill="#3464FD" />
@@ -46,10 +48,10 @@ const contact = () => {
                       <p>shashi@digitalMnA.com</p>
                     </div></a>
                   </div>
-                  
+
                   <div className="talk_box">
                     <h4>Srinivas Karanth</h4>
-                   <a href="mailto:karanth@digitalMnA.com"> <div className="talk_sis">
+                    <a href="mailto:karanth@digitalMnA.com"> <div className="talk_sis">
                       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="13" cy="13" r="12.5" stroke="#3464FD" />
                         <path d="M7.7001 18.5C7.32885 18.5 7.01104 18.3678 6.74666 18.1034C6.48229 17.8391 6.3501 17.5212 6.3501 17.15V9.05C6.3501 8.67875 6.48229 8.36093 6.74666 8.09656C7.01104 7.83218 7.32885 7.7 7.7001 7.7H18.5001C18.8713 7.7 19.1892 7.83218 19.4535 8.09656C19.7179 8.36093 19.8501 8.67875 19.8501 9.05V17.15C19.8501 17.5212 19.7179 17.8391 19.4535 18.1034C19.1892 18.3678 18.8713 18.5 18.5001 18.5H7.7001ZM13.1001 13.775L7.7001 10.4V17.15H18.5001V10.4L13.1001 13.775ZM13.1001 12.425L18.5001 9.05H7.7001L13.1001 12.425ZM7.7001 10.4V9.05V17.15V10.4Z" fill="#3464FD" />
@@ -60,7 +62,7 @@ const contact = () => {
                   </div>
                   <div className="talk_box talk_box1">
                     <h4>Ravi</h4>
-                   <a href="mailto:ravi@digitalMnA.com"><div className="talk_sis">
+                    <a href="mailto:ravi@digitalMnA.com"><div className="talk_sis">
                       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="13" cy="13" r="12.5" stroke="#3464FD" />
                         <path d="M7.7001 18.5C7.32885 18.5 7.01104 18.3678 6.74666 18.1034C6.48229 17.8391 6.3501 17.5212 6.3501 17.15V9.05C6.3501 8.67875 6.48229 8.36093 6.74666 8.09656C7.01104 7.83218 7.32885 7.7 7.7001 7.7H18.5001C18.8713 7.7 19.1892 7.83218 19.4535 8.09656C19.7179 8.36093 19.8501 8.67875 19.8501 9.05V17.15C19.8501 17.5212 19.7179 17.8391 19.4535 18.1034C19.1892 18.3678 18.8713 18.5 18.5001 18.5H7.7001ZM13.1001 13.775L7.7001 10.4V17.15H18.5001V10.4L13.1001 13.775ZM13.1001 12.425L18.5001 9.05H7.7001L13.1001 12.425ZM7.7001 10.4V9.05V17.15V10.4Z" fill="#3464FD" />

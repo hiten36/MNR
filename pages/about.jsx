@@ -13,7 +13,7 @@ const about = () => {
             <div className="abouty_flex">
               <div className="abouty_left">
                 <h3 data-aos="fade-up"
-                  data-aos-offset="300"
+                  data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
                   <span>DigitalMnA</span> is a full-service Merger and acquisition company helping companies sell and buy assets by creating value
                 </h3>
@@ -34,6 +34,7 @@ const about = () => {
 
         <div className="why_hu">
           <div className="inner_hu">
+            <h3>Why <span>digitalLmnA</span></h3>
             <p data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine">DigitalMnA excels in Technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, we navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and Value creation for your business</p>
@@ -48,10 +49,10 @@ const about = () => {
         <div className="operate_things">
           <div className="operate_inner">
             <h3 data-aos="fade-up"
-              data-aos-offset="200"
+              data-aos-offset="100"
               data-aos-easing="ease-in-sine">We operate in Industry Sectors including</h3>
             <div className="operate_cards" data-aos="fade-up"
-              data-aos-offset="300"
+              data-aos-offset="200"
               data-aos-easing="ease-in-sine">
               <div className="operate_card">
                 <div className="opearte_box">
@@ -128,7 +129,7 @@ const about = () => {
           <div className="our_team">
             <h2 data-aos="fade-up"
               data-aos-offset="100"
-              data-aos-easing="ease-in-sine">Meet Our <span>Team</span></h2>
+              data-aos-easing="ease-in-sine">Meet Our <span>team</span></h2>
             <div className="meet_flex">
               {/* <div className="meet_box">
                 <div data-aos="fade-right"
