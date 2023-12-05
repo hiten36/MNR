@@ -37,7 +37,7 @@ const contact = () => {
                       </svg>
                       <p>shashi@digitalMnA.com</p>
                     </div></a>
-                  <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
+                    <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
                       <div className="sch_svg">
                         <img src="./images/cala.svg" alt="" />
                       </div>
@@ -59,7 +59,7 @@ const contact = () => {
 
                       <p>Karanth@digitalMnA.com</p>
                     </div></a>
-                  <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
+                    <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
                       <div className="sch_svg">
                         <img src="./images/cala.svg" alt="" />
                       </div>
@@ -81,7 +81,7 @@ const contact = () => {
                       </svg>
                       <p>Ravi@digitalMnA.com</p>
                     </div></a>
-                   <a href="http://booking.microsoft.com"><div className="team_sch">
+                    <a href="http://booking.microsoft.com"><div className="team_sch">
                       <div className="sch_svg">
                         <img src="./images/cala.svg" alt="" />
                       </div>
