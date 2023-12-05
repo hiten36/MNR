@@ -5118,16 +5118,17 @@ body {
 }
 
 .team_sch {
-  max-width: 420px;
+  max-width: 191px;
   width: 100%;
-  height: 92px;
+  height: 56px;
   background-color: #EEF2FE;
   display: flex;
   align-items: center;
   /* gap: 10px; */
-  padding: 0px 30px;
+  padding: 0px 10px;
   border: 1px solid #B9E6FE;
   border-radius: 12px;
+  margin-top: 20px;
 }
 
 .sch_para h3 {
@@ -5136,18 +5137,24 @@ body {
   color: #101729;
   line-height: 30.24px;
   text-transform: capitalize;
-  margin-left: 22px;
+  margin-left: 10px;
 }
-
+.schedule2 h3{
+  color: #1E1D22;
+  font-weight: 500;
+  font-size: 20px;
+}
 .talk {
   margin-top: 50px;
 }
-
+.schedule2 form{
+  margin-top: 40px;
+}
 .talk h3 {
-  color: #1E1D22;
-  font-weight: 500;
+  color: #101729;
+  font-weight: 600;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .talk_flex {
@@ -5174,8 +5181,9 @@ body {
   max-width: 316px;
   width: 100%;
   border-right: 1px solid #545D6B;
-  margin: 0px 15px;
-  height: 115px;
+  /* margin: 0px 15px; */
+  margin: 0px 30px;
+  height: 307px;
   max-height: 100%;
 }
 
@@ -5183,6 +5191,7 @@ body {
   color: #1E1D22;
   font-weight: 700;
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .talk_box1 {
@@ -5190,7 +5199,7 @@ body {
 }
 
 .schedule2 {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .flex_form_input {
@@ -5198,15 +5207,12 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .left_filed {
   width: 50%;
 }
-
 .right_filed {
   width: 50%;
 }
-
 .inp1 {
   width: 100%;
   margin-right: 25px;
