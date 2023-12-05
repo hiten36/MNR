@@ -41,7 +41,7 @@ const about = () => {
             <div  className="why_sab">
               <img data-aos="fade-up"
               data-aos-offset="300"
-              data-aos-easing="ease-in-sine"  src="./images/ent.gif" alt="" />
+              data-aos-easing="ease-in-sine"  src="./images/tyuj.svg" alt="" />
             </div>
           </div>
         </div>
