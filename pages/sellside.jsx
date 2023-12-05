@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
-const service = () => {
+const Service = () => {
   const [showing, setShowing] = useState(false);
   const [showing1, setShowing1] = useState(false);
   const [showing2, setShowing2] = useState(false);
@@ -149,7 +149,7 @@ const service = () => {
                         </svg>
                       </div>
                       <ul className='tg1' style={{ display: showing5 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
-                        <li>Establish strategic partnerships that <br /> enhance the company's value proposition.</li>
+                        <li>Establish strategic partnerships that <br /> enhance the company value proposition.</li>
                       </ul>
                     </div>
 
@@ -1685,4 +1685,4 @@ const service = () => {
   )
 }
 
-export default service
+export default Service
