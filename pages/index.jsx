@@ -118,11 +118,11 @@ export default function Home() {
                     <h3>advisory</h3>
                   </div>
                   <p>Strategies, actions and process that enhance your Company Valuation</p>
-                  <button><span>Know more</span>
+                 <Link href="/sellside"><button><span>Know more</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
                     </svg>
-                  </button>
+                  </button></Link>
                 </div>
               </div>
               <div
@@ -137,11 +137,11 @@ export default function Home() {
                     <h3>advisory</h3>
                   </div>
                   <p>Strategies, actions and process that enhance your Company Valuation</p>
-                  <button><span>Know more</span>
+                 <Link href="/buyside"><button><span>Know more</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
                     </svg>
-                  </button>
+                  </button></Link>
                 </div>
               </div>
               <div
@@ -156,11 +156,11 @@ export default function Home() {
                     <h3>capital</h3>
                   </div>
                   <p>Strategies, actions and process that enhance your Company Valuation</p>
-                  <button><span>Know more</span>
+                 <Link href="/raisingCapital"><button><span>Know more</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
                     </svg>
-                  </button>
+                  </button></Link>
                 </div>
               </div>
             </div>
