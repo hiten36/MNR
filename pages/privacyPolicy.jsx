@@ -85,7 +85,7 @@ const privacyPolicy = () => {
                     padding: "0cm"
                   }}
                 >
-                  DigitalMnA Privacy Notice
+                  digitalMnA Privacy Notice
                 </span>
               </strong>
             </p>
@@ -163,7 +163,7 @@ const privacyPolicy = () => {
                   color: "#374151"
                 }}
               >
-                Our website address is: DigitalMnA.com
+                Our website address is: digitalMnA.com
               </span>
             </p>
             <p
@@ -214,9 +214,9 @@ const privacyPolicy = () => {
                 }}
               >
                 Except as noted, this Privacy Notice applies to anyone who visits or
-                uses DigitalMnA’s website where this Policy is posted or otherwise
-                provides personal data to DigitalMnA in the course of business with
-                DigitalMnA.
+                uses digitalMnA’s website where this Policy is posted or otherwise
+                provides personal data to digitalMnA in the course of business with
+                digitalMnA.
               </span>
             </p>
           </div>
@@ -703,7 +703,7 @@ const privacyPolicy = () => {
                       padding: "0cm"
                     }}
                   >
-                    Information We Collect from DigitalMnA Clients
+                    Information We Collect from digitalMnA Clients
                   </span>
                 </strong>
               </li>
@@ -741,7 +741,7 @@ const privacyPolicy = () => {
                   color: "#374151"
                 }}
               >
-                If you are a current or prospective client of DigitalMnA, we may collect
+                If you are a current or prospective client of digitalMnA, we may collect
                 identifying contact information and other relevant details.
               </span>
             </p>
@@ -766,7 +766,7 @@ const privacyPolicy = () => {
                 }}
               >
                 We and our service providers may use this information collected from
-                DigitalMnA clients for our and our service providers’ business purposes.
+                digitalMnA clients for our and our service providers’ business purposes.
               </span>
             </p>
             <p
@@ -934,7 +934,7 @@ const privacyPolicy = () => {
                   color: "#374151"
                 }}
               >
-                DigitalMnA may share the information we collect as described above in
+                digitalMnA may share the information we collect as described above in
                 the following ways:
               </span>
             </p>
@@ -1007,7 +1007,7 @@ const privacyPolicy = () => {
                       padding: "0cm"
                     }}
                   >
-                    Protection of DigitalMnA and Others:
+                    Protection of digitalMnA and Others:
                   </span>
                 </strong>
                 <span style={{ fontSize: 16, fontFamily: '"Segoe UI",sans-serif' }}>
@@ -1316,7 +1316,7 @@ const privacyPolicy = () => {
                   color: "#374151"
                 }}
               >
-                DigitalMnA takes technical and organizational security measures to
+                digitalMnA takes technical and organizational security measures to
                 protect the information provided via the websites from loss, misuse, and
                 unauthorized access.
               </span>

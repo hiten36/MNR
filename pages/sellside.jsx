@@ -48,11 +48,11 @@ const Service = () => {
           </div>
           <div className="st">
             <div className="small_para">
-              <p className='laptop_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling
+              <p className='laptop_con'>Benefit from digitalMnA’ expertise to ensure you’re selling
               </p>
               <p className='laptop_con'>at the right time. Make certain the legacy you’ve built</p>
               <p>continues to thrive.</p>
-              <p className='mobile_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling at the right time. Make certain the legacy you’ve built continues to thrive.</p>
+              <p className='mobile_con'>Benefit from digitalMnA’ expertise to ensure you’re selling at the right time. Make certain the legacy you’ve built continues to thrive.</p>
             </div>
           </div>
           <div className="service_hone_main">

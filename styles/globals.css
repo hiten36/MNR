@@ -13,6 +13,10 @@
 
 body {
   overflow-x: hidden !important;
+  text-transform: capitalize !important;
+}
+body button{
+  text-transform: capitalize !important;
 }
 .header{
   position: sticky;
@@ -21,6 +25,7 @@ body {
   right: 0px;
   background-color: white;
   z-index: 9999;
+  padding: 12px 120px;
 }
 .navbar {
   max-width: 1440px;
@@ -29,7 +34,7 @@ body {
   margin: auto;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 120px;
+  /* padding: 12px 120px; */
 }
 
 .nav_content {
@@ -58,7 +63,10 @@ body {
   transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   /* opacity: .9; */
 }
-
+.schedule1 h3{
+  font-size: 48px;
+  font-weight: 800;
+}
 .nav_content ul li a:hover {
   box-shadow: inset 100px 0 0 0 #3464FD;
   color: white !important;
@@ -116,7 +124,7 @@ body {
   position: absolute;
   background-color: white;
   top: 48px;
-  left: 18px;
+  /* left: 18px; */
   border-radius: 12px;
   padding: 6px 0px;
   /* width: 205px; */
@@ -180,7 +188,7 @@ body {
   width: 100%;
   position: relative;
   /* height: 776px; */
-  height: 680px;
+  height: 610px;
   /* padding-bottom: 60px; */
 }
 
@@ -5162,10 +5170,10 @@ body {
   font-size: 20px;
 }
 .talk {
-  margin-top: 50px;
+  margin-top: 80px;
 }
 .schedule2 form{
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .talk h3 {
   color: #101729;
@@ -5997,7 +6005,7 @@ body {
   }
 
   .service_hone {
-    padding: 70px 20px;
+    padding: 30px 20px;
   }
 
   .service_flex_main {
@@ -6137,6 +6145,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .schedule1 h3{
+    font-size: 30px;
+    text-align: center;
   }
   .navbar {
     padding: 20px 20px;

@@ -24,7 +24,7 @@ const service = () => {
           </div>
           <div className="st">
             <div className="small_para">
-              <p>Benefit from DigitalMnA’s expertise to  build
+              <p>Benefit from digitalMnA’s expertise to  build
               </p>
               <p> strategic technology competency and solutions for</p>
               <p>your growth</p>
