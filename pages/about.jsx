@@ -25,7 +25,7 @@ const about = () => {
                     data-aos-easing="ease-in-sine" src="./images/linking.svg" alt="" /> */}
                   <img data-aos="fade-down"
                     data-aos-offset="200"
-                    data-aos-easing="ease-in-sine" src="./images/aboutTant.svg" alt="" />
+                    data-aos-easing="ease-in-sine" src="./images/aboutSvg.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -34,14 +34,16 @@ const about = () => {
 
         <div className="why_hu">
           <div className="inner_hu">
-            <h3>Why <span>digitalLmnA</span></h3>
+            <h3>Why <span>DigitalLMnA</span></h3>
             <p data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine">DigitalMnA excels in Technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, we navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and Value creation for your business</p>
             <div  className="why_sab">
-              <img data-aos="fade-up"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"  src="./images/tyuj.svg" alt="" />
+              <img 
+              // data-aos="fade-up"
+              // data-aos-offset="300"
+              // data-aos-easing="ease-in-sine"
+                src="./images/whydo.gif" alt="" />
             </div>
           </div>
         </div>
@@ -50,7 +52,7 @@ const about = () => {
           <div className="operate_inner">
             <h3 data-aos="fade-up"
               data-aos-offset="100"
-              data-aos-easing="ease-in-sine">We operate in Industry Sectors including</h3>
+              data-aos-easing="ease-in-sine">We operate in industry sectors including</h3>
             <div className="operate_cards" data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine">
@@ -102,16 +104,16 @@ const about = () => {
               >
                 <h3 data-aos="fade-down"
                   data-aos-offset="200"
-                  data-aos-easing="ease-in-sine">Ask them to email</h3>
-                <h3 data-aos="fade-down"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in-sine">the resume</h3>
+                  data-aos-easing="ease-in-sine">Work with us</h3>
                 <div className="ask_para">
                   <p>If you are interested in deal making in the M&A space, tell us why you are interested and how you can make a difference</p>
                 </div>
-                <div className='btsu'>
+                <div className="mail_res">
+                 <h4>Mail your resume</h4>
+               <a href="mailto:Careers@digitalMnA.com"><div className='btsu'>
                   <img src="./images/em3.svg" alt="" />
                   <p>Careers@digitalMnA.com</p>
+                </div></a>
                 </div>
               </div>
               <div className="ask_left">
@@ -167,7 +169,7 @@ const about = () => {
                 </div>
                 <div className="director">
                   <h4>Managing Partner</h4>
-                  <p>A short description for a team member typically includes key information about their role, skills, and contributions.</p>
+                  <p>Shashi built Microsoft Business Unit for Tech Mahindra where he acquired companies. Over the last 5 years, he has successfully advised sell side deals.</p>
                 </div>
               </div>
               <div className="meet_box">
@@ -187,7 +189,7 @@ const about = () => {
                 </div>
                 <div className="director">
                   <h4>Managing Partner</h4>
-                  <p>A short description for a team member typically includes key information about their role, skills, and contributions.</p>
+                  <p>Karanth ran multi million dollar digital transformation engagements at Infosys for US customer, He is expert in strategic value creation through digital transformation</p>
                 </div>
               </div>
               <div className="meet_box">
@@ -207,7 +209,7 @@ const about = () => {
                 </div>
                 <div className="director">
                   <h4>Managing Director</h4>
-                  <p>A short description for a team member typically includes key information about their role, skills, and contributions.</p>
+                  <p>Ravi is the finance guru with extensive experience in M&A deal structuring, Fund raising and financial restructuring</p>
                 </div>
               </div>
             </div>

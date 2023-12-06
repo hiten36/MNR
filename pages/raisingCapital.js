@@ -5,7 +5,7 @@ import CustomCursor from './components/CustomCursor'
 const service = () => {
   return (
     <>
-      <CustomCursor/>
+      <CustomCursor />
       <Header />
       <div className="service_hone service_hone1">
         <div className="main_hone">
@@ -23,492 +23,17 @@ const service = () => {
           </div>
           <div className="st">
             <div className="small_para">
-              <p>Our Capital Raising services encompass a
+              <p>Our capital raising services encompass a
               </p>
               <p>comprehensive approach, including:</p>
             </div>
           </div>
           <div className="service_hone_main">
             <div data-aos="fade-up"
-                  data-aos-offset="50"
-                  data-aos-easing="ease-in-sine" className="service_flex_main">
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine" className="service_flex_main">
               <div className="hone_left">
-              <img src="./images/link9.svg" alt="" />
-                {/* <div className="cont-top">
-                    <div class="container">
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="trigger"></div>
-                      <div class="monitor">
-                        <div class="camera o-x">
-                          <div class="camera o-y">
-                            <div class="camera o-z">
-                              <div class="vr">
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                                <div class="vr_layer">
-                                  <div class="vr_layer_item"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div> */}
-                
+                <img src="./images/link9.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -528,17 +53,18 @@ const service = () => {
                   <h3>Financial Compliance</h3>
                   <div className="stratic">
                     <div className="ts">
-                      <p>Ensuring meticulous upkeep of client books in</p>
-                      <p>adherence to the accounting standards preferred by</p>
-                      <p>investors/lenders.</p>
+                      <p className='laptop_con'>Ensuring meticulous upkeep of client books in</p>
+                      <p className='laptop_con'>adherence to the accounting standards preferred by</p>
+                      <p className='laptop_con'>investors/lenders.</p>
+                      <p className='mobile_con'>Ensuring meticulous upkeep of client books in adherence to the accounting standards preferred by investors/lenders.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine" className="service_flex_main service_flex_main11 mty">
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" className="service_flex_main service_flex_main11 mty">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -556,9 +82,10 @@ const service = () => {
                   <h3>Financial Statements</h3>
                   <div className="stratic">
                     <div className="ts">
-                      <p>Preparation of reviewed or audited financials as</p>
-                      <p>needed for a comprehensive financial</p>
-                      <p>representation.</p>
+                      <p className='laptop_con'>Preparation of reviewed or audited financials as</p>
+                      <p className='laptop_con'>needed for a comprehensive financial</p>
+                      <p className='laptop_con'>representation.</p>
+                      <p className='mobile_con'>Preparation of reviewed or audited financials as needed for a comprehensive financial representation.</p>
                     </div>
                     <div className="stratic_flex static_flex1">
 
@@ -573,14 +100,14 @@ const service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                 <img src="./images/link10.svg" alt="" />
+                <img src="./images/link10.svg" alt="" />
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                  <img src="./images/link11.svg" alt="" />
+                <img src="./images/link11.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -599,8 +126,8 @@ const service = () => {
                   <h3>Presentation Materials</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Crafting compelling historical financials and future <br /> projections to enhance the companys <br /> presentations.</p>
-
+                      <p className='laptop_con'>Crafting compelling historical financials and future <br /> projections to enhance the companys <br /> presentations.</p>
+                      <p className='mobile_con'>Crafting compelling historical financials and future  projections to enhance the companys  presentations.</p>
                     </div>
 
                   </div>
@@ -608,8 +135,8 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty service_flex_main11">
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty service_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -627,44 +154,43 @@ const service = () => {
                   <h3>Investor/Lender <br /> Outreach</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Building Investor/Lender Presentations and <br /> Executive Summaries to showcase the business <br /> attractively.</p>
-
+                      <p className='laptop_con'>Building Investor/Lender Presentations and <br /> Executive Summaries to showcase the business <br /> attractively.</p>
+                      <p className='mobile_con'>Building Investor/Lender Presentations and  Executive Summaries to showcase the business  attractively.</p>
                     </div>
-
                   </div>
                 </div>
               </div>
               <div className="hone_right">
-                  <img src="./images/link12.svg" alt="" />
+                <img src="./images/link12.svg" alt="" />
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="50"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                  <img src="./images/link13.svg" alt="" />
+                <img src="./images/link13.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
                   <div className="hone_svg">
-                  <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M22.776 38.384C21.448 38.384 20.296 38.032 19.32 37.328C18.36 36.608 17.624 35.584 17.112 34.256C16.6 32.912 16.344 31.304 16.344 29.432C16.344 26.6 16.912 24.4 18.048 22.832C19.2 21.248 20.776 20.456 22.776 20.456C24.792 20.456 26.368 21.248 27.504 22.832C28.656 24.4 29.232 26.6 29.232 29.432C29.232 31.304 28.976 32.912 28.464 34.256C27.952 35.584 27.216 36.608 26.256 37.328C25.296 38.032 24.136 38.384 22.776 38.384ZM22.776 36.464C24.088 36.464 25.096 35.864 25.8 34.664C26.52 33.448 26.88 31.704 26.88 29.432C26.88 27.144 26.52 25.4 25.8 24.2C25.096 22.984 24.088 22.376 22.776 22.376C21.48 22.376 20.472 22.984 19.752 24.2C19.032 25.4 18.672 27.144 18.672 29.432C18.672 31.704 19.032 33.448 19.752 34.664C20.472 35.864 21.48 36.464 22.776 36.464ZM33.0579 33.632C33.6019 34.48 34.2499 35.168 35.0019 35.696C35.7699 36.208 36.6579 36.464 37.6659 36.464C38.4499 36.464 39.1299 36.28 39.7059 35.912C40.2979 35.544 40.7619 35.048 41.0979 34.424C41.4499 33.784 41.6259 33.08 41.6259 32.312C41.6259 31.56 41.4579 30.896 41.1219 30.32C40.8019 29.744 40.3539 29.296 39.7779 28.976C39.2019 28.64 38.5379 28.472 37.7859 28.472C36.9859 28.472 36.2739 28.664 35.6499 29.048C35.0259 29.416 34.4819 29.928 34.0179 30.584L33.1779 30.512C33.3699 29.712 33.6899 29.024 34.1379 28.448C34.6019 27.856 35.1779 27.4 35.8659 27.08C36.5539 26.744 37.3299 26.576 38.1939 26.576C39.2979 26.576 40.2819 26.824 41.1459 27.32C42.0099 27.816 42.6899 28.496 43.1859 29.36C43.6819 30.224 43.9299 31.208 43.9299 32.312C43.9299 33.48 43.6579 34.528 43.1139 35.456C42.5699 36.368 41.8259 37.088 40.8819 37.616C39.9539 38.128 38.8979 38.384 37.7139 38.384C36.4019 38.384 35.2259 38.104 34.1859 37.544C33.1459 36.984 32.2499 36.16 31.4979 35.072L33.0579 33.632ZM42.8259 22.712H34.1379L35.0259 21.92L34.0179 30.584H32.0019L33.1299 20.84H42.8259V22.712Z" fill="white"/>
-<circle cx="29" cy="29" r="28.5" stroke="url(#paint0_linear_737_473)"/>
-<defs>
-<linearGradient id="paint0_linear_737_473" x1="29" y1="0" x2="29" y2="58" gradientUnits="userSpaceOnUse">
-<stop stop-color="#56C5FF"/>
-<stop offset="1" stop-color="#ECE370"/>
-</linearGradient>
-</defs>
-</svg>
+                    <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M22.776 38.384C21.448 38.384 20.296 38.032 19.32 37.328C18.36 36.608 17.624 35.584 17.112 34.256C16.6 32.912 16.344 31.304 16.344 29.432C16.344 26.6 16.912 24.4 18.048 22.832C19.2 21.248 20.776 20.456 22.776 20.456C24.792 20.456 26.368 21.248 27.504 22.832C28.656 24.4 29.232 26.6 29.232 29.432C29.232 31.304 28.976 32.912 28.464 34.256C27.952 35.584 27.216 36.608 26.256 37.328C25.296 38.032 24.136 38.384 22.776 38.384ZM22.776 36.464C24.088 36.464 25.096 35.864 25.8 34.664C26.52 33.448 26.88 31.704 26.88 29.432C26.88 27.144 26.52 25.4 25.8 24.2C25.096 22.984 24.088 22.376 22.776 22.376C21.48 22.376 20.472 22.984 19.752 24.2C19.032 25.4 18.672 27.144 18.672 29.432C18.672 31.704 19.032 33.448 19.752 34.664C20.472 35.864 21.48 36.464 22.776 36.464ZM33.0579 33.632C33.6019 34.48 34.2499 35.168 35.0019 35.696C35.7699 36.208 36.6579 36.464 37.6659 36.464C38.4499 36.464 39.1299 36.28 39.7059 35.912C40.2979 35.544 40.7619 35.048 41.0979 34.424C41.4499 33.784 41.6259 33.08 41.6259 32.312C41.6259 31.56 41.4579 30.896 41.1219 30.32C40.8019 29.744 40.3539 29.296 39.7779 28.976C39.2019 28.64 38.5379 28.472 37.7859 28.472C36.9859 28.472 36.2739 28.664 35.6499 29.048C35.0259 29.416 34.4819 29.928 34.0179 30.584L33.1779 30.512C33.3699 29.712 33.6899 29.024 34.1379 28.448C34.6019 27.856 35.1779 27.4 35.8659 27.08C36.5539 26.744 37.3299 26.576 38.1939 26.576C39.2979 26.576 40.2819 26.824 41.1459 27.32C42.0099 27.816 42.6899 28.496 43.1859 29.36C43.6819 30.224 43.9299 31.208 43.9299 32.312C43.9299 33.48 43.6579 34.528 43.1139 35.456C42.5699 36.368 41.8259 37.088 40.8819 37.616C39.9539 38.128 38.8979 38.384 37.7139 38.384C36.4019 38.384 35.2259 38.104 34.1859 37.544C33.1459 36.984 32.2499 36.16 31.4979 35.072L33.0579 33.632ZM42.8259 22.712H34.1379L35.0259 21.92L34.0179 30.584H32.0019L33.1299 20.84H42.8259V22.712Z" fill="white" />
+                      <circle cx="29" cy="29" r="28.5" stroke="url(#paint0_linear_737_473)" />
+                      <defs>
+                        <linearGradient id="paint0_linear_737_473" x1="29" y1="0" x2="29" y2="58" gradientUnits="userSpaceOnUse">
+                          <stop stop-color="#56C5FF" />
+                          <stop offset="1" stop-color="#ECE370" />
+                        </linearGradient>
+                      </defs>
+                    </svg>
 
 
                   </div>
                   <h3>Network Utilization</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Leveraging our extensive network to curate a <br /> targeted investor/lender list for strategic outreach.</p>
-
+                      <p className='laptop_con'>Leveraging our extensive network to curate a <br /> targeted investor/lender list for strategic outreach.</p>
+                      <p className='mobile_con'>Leveraging our extensive network to curate a  targeted investor/lender list for strategic outreach.</p>
                     </div>
 
                   </div>
@@ -672,8 +198,8 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -692,15 +218,15 @@ const service = () => {
                   <h3>Engagement Strategies</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Directly reaching out to and engaging investors/ <br />lenders on an individual basis for personalized <br />  interactions.</p>
-
+                      <p className='laptop_con'>Directly reaching out to and engaging investors/ <br />lenders on an individual basis for personalized <br />  interactions.</p>
+                      <p className='mobile_con'>Directly reaching out to and engaging investors/ lenders on an individual basis for personalized   interactions.</p>
                     </div>
 
                   </div>
                 </div>
               </div>
               <div className="hone_right">
-              <img src="./images/link14.svg" alt="" />
+                <img src="./images/link14.svg" alt="" />
                 {/* <div className="cont-top">
                     <div class="container">
                       <div class="trigger"></div>
@@ -1178,484 +704,11 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-              <img src="./images/link15.svg" alt="" />
-                {/* <div className="cont-top">
-                  <div class="container">
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="monitor">
-                      <div class="camera o-x">
-                        <div class="camera o-y">
-                          <div class="camera o-z">
-                            <div class="vr">
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                <img src="./images/link15.svg" alt="" />
+                
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -1675,8 +728,8 @@ const service = () => {
                   <h3>Deal Negotiation</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Skillfully negotiating deal terms, resulting in the <br /> formulation of detailed and beneficial Term Sheets.</p>
-
+                      <p className='laptop_con'>Skillfully negotiating deal terms, resulting in the <br /> formulation of detailed and beneficial Term Sheets.</p>
+                      <p className='mobile_con'>Skillfully negotiating deal terms, resulting in the  formulation of detailed and beneficial Term Sheets.</p>
                     </div>
 
                   </div>
@@ -1684,8 +737,8 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -1704,8 +757,8 @@ const service = () => {
                   <h3>Offer Analysis</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Conducting a thorough analysis of offers and <br /> providing strategic advice on pricing and deal <br /> structure for maximum value and tax efficiency.</p>
-
+                      <p className='laptop_con'>Conducting a thorough analysis of offers and <br /> providing strategic advice on pricing and deal <br /> structure for maximum value and tax efficiency.</p>
+                      <p className='mobile_con'>Conducting a thorough analysis of offers and  providing strategic advice on pricing and deal  structure for maximum value and tax efficiency.</p>
                     </div>
 
                   </div>
@@ -2190,484 +1243,11 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
                 <img src="./images/link17.svg" alt="" />
-                {/* <div className="cont-top">
-                  <div class="container">
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="trigger"></div>
-                    <div class="monitor">
-                      <div class="camera o-x">
-                        <div class="camera o-y">
-                          <div class="camera o-z">
-                            <div class="vr">
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                              <div class="vr_layer">
-                                <div class="vr_layer_item"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                 
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -2687,15 +1267,16 @@ const service = () => {
                   <h3>Management <br /> Presentations</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Actively participating in management presentations <br /> to convey the businesss strengths and <br /> opportunities.</p>
+                      <p className='laptop_con'>Actively participating in management presentations <br /> to convey the businesss strengths and <br /> opportunities.</p>
+                      <p className='mobile_con'>Actively participating in management presentations  to convey the businesss strengths and  opportunities.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -2714,15 +1295,15 @@ const service = () => {
                   <h3>Due Diligence Support</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Involvement in the due diligence process, ensuring <br /> accurate and consistent information is <br /> communicated to investors/lenders, fostering <br /> transparency</p>
-
+                      <p className='laptop_con'>Involvement in the due diligence process, ensuring <br /> accurate and consistent information is <br /> communicated to investors/lenders, fostering <br /> transparency</p>
+                      <p className='mobile_con'>Involvement in the due diligence process, ensuring  accurate and consistent information is  communicated to investors/lenders, fostering  transparency</p>
                     </div>
 
                   </div>
                 </div>
               </div>
               <div className="hone_right">
-              <img src="./images/link18.svg" alt="" />
+                <img src="./images/link18.svg" alt="" />
                 {/* <div className="cont-top">
                     <div class="container">
                       <div class="trigger"></div>

@@ -5,7 +5,7 @@ import CustomCursor from './components/CustomCursor'
 const service = () => {
   return (
     <>
-      <CustomCursor/>
+      <CustomCursor />
       <Header />
       <div className="service_hone">
         <div className="main_hone">
@@ -13,7 +13,7 @@ const service = () => {
             data-aos-offset="200"
             data-aos-easing="ease-in-sine">
             <h3>Buy-side advisory</h3>
-            
+
           </div>
           <div data-aos="fade-up"
             data-aos-offset="300"
@@ -23,8 +23,8 @@ const service = () => {
             {/* <p></p> */}
           </div>
           <div className="st">
-            <div  className="small_para">
-              <p>Benefit from DigitalMnA’s expertise to  build 
+            <div className="small_para">
+              <p>Benefit from DigitalMnA’s expertise to  build
               </p>
               <p> strategic technology competency and solutions for</p>
               <p>your growth</p>
@@ -32,10 +32,10 @@ const service = () => {
           </div>
           <div className="service_hone_main">
             <div data-aos="fade-up"
-                  data-aos-offset="50"
-                  data-aos-easing="ease-in-sine" className="service_flex_main">
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine" className="service_flex_main">
               <div className="hone_left">
-                 <img src="./images/link5.svg" alt="" />
+                <img src="./images/link5.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -68,8 +68,8 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="300"
-                  data-aos-easing="ease-in-sine" className="service_flex_main service_flex_main11 mty">
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine" className="service_flex_main service_flex_main11 mty">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -91,8 +91,8 @@ const service = () => {
 
                     </div>
                     <div className="stratic_flex static_flex1">
-                      <p>Review and Evaluate Target Business and Strategic <br/> alignment</p>
-
+                      <p className='laptop_con'>Review and Evaluate Target Business and Strategic <br /> alignment</p>
+                      <p className='mobile_con'>Review and Evaluate Target Business and Strategic alignment</p>
                     </div>
                     <div className="stratic_flex static_flex1">
                       <p>Develop the offers</p>
@@ -102,14 +102,14 @@ const service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                 <img src="./images/link6.svg" alt="" />
+                <img src="./images/link6.svg" alt="" />
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="200"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty">
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                  <img src="./images/link7.svg" alt="" />
+                <img src="./images/link7.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -139,8 +139,8 @@ const service = () => {
               </div>
             </div>
             <div data-aos="fade-up"
-                  data-aos-offset="100"
-                  data-aos-easing="ease-in-sine" className="service_flex_main mty service_flex_main11">
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine" className="service_flex_main mty service_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -173,7 +173,7 @@ const service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                 <img src="./images/link8.svg" alt="" />
+                <img src="./images/link8.svg" alt="" />
               </div>
             </div>
           </div>
