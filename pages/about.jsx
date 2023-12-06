@@ -15,7 +15,7 @@ const about = () => {
                 <h3 data-aos="fade-up"
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
-                  <span>DigitalMnA</span> is a full-service Merger and acquisition company helping companies sell and buy assets by creating value
+                  <span>digitalMnA</span> is a full-service Merger and acquisition company helping companies sell and buy assets by creating value
                 </h3>
               </div>
               <div className="abouty_right">
@@ -37,7 +37,7 @@ const about = () => {
             <h3>Why <span>DigitalLMnA</span></h3>
             <p data-aos="fade-up"
               data-aos-offset="200"
-              data-aos-easing="ease-in-sine">DigitalMnA excels in Technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, we navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and Value creation for your business</p>
+              data-aos-easing="ease-in-sine">digitalMnA excels in Technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, we navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and Value creation for your business</p>
             <div  className="why_sab">
               <img 
               // data-aos="fade-up"
@@ -163,9 +163,9 @@ const about = () => {
                     <h3>Shashi</h3>
                     <h3>Koteshwara</h3>
                   </div>
-                  <div className="icon">
+                 <a href="https://www.linkedin.com/in/shashi-koteshwara-0a68182/" target='_blank'><div className="icon">
                     <img src="./images/linkedin.svg" alt="" />
-                  </div>
+                  </div></a> 
                 </div>
                 <div className="director">
                   <h4>Managing Partner</h4>
@@ -183,9 +183,9 @@ const about = () => {
                     <h3>Srinivasa</h3>
                     <h3>Karanth</h3>
                   </div>
-                  <div className="icon">
+                 <a href="https://www.linkedin.com/in/srinivasa-karanth-b531458/" target='_blank'><div className="icon">
                     <img src="./images/linkedin.svg" alt="" />
-                  </div>
+                  </div></a> 
                 </div>
                 <div className="director">
                   <h4>Managing Partner</h4>
@@ -203,9 +203,9 @@ const about = () => {
                     <h3>Ravikumar</h3>
                     <h3>Rajagopalan</h3>
                   </div>
-                  <div className="icon">
+                <a target='_blank' href="https://www.linkedin.com/in/ravikumar-rajagopalan-a2508a17/"><div className="icon">
                     <img src="./images/linkedin.svg" alt="" />
-                  </div>
+                  </div></a>
                 </div>
                 <div className="director">
                   <h4>Managing Director</h4>

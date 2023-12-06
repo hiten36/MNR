@@ -13,9 +13,7 @@ const contact = () => {
         <div className="schedule">
           <div className="schedule_inner">
             <div className="schedule1">
-              {/* <a target='_blank' href="http://booking.microsoft.com">
-
-              </a> */}
+                <h3>Connect With Us</h3>
               <div className="talk">
                 <div className="talk_flex">
                   <div className="talk_box">
@@ -108,7 +106,7 @@ const contact = () => {
               </div>
             </div>
             <div className="schedule2">
-              <h3>Talk Or Email The Team</h3>
+             
               <form>
                 <div className="flex_form_input">
                   <div className="left_filed">

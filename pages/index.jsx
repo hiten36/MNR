@@ -35,7 +35,7 @@ export default function Home() {
                 </span>  <br />
                   for sellers</h2>
                 <div className='mting'>
-                  <p>DigitalMna is a full-service Merger and acquisition company helping
+                  <p>digitalMnA is a full-service Merger and acquisition company helping
                   </p>
                   <p>companies sell and buy assets by creating value</p>
                 </div>
@@ -72,7 +72,7 @@ export default function Home() {
             <div data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="about_content">
-              <p> <span>DigitalMnA</span>  is a full-service Merger and acquisition company helping companies sell and buy assets by creating value</p>
+              <p> <span>digitalMnA</span>  is a full-service Merger and acquisition company helping companies sell and buy assets by creating value</p>
             </div>
             <div className="about_btn">
              <Link href="/about"><button data-aos="fade-up"
@@ -173,7 +173,7 @@ export default function Home() {
                 data-aos-offset="100"
                 data-aos-easing="ease-in-sine" className="work_lef">
                 <h2>Our<span>work</span></h2>
-                <p data-aos="fade-right">DigitalMnA is a full-service Merger and acquisition company helping
+                <p data-aos="fade-right">digitalMnA is a full-service Merger and acquisition company helping
                   companies sell and buy assets by creating value</p>
                 {/* <button><span>Explore all works</span>
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
