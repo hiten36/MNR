@@ -48,10 +48,11 @@ const Service = () => {
           </div>
           <div className="st">
             <div className="small_para">
-              <p>Benefit from DigitalMnA’ expertise to ensure you’re selling
+              <p className='laptop_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling
               </p>
-              <p> at the right time. Make certain the legacy you’ve built</p>
+              <p className='laptop_con'>at the right time. Make certain the legacy you’ve built</p>
               <p>continues to thrive.</p>
+              <p className='mobile_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling at the right time. Make certain the legacy you’ve built continues to thrive.</p>
             </div>
           </div>
           <div className="service_hone_main">
@@ -177,26 +178,26 @@ const Service = () => {
                   <h3>Business Valuation</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Conduct a thorough business valuation to determine <br /> the appropriate asking price.</p>
-
+                      <p className='laptop_con'>Conduct a thorough business valuation to determine <br /> the appropriate asking price.</p>
+                       <p className='mob_con'>Conduct a thorough business valuation to determine  the appropriate asking price.</p>
                     </div>
                     <div className="stratic_flex static_flex1">
-                      <p>Consider various valuation methods and market <br /> benchmarks.</p>
-
+                      <p className='laptop_con'>Consider various valuation methods and market <br /> benchmarks.</p>
+                      <p className='mob_con'>Consider various valuation methods and market  benchmarks.</p>
                     </div>
 
                   </div>
                 </div>
               </div>
               <div className="hone_right">
-                  <img src="./images/link2.svg" alt="" />
+                <img src="./images/link2.svg" alt="" />
               </div>
             </div>
             <div data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                  <img src="./images/link3.svg" alt="" />
+                <img src="./images/link3.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -215,11 +216,12 @@ const Service = () => {
                   <h3>Information <br /> Memorandum</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Prepare a comprehensive Information Memorandum <br /> (IM) or Offering Memorandum that provides detailed <br /> information  about the company.</p>
-
+                      <p className='laptop_con'>Prepare a comprehensive Information Memorandum <br /> (IM) or Offering Memorandum that provides detailed <br /> information  about the company.</p>
+                      <p className='mobile_con'>Prepare a comprehensive Information Memorandum  (IM) or Offering Memorandum that provides detailed  information  about the company.</p>
                     </div>
                     <div className="stratic_flex static_flex1">
-                      <p>Include financials, operations, market position, and <br /> growth opportunities.</p>
+                      <p className='laptop_con'>Include financials, operations, market position, and <br /> growth opportunities.</p>
+                      <p className='mobile_con'>Include financials, operations, market position, and  growth opportunities.</p>
                     </div>
                   </div>
                 </div>
@@ -245,8 +247,8 @@ const Service = () => {
                   <h3>Identify Potential <br /> Buyers</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Identify and target potential buyers, which may <br /> include strategic acquirers, private equity firms, or <br /> other investors.</p>
-
+                      <p className='laptop_con'>Identify and target potential buyers, which may <br /> include strategic acquirers, private equity firms, or <br /> other investors.</p>
+                      <p className='mobile_con'>Identify and target potential buyers, which may  include strategic acquirers, private equity firms, or  other investors.</p>
                     </div>
                     <div className="stratic_flex static_flex1">
                       <p>Market Position and Competitive Advantage</p>
@@ -255,7 +257,7 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                  <img src="./images/link4.svg" alt="" />
+                <img src="./images/link4.svg" alt="" />
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ const Header = () => {
     <div className="header">
       <div className="mobile_nav">
         <Link href="/"><div className="nav_logo">
-          <img src="./images/ima.svg" alt="" />
+          <img src="./images/logos.svg" alt="" />
         </div></Link>
         <div className="icon_mob" onClick={()=> setOpenMenu(!openMenu)}>
            <img src="./images/menu.png" alt="" />
@@ -25,7 +25,7 @@ const Header = () => {
       </div>
       <nav style={stylePeer} className="navbar">
         <Link href="/"><div className="nav_logo">
-          <img src="./images/ima.svg" alt="" />
+          <img src="./images/logos.svg" alt="" />
         </div></Link>
         <div className="nav_content">
           <ul>

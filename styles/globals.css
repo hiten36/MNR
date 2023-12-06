@@ -50,8 +50,8 @@ body {
 
 .nav_content ul li a {
   color: #101729;
-  font-weight: 500 !important;
-  font-size: 15px;
+  font-weight: 700 !important;
+  font-size: 16px;
   padding: 10px;
   text-decoration: none;
   box-shadow: inset 0 0 0 0 #3464FD;
@@ -97,7 +97,7 @@ body {
   border-radius: 30px;
   color: #3464FD;
   font-size: 16px;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   /* text-transform: uppercase; */
   background-color: #F4FAFE;
   box-shadow: inset 0 0 0 0 #3464FD;
@@ -179,7 +179,8 @@ body {
 
   width: 100%;
   position: relative;
-  height: 776px;
+  /* height: 776px; */
+  height: 680px;
   /* padding-bottom: 60px; */
 }
 
@@ -218,7 +219,8 @@ body {
   font-size: 64px;
   line-height: 70px;
   /* text-transform: uppercase; */
-  line-height: 80px;
+  /* line-height: 80px; */
+  line-height: 92px;
   font-family: 'Wix Madefor Display', sans-serif;
 }
 
@@ -296,7 +298,7 @@ body {
 }
 .banner_sect P {
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400 !important;
   margin: 12px 0px;
   font-family: 'Wix Madefor Display', sans-serif !important;
@@ -358,6 +360,12 @@ body {
   box-shadow: inset 0 0 0 0 #3464FD;
   transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
 }
+.mob_con{
+  display: none;
+}
+.about_btn a{
+  text-decoration: none;
+}
 .about_btn svg {
   margin: 0px 10px;
 }
@@ -382,6 +390,9 @@ body {
   padding: 60px 120px;
   padding-bottom: 85px;
   border-top: 8px solid #3464FD;
+}
+.mobile_con{
+  display: none;
 }
 .our_services {
   max-width: 1440px;
@@ -621,7 +632,8 @@ body {
 
 /* ====================work css start============= */
 .work_here {
-  background-image: url('/images/ourWork.png');
+  /* background-image: url('/images/ourWork.png'); */
+  background-image: url('/images/workLeaf.svg');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -677,7 +689,7 @@ body {
 .work_lef h2 {
   color: #1E1D22;
   font-weight: 800 !important;
-  font-size: 40px;
+  font-size: 48px;
   /* text-transform: uppercase; */
 }
 
@@ -859,7 +871,7 @@ body {
 .bloging_tect h2 {
   color: #1E1D22;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   /* text-transform: uppercase; */
 }
@@ -1021,9 +1033,9 @@ body {
 .touch_sing h3 {
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 48px;
   /* text-transform: uppercase; */
-  line-height: 45.36px;
+  line-height: 60px;
 }
 
 .conting {
@@ -5398,7 +5410,7 @@ body {
 .our_team h2 {
   color: #101729;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   /* text-transform: uppercase; */
 }
@@ -5457,7 +5469,7 @@ body {
 .operate_inner h3 {
   color: #101729;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 48px;
   text-align: center;
   /* text-transform: uppercase; */
 }
@@ -5515,8 +5527,8 @@ body {
 .ask_right h3 {
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 45.36px;
+  font-size: 48px;
+  /* line-height: 45.36px; */
 }
 
 .ask_right {
@@ -5532,17 +5544,14 @@ body {
 .ask_left img {
   width: 100%;
 }
-
 .ask_para {
   margin-top: 15px;
 }
-
 .ask_para p {
   color: #FFFFFF;
   font-weight: 400;
   font-size: 24px;
 }
-
 .btsu {
   /* display: flex; */
   background-color: #EEF2FE;
@@ -5603,13 +5612,9 @@ body {
   display: block;
   margin: auto;
 }
-
 .privacy_things {
   margin-top: 40px;
 }
-
-
-
 .privacy_head h3 {
   color: #101729;
   white-space: nowrap;
@@ -5619,35 +5624,28 @@ body {
   /* position: absolute;
   top: 10px; */
 }
-
 .privacy_para {
   margin-top: 85px;
 }
-
 .privacy_para p {
   color: #101729;
   font-weight: 500;
   font-size: 20px;
 }
-
 .ul_things ol {
   padding: 0px 40px;
 }
-
 .ul_things ol li {
   color: #101729;
   font-weight: 500;
   font-size: 20px;
 }
-
 .test_ul {
   margin-top: 35px;
 }
-
 .privacy_para {
   padding: 0px 25px;
 }
-
 /* ===========================privacy css end====================== */
 
 /* =================blog detail css start================= */
@@ -5677,81 +5675,65 @@ body {
   font-weight: 600;
   font-size: 24px;
 }
-
 .blog_det {
   max-width: 1440px;
   width: 100%;
   display: block;
   margin: auto;
 }
-
 .blog_poining {
   background-color: #FFFFFF;
   padding: 20px 120px;
 }
-
 .blog_sonting {
   max-width: 1440px;
   width: 100%;
   display: block;
   margin: auto;
 }
-
 .blog_fraction {
   max-width: 909px;
   width: 100%;
   display: block;
   margin: auto;
 }
-
 .first_blog_para {
-
   /* margin: auto; */
   margin: 26px 0px;
 }
-
 .blog_fraction p {
   color: #101729;
   font-weight: 500;
   font-size: 20px;
 }
-
 .section2 {
   margin-top: 10px;
 }
-
 .section2 h3 {
   color: #101729;
   font-weight: 500;
   font-size: 36px;
   /* line-height: 48px; */
 }
-
 .section2_para {
   margin-top: 35px;
 }
-
 .section2 p {
   margin: 25px 0px;
 }
-
 .blk_img img {
   width: 100%;
   margin: 15px 0px;
 }
-
 .mobile_nav {
   display: none;
 }
-
 .svg_btn11 a {
   text-decoration: none;
 }
-
 .schedule1 a {
   text-decoration: none;
 }
-
 .director h4 {
   color: #101729;
   font-weight: 500;
@@ -5765,15 +5747,24 @@ body {
   position: relative;
   display: block;
   margin: auto;
-  max-width: 1200px;
-  margin-top: 60px;
+  /* max-width: 1200px; */
+  /* margin-top: 60px; */
   /* top: -30px; */
+  max-width: 100%;
 }
 .btn_home a{
   text-decoration: none;
 }
 .inner_hu h3{
   color: #FFFFFF;
+}
+.mail_res h4{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 24px;
+}
+.laptop_con{
+  display: block;
 }
 /* ====================blog detail css end================== */
 
@@ -6174,6 +6165,7 @@ body {
   }
   .stratic_flex p {
     font-size: 16px;
+    line-height: 24px;
   }
   .btsu {
     max-width: 355px;
@@ -6205,13 +6197,41 @@ body {
 
 }
 
-@media only screen and (max-width:420px) {
+@media only screen and (max-width:500px) {
   .footer_flex1 {
     flex-direction: column;
+  }
+  .ts p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .talk{
+    margin-top: 0px;
+  }
+  .talk_box{
+    border: 1px dashed #3464FD ;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .team_sch{
+    width: 100%;
+    max-width: 100%;
   }
   .service_inner {
     width: 205px;
     max-width: 100%;
+  }
+  .talk_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .service_hone_main{
+    margin-top: 30px;
+  }
+  .st{
+    margin-top: 40px;
   }
   .service_inner ul {
     gap: 25px;
@@ -6241,6 +6261,19 @@ body {
   }
   .cursor{
     display: none !important;
+  }
+  .stratic_flex{
+    justify-content: center;
+  }
+  .mob_con{
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile_con{
+    display: flex;
+  }
+  .laptop_con{
+    display: none;
   }
 }
 
