@@ -43,7 +43,7 @@ const about = () => {
               // data-aos="fade-up"
               // data-aos-offset="300"
               // data-aos-easing="ease-in-sine"
-                src="./images/whydo.gif" alt="" />
+                src="./images/whydo1.gif" alt="" />
             </div>
           </div>
         </div>
