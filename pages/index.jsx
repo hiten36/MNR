@@ -35,9 +35,9 @@ export default function Home() {
     });
 
     const data = await res.json();
-    console.log(data);
+    // console.log(data);
     // notify( "success", data.message);
-    // alert(data.message);
+    alert(data.message);
     setVal({
       firstName1: "",
       lastName1: "",
@@ -568,15 +568,15 @@ export default function Home() {
                   <div className="">
                     <div className="">
                       {/* <label htmlFor="">First name*</label> */}
-                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name'  />
+                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name' required  />
                     </div>
                     <div className="">
                       {/* <label htmlFor="">Last name</label> */}
-                      <input name='lastName1' value={val.lastName1} onChange={handleChange} type="text" placeholder='Last name'  />
+                      <input name='lastName1' value={val.lastName1} onChange={handleChange} type="text" placeholder='Last name' required />
                     </div>
                     <div className="">
                       {/* <label htmlFor="">Email</label> */}
-                      <input name='email' value={val.email} onChange={handleChange} type="text" placeholder='Email'  />
+                      <input name='email' value={val.email} onChange={handleChange} type="text" placeholder='Email' required />
                     </div>
                   </div>
 
