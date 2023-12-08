@@ -1,10 +1,10 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
 const Contact = () => {
   const [val, setVal] = useState({
-    firstName:"",
+    firstName: "",
     lastName: "",
     method: "",
     here: "",
@@ -27,10 +27,10 @@ const Contact = () => {
     });
 
     const data = await res.json();
-    console.log(data);
+    alert(data.message);
     // notify( "success", data.message);
     setVal({
-      firstName:"",
+      firstName: "",
       lastName: "",
       method: "",
       here: "",
@@ -47,7 +47,7 @@ const Contact = () => {
         <div className="schedule">
           <div className="schedule_inner">
             <div className="schedule1">
-                <h3>Connect With Us</h3>
+              <h3>Connect With Us</h3>
               <div className="talk">
                 <div className="talk_flex">
                   <div className="talk_box">
@@ -140,31 +140,31 @@ const Contact = () => {
               </div>
             </div>
             <div className="schedule2">
-                <h3>Share information with us</h3>
+              <h3>Share information with us</h3>
               <form onSubmit={handleSubmit}>
                 <div className="flex_form_input">
                   <div className="left_filed">
                     <div className="filed_section">
                       <div className="inp1">
                         <label htmlFor="firstName">First name*</label>
-                        <input id='firstName' name='firstName' value={val.firstName} onChange={handleChange} placeholder='Your name' type="text" />
+                        <input id='firstName' name='firstName' value={val.firstName} onChange={handleChange} placeholder='Your name' type="text" required />
                       </div>
                       <div className="inp1">
                         <label htmlFor="lastName">Last name*</label>
-                        <input id='lastName' name='lastName' value={val.lastName} onChange={handleChange} placeholder='Last name' type="text" />
+                        <input id='lastName' name='lastName' value={val.lastName} onChange={handleChange} placeholder='Last name' type="text" required />
                       </div>
                     </div>
                     <div className="filed_section inp11">
                       <div className="inp1">
                         <label htmlFor="method">Preferred Method of contact*</label>
-                        <select name="method" id="method" onChange={handleChange} value={val.method}>
+                        <select name="method" id="method" onChange={handleChange} value={val.method} required>
                           <option>Please select</option>
                           <option>2</option>
                         </select>
                       </div>
                       <div className="inp1 ">
                         <label htmlFor="here">How did you here about us?</label>
-                        <select name="here" id="here" onChange={handleChange} value={val.here}>
+                        <select name="here" id="here" onChange={handleChange} value={val.here} required>
                           <option>Please  select</option>
                           <option>2</option>
                         </select>
@@ -174,8 +174,7 @@ const Contact = () => {
                   <div className="right_filed">
                     <div className="inp2">
                       <label htmlFor="message">How can we help you?</label>
-                      <textarea onChange={handleChange} value={val.message} placeholder='Your message here' name="message" id="message" cols="30" rows="10">
-
+                      <textarea onChange={handleChange} value={val.message} placeholder='Your message here' name="message" id="message" cols="30" rows="10" required>
                       </textarea>
                     </div>
                   </div>
