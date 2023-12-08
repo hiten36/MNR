@@ -17,7 +17,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // const res = await fetch("https://kushel-digi.onrender.com/contact1", {
     const res = await fetch("http://localhost:5000/contact", {
       method: "POST",
       headers: {
@@ -27,8 +26,8 @@ const Contact = () => {
     });
 
     const data = await res.json();
-    alert(data.message);
-    // notify( "success", data.message);
+    // alert(data.message);
+    
     setVal({
       firstName: "",
       lastName: "",
