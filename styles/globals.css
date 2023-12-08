@@ -15,6 +15,9 @@ body {
   overflow-x: hidden !important;
   /* text-transform: capitalize !important; */
 }
+.mobile_that_card{
+  display: none;
+}
 /* body button{
   text-transform: capitalize !important;
 } */
@@ -6167,6 +6170,51 @@ body h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .mobile_that_card{
+    display: block !important;
+    margin-top: 40px;
+  }
+  .flex_that{
+    position: relative;
+    z-index: 2;
+    height: 242px;
+    max-height: 100%;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0px;
+  }
+  .flex_that::before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 24px;
+    opacity: 40%;
+    border: solid 1.77px transparent;
+    background-image: linear-gradient(#02011B, #02011B),
+    linear-gradient(145.56deg, #3464FD 13.59%, #EEF2FE 79.66%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+   content: "";
+   z-index: -1;
+   height: 100%;
+   width: 100%;
+  }
+  .pata_that p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 26px;
+  }
+  .why_sab{
+    display: none;
   }
   .sch_para h3{
     font-size: 18px;
