@@ -126,7 +126,7 @@ const Service = () => {
                   <h3>Presentation Materials</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Crafting compelling historical financials and future <br /> projections to enhance the company's <br /> presentations.</p>
+                      <p className='laptop_con'>Crafting compelling historical financials and future <br /> projections to enhance the company <br /> presentations.</p>
                       <p className='mobile_con'>Crafting compelling historical financials and future  projections to enhance the companys  presentations.</p>
                     </div>
 
@@ -1314,4 +1314,4 @@ const Service = () => {
   )
 }
 
-export default Service
+export default Service;

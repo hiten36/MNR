@@ -317,7 +317,7 @@ export default function Home() {
               <div className="digi1">
                 <div className="dif dif1">
                   <h3>Experience working</h3>
-                  <h3>in Hyperscale's</h3>
+                  <h3>in Hyperscale</h3>
                   <h3>ecosystem</h3>
                 </div>
                 <div className="dif dif2">
