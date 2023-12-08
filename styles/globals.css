@@ -5832,6 +5832,10 @@ body h3{
     background-color: white;
     padding: 3px 20px;
   }
+  .our_team h2{
+    font-size: 30px;
+    line-height: 38px;
+  }
   .meet_flex{
     align-items: center !important;
   }
