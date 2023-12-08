@@ -113,7 +113,7 @@ const Service = () => {
                         </svg>
                       </div>
                       <ul className='tg1' style={{ display: showing2 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
-                        <li>innovation and staying ahead in technology trends</li>
+                        <li>Innovation and staying ahead in technology trends</li>
                       </ul>
                     </div>
 

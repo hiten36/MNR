@@ -37,6 +37,7 @@ export default function Home() {
     const data = await res.json();
     console.log(data);
     // notify( "success", data.message);
+    alert(data.message);
     setVal({
       firstName1: "",
       lastName1: "",
@@ -66,7 +67,7 @@ export default function Home() {
                 </span>  <br />
                   for sellers</h2>
                 <div className='mting'>
-                  <p>DigitalMnA is a Full-service Merger and Acquisition Company Helping
+                  <p>DigitalMnA is a full-service Merger and Acquisition Company Helping 
                   </p>
                   <p>Companies Sell and Buy assets by creating value</p>
                 </div>
@@ -102,7 +103,7 @@ export default function Home() {
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="about_content">
               <p>
-                <span>DigitalMnA</span> is a Full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
+               <span>DigitalMnA</span> is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
               </p>
             </div>
             <div className="about_btn">
@@ -204,8 +205,7 @@ export default function Home() {
                 data-aos-offset="100"
                 data-aos-easing="ease-in-sine" className="work_lef">
                 <h2>Our<span>Work</span></h2>
-                <p data-aos="fade-right">DigitalMnA is a full-service Merger and acquisition company helping
-                  companies sell and buy assets by creating value</p>
+                <p data-aos="fade-right">DigitalMnA is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value</p>
                 {/* <button><span>Explore all works</span>
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#3464FD" />
@@ -221,7 +221,7 @@ export default function Home() {
                       <div className="imk_para">
                         <p
                         // data-aos="fade-up"
-                        >Aegis, Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation and Closing and Post M&A integration</p>
+                        >Aegis, a Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation, and Closing, and Post M&A integration</p>
                       </div>
                       <div className="st_img">
                         <img src="./images/iml.svg" alt="" />
@@ -238,8 +238,7 @@ export default function Home() {
                     <div className="box_bis">
                       <div className="imk_para">
                         <p
-                        // data-aos="fade-up"
-                        >Shashi led the Microsoft business unit for Tech Mahindra. Created a multi 100 million business through organic growth, Microsoft  Partnership and  acquicitions</p>
+                        >Shashi led the Microsoft business unit for Tech Mahindra. Created a multi-100 million business through organic growth, Microsoft Partnership, and Acquisitions</p>
                       </div>
                       <div className="st_img st_img1">
                         <img src="./images/bis3.svg" alt="" />
@@ -569,15 +568,15 @@ export default function Home() {
                   <div className="">
                     <div className="">
                       {/* <label htmlFor="">First name*</label> */}
-                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name' />
+                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name' required />
                     </div>
                     <div className="">
                       {/* <label htmlFor="">Last name</label> */}
-                      <input name='lastName1' value={val.lastName1} onChange={handleChange} type="text" placeholder='Last name' />
+                      <input name='lastName1' value={val.lastName1} onChange={handleChange} type="text" placeholder='Last name' required />
                     </div>
                     <div className="">
                       {/* <label htmlFor="">Email</label> */}
-                      <input name='email' value={val.email} onChange={handleChange} type="text" placeholder='Email' />
+                      <input name='email' value={val.email} onChange={handleChange} type="text" placeholder='Email' required />
                     </div>
                   </div>
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
-const service = () => {
+const Service = () => {
   return (
     <>
       <CustomCursor />
@@ -18,12 +18,12 @@ const service = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" className="sell_para">
             <p>
-              Our capital raising services involve helping business owners raise capital either through the issuance of equity, debt, or both. This includes business valuation, creating investor/lender presentations, research and outreach to investors/lenders, participation in management presentations, analysis of offers, and deal negotiation.
+            Our capital-raising services involve helping business owners raise capital either through the issuance of equity, debt, or both. This includes business valuation, creating investor/lender presentations, research and outreach to investors/lenders, participation in management presentations, analysis of offers, and deal negotiation.
             </p>
           </div>
           <div className="st">
             <div className="small_para">
-              <p>Our capital raising services encompass a
+              <p>Our capital-raising services encompass a
               </p>
               <p>comprehensive approach, including:</p>
             </div>
@@ -126,7 +126,7 @@ const service = () => {
                   <h3>Presentation Materials</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Crafting compelling historical financials and future <br /> projections to enhance the companys <br /> presentations.</p>
+                      <p className='laptop_con'>Crafting compelling historical financials and future <br /> projections to enhance the company's <br /> presentations.</p>
                       <p className='mobile_con'>Crafting compelling historical financials and future  projections to enhance the companys  presentations.</p>
                     </div>
 
@@ -1788,4 +1788,4 @@ const service = () => {
   )
 }
 
-export default service
+export default Service

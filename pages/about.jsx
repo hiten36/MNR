@@ -15,7 +15,7 @@ const about = () => {
                 <h3 data-aos="fade-up"
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
-                  <span>DigitalMnA</span> is a Full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
+                 <span>DigitalMnA</span>is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
                 </h3>
               </div>
               <div className="abouty_right">
@@ -37,7 +37,7 @@ const about = () => {
             <h3>Why <span>DigitalMnA</span></h3>
             <p data-aos="fade-up"
               data-aos-offset="200"
-              data-aos-easing="ease-in-sine">DigitalMnA excels in Technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, we navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and Value creation for your business</p>
+              data-aos-easing="ease-in-sine">DigitalMnA excels in Technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, We navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and Value creation for your business</p>
             <div className="why_sab">
               <img
                 // data-aos="fade-up"
@@ -106,7 +106,7 @@ const about = () => {
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine">Work with us</h3>
                 <div className="ask_para">
-                  <p>If you are interested in deal making in the M&A space, tell us why you are interested and how you can make a difference</p>
+                  <p>If you are interested in deal-making in the M&A space, tell us why you are interested and how you can make a difference</p>
                 </div>
                 <div className="mail_res">
                   <h4>Mail your resume</h4>
