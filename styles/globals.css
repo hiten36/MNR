@@ -5832,6 +5832,9 @@ body h3{
     background-color: white;
     padding: 3px 20px;
   }
+  .meet_flex{
+    align-items: center !important;
+  }
   .inner_hu h3{
     font-size: 30px;
     line-height: 38px;
