@@ -5384,15 +5384,9 @@ body h3{
 .abouty_left {
   width: 50%;
 }
-
-.abouty_right {
-  /* width: 50%; */
-}
-
 .bg_blue {
   background-color: #3464FD !important;
   color: white !important;
-  /* border: 1px dotted black !important; */
 }
 
 .abouty_left img {

@@ -17,7 +17,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // const res = await fetch("https://kushel-digi.onrender.com/contact1", {
     const res = await fetch("http://localhost:5000/contact", {
       method: "POST",
       headers: {
@@ -27,8 +26,9 @@ const Contact = () => {
     });
 
     const data = await res.json();
-    alert(data.message);
-    // notify( "success", data.message);
+    console.log(data);
+    // alert(data.message);
+    
     setVal({
       firstName: "",
       lastName: "",
@@ -147,24 +147,24 @@ const Contact = () => {
                     <div className="filed_section">
                       <div className="inp1">
                         <label htmlFor="firstName">First name*</label>
-                        <input id='firstName' name='firstName' value={val.firstName} onChange={handleChange} placeholder='Your name' type="text" required />
+                        <input id='firstName' name='firstName' value={val.firstName} onChange={handleChange} placeholder='Your name' type="text"  />
                       </div>
                       <div className="inp1">
                         <label htmlFor="lastName">Last name*</label>
-                        <input id='lastName' name='lastName' value={val.lastName} onChange={handleChange} placeholder='Last name' type="text" required />
+                        <input id='lastName' name='lastName' value={val.lastName} onChange={handleChange} placeholder='Last name' type="text"  />
                       </div>
                     </div>
                     <div className="filed_section inp11">
                       <div className="inp1">
                         <label htmlFor="method">Preferred Method of contact*</label>
-                        <select name="method" id="method" onChange={handleChange} value={val.method} required>
+                        <select name="method" id="method" onChange={handleChange} value={val.method} >
                           <option>Please select</option>
                           <option>2</option>
                         </select>
                       </div>
                       <div className="inp1 ">
                         <label htmlFor="here">How did you here about us?</label>
-                        <select name="here" id="here" onChange={handleChange} value={val.here} required>
+                        <select name="here" id="here" onChange={handleChange} value={val.here} >
                           <option>Please  select</option>
                           <option>2</option>
                         </select>
@@ -174,7 +174,7 @@ const Contact = () => {
                   <div className="right_filed">
                     <div className="inp2">
                       <label htmlFor="message">How can we help you?</label>
-                      <textarea onChange={handleChange} value={val.message} placeholder='Your message here' name="message" id="message" cols="30" rows="10" required>
+                      <textarea onChange={handleChange} value={val.message} placeholder='Your message here' name="message" id="message" cols="30" rows="10" >
                       </textarea>
                     </div>
                   </div>

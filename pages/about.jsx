@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
-const about = () => {
+const About = () => {
   return (
     <>
       <CustomCursor />
@@ -223,4 +223,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
