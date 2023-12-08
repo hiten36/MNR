@@ -6002,6 +6002,7 @@ body h3{
 
   .meet_flex {
     flex-direction: column;
+    align-items: center !important;
   }
 
   .meet_box {
