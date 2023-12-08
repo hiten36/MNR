@@ -62,7 +62,7 @@ const About = () => {
                   </div>
 
                   <div className="pata_that">
-                    <p>Experience working in Hyperscale's ecosystem</p>
+                    <p>Experience working in Hyperscale ecosystem</p>
                   </div>
                 </div>
                 <div className="flex_that" data-aos="fade-up"
