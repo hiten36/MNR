@@ -159,14 +159,17 @@ const Contact = () => {
                         <label htmlFor="method">Preferred Method of contact*</label>
                         <select name="method" id="method" onChange={handleChange} value={val.method} required >
                           <option>Please select</option>
-                          <option>2</option>
+                          <option>By call</option>
+                          <option>By email</option>
+                          <option>By phone</option>
                         </select>
                       </div>
                       <div className="inp1 ">
                         <label htmlFor="here">How did you here about us?</label>
                         <select name="here" id="here" onChange={handleChange} value={val.here} required >
                           <option>Please  select</option>
-                          <option>2</option>
+                          <option>By Google</option>
+                          <option>Own</option>
                         </select>
                       </div>
                     </div>
