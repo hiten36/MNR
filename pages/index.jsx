@@ -1,9 +1,9 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
 // import Head from 'next/head';
 import Header from './components/Header';
-import { Splide, SplideSlide } from "@splidejs/react-splide";
+// import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
 import Footer from './components/Footer';
