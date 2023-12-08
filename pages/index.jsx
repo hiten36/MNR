@@ -568,15 +568,15 @@ export default function Home() {
                   <div className="">
                     <div className="">
                       {/* <label htmlFor="">First name*</label> */}
-                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name' required />
+                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name'  />
                     </div>
                     <div className="">
                       {/* <label htmlFor="">Last name</label> */}
-                      <input name='lastName1' value={val.lastName1} onChange={handleChange} type="text" placeholder='Last name' required />
+                      <input name='lastName1' value={val.lastName1} onChange={handleChange} type="text" placeholder='Last name'  />
                     </div>
                     <div className="">
                       {/* <label htmlFor="">Email</label> */}
-                      <input name='email' value={val.email} onChange={handleChange} type="text" placeholder='Email' required />
+                      <input name='email' value={val.email} onChange={handleChange} type="text" placeholder='Email'  />
                     </div>
                   </div>
 
