@@ -3,7 +3,7 @@ import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
-const privacyPolicy = () => {
+const PrivacyPolicy = () => {
   return (
     <>
       <CustomCursor/>
@@ -1434,4 +1434,4 @@ const privacyPolicy = () => {
   )
 }
 
-export default privacyPolicy
+export default PrivacyPolicy

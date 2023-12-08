@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
-const service = () => {
+const Service = () => {
   return (
     <>
       <CustomCursor />
@@ -184,4 +184,4 @@ const service = () => {
   )
 }
 
-export default service
+export default Service
