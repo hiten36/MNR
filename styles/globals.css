@@ -5788,6 +5788,9 @@ body h3{
   .meet_svg img {
     width: 100%;
   }
+  .meet_team{
+    padding: 90px 30px;
+  }
   .meet_box{
     margin: 0px 30px;
   }
@@ -5828,6 +5831,10 @@ body h3{
   .header {
     background-color: white;
     padding: 3px 20px;
+  }
+  .inner_hu h3{
+    font-size: 30px;
+    line-height: 38px;
   }
   .navbar {
     padding: 20px 20px;
@@ -6233,6 +6240,12 @@ body h3{
 @media only screen and (max-width:500px) {
   .footer_flex1 {
     flex-direction: column;
+  }
+  .mail_head p{
+    font-size: 16px;
+  }
+  .btsu img{
+    display: none;
   }
   .ts p{
     font-size: 16px;
