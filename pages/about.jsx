@@ -15,7 +15,7 @@ const About = () => {
                 <h3 data-aos="fade-up"
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
-                  <span>DigitalMnA</span>is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
+                  <span>DigitalMnA</span> is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
                 </h3>
               </div>
               <div className="abouty_right">
