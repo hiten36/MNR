@@ -157,19 +157,26 @@ const Contact = () => {
                     <div className="filed_section inp11">
                       <div className="inp1">
                         <label htmlFor="method">Preferred Method of contact*</label>
-                        <select name="method" id="method" onChange={handleChange} value={val.method} required >
-                          <option>Please select</option>
-                          <option>By call</option>
-                          <option>By email</option>
-                          <option>By phone</option>
+                        <select name="method" id="method" onChange={handleChange} value={val.method} required>
+                          <option value="">Please select</option>
+                          <option>Phone</option>
+                          <option>Email</option>
                         </select>
                       </div>
                       <div className="inp1 ">
                         <label htmlFor="here">How did you here about us?</label>
                         <select name="here" id="here" onChange={handleChange} value={val.here} required >
-                          <option>Please  select</option>
-                          <option>By Google</option>
-                          <option>Own</option>
+                          <option value="">Please  select</option>
+                          <option>Another website</option>
+                          <option>Article or blog post</option>
+                          <option>In-person event or tradeshow</option>
+                          <option>Organic search/serach engine</option>
+                          <option>Referral from a friend or colleague</option>
+                          <option>School/Campus</option>
+                          <option>Social media</option>
+                          <option>TEKsystems</option>
+                          <option>Webinar or virtual event</option>
+                          <option>Other</option>
                         </select>
                       </div>
                     </div>

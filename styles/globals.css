@@ -1246,8 +1246,31 @@ body h3{
 .foot1 {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  position: relative;
+  /* width: 100%; */
 }
+ .service_in{
+  background-color: #15151f;
+  display: none;
+  position: absolute;
+  top: 20px;
+  transition: all .5s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px 15px;
+  z-index: 10;
+  border-radius: 10px;
+  width: 135px;
+ }
+ .service_in p{
+  font-size: 12px !important;
+  margin: 12px 0px;
+  font-weight: 400 !important;
 
+ }
+ .foot1:hover .service_in{
+  display: block !important;
+ }
 .foot1 a {
   text-decoration: none;
 }
@@ -1256,6 +1279,7 @@ body h3{
   color: #FFFFFF;
   font-weight: 600;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .foot_content {
