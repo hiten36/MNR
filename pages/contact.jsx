@@ -28,7 +28,7 @@ const Contact = () => {
     const data = await res.json();
     // console.log(data);
     alert(data.message);
-    
+
     setVal({
       firstName: "",
       lastName: "",
