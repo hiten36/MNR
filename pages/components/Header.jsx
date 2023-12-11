@@ -41,7 +41,7 @@ const Header = () => {
             </li>
             <li><Link style={{ backgroundColor: currentRoute === '/about' ? "#3464FD" : "", color: currentRoute === '/about' ? "white" : "#101729" }} href="/about">About</Link></li>
             <Link href="/contact"><li>
-              <button style={{ backgroundColor: currentRoute === '/contact' ? "#3464FD" : "", color: currentRoute === '/contact' ? "white" : "#3464FD" }}>Contact us</button>
+              <button style={{ backgroundColor: currentRoute === '/contact' ? "#3464FD" : "", color: currentRoute === '/contact' ? "white" : "#3464FD" }}>Contact Us</button>
             </li></Link>
           </ul>
         </div>
