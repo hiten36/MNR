@@ -199,7 +199,7 @@ const Service = () => {
             </div>
             <div data-aos="fade-up"
               data-aos-offset="300"
-              data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
+              data-aos-easing="ease-in-sine" className="service_flex_main mty service_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -738,7 +738,7 @@ const Service = () => {
             </div>
             <div data-aos="fade-up"
               data-aos-offset="100"
-              data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
+              data-aos-easing="ease-in-sine" className="service_flex_main mty service_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
@@ -1276,7 +1276,7 @@ const Service = () => {
             </div>
             <div data-aos="fade-up"
               data-aos-offset="100"
-              data-aos-easing="ease-in-sine" className="service_flex_main mty ervice_flex_main11">
+              data-aos-easing="ease-in-sine" className="service_flex_main mty service_flex_main11">
               <div className="hone_left">
                 <div className="hone_box">
                   <div className="hone_svg">
