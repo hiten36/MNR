@@ -238,7 +238,7 @@ export default function Home() {
                     <div className="box_bis">
                       <div className="imk_para">
                         <p
-                        >Shashi led the Microsoft business unit for Tech Mahindra. Created a multi-100 million business through organic growth, Microsoft Partnership, and Acquisitions</p>
+                        >Shashi led the Microsoft business unit for Tech Mahindra. Created a Multi-100 Million business through organic growth, Microsoft Partnership, and Acquisitions</p>
                       </div>
                       <div className="st_img st_img1">
                         <img src="./images/bis3.svg" alt="" />
@@ -492,7 +492,7 @@ export default function Home() {
                   <img src="./images/point1.svg" alt="" />
                 </div>
                 <div className="bloging_para">
-                  <h3>IT Services M&A picks up steam.</h3>
+                  <h3>IT Services M&A picks up steam</h3>
                   {/* <p>Hello world! I’m excited to introduce Ballpark, a brand new product from the...</p> */}
                   <a target='_blank' href="https://www.techtarget.com/searchitchannel/news/366557934/IT-services-MA-picks-up-in-Q3-with-deals-in-Europe"><button><span>Read more</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">

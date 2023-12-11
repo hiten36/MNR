@@ -10,7 +10,7 @@ const Header = () => {
 
   const stylePeer = {
     top: openMenu ? "65px" : "-400px",
-    
+
   }
 
   return (
@@ -19,8 +19,8 @@ const Header = () => {
         <Link href="/"><div className="nav_logo">
           <img src="./images/logos.svg" alt="" />
         </div></Link>
-        <div className="icon_mob" onClick={()=> setOpenMenu(!openMenu)}>
-           <img src="./images/menu.png" alt="" />
+        <div className="icon_mob" onClick={() => setOpenMenu(!openMenu)}>
+          <img src="./images/menu.png" alt="" />
         </div>
       </div>
       <nav style={stylePeer} className="navbar">
@@ -39,7 +39,7 @@ const Header = () => {
                 </ul>
               </div>
             </li>
-            <li><Link style={{ backgroundColor: currentRoute === '/about' ? "#3464FD" : "", color: currentRoute === '/about' ? "white" : "#101729" }} href="/about">About</Link></li>
+            <li><Link style={{ backgroundColor: currentRoute === '/about' ? "#3464FD" : "", color: currentRoute === '/about' ? "white" : "#101729" }} href="/about">About Us</Link></li>
             <Link href="/contact"><li>
               <button style={{ backgroundColor: currentRoute === '/contact' ? "#3464FD" : "", color: currentRoute === '/contact' ? "white" : "#3464FD" }}>Contact Us</button>
             </li></Link>
