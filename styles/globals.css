@@ -5429,7 +5429,13 @@ body h3{
 }
 
 .abouty_left {
-  width: 50%;
+  width: 60%;
+}
+.abouty_right{
+  width: 40%;
+}
+.abouty_right img{
+  width: 100%;
 }
 .bg_blue {
   background-color: #3464FD !important;
