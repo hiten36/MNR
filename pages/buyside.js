@@ -18,16 +18,16 @@ const Service = () => {
           <div data-aos="fade-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" className="sell_para">
-            <p>Strategy, Synergy and Competency to</p>
+            <p>Strategy, synergy and competency to</p>
             <p>accelerate your growth</p>
             {/* <p></p> */}
           </div>
           <div className="st">
             <div className="small_para">
-              <p>Benefit from DigitalMnA’s expertise to  build
+              <p>Benefit from DigitalMnA’s expertise to  build strategic
               </p>
-              <p> strategic technology competency and solutions for</p>
-              <p>your growth</p>
+              <p>  technology competency and solutions for your growth</p>
+              {/* <p>your growth</p> */}
             </div>
           </div>
           <div className="service_hone_main">
@@ -55,13 +55,13 @@ const Service = () => {
                   <h3>Strategy Development</h3>
                   <div className="stratic">
                     <div className="stratic_flex">
-                      <p>Review Business objectives</p>
+                      <p>Review business objectives</p>
                     </div>
                     <div className="stratic_flex">
-                      <p>Develop Strategy</p>
+                      <p>Develop strategy</p>
                     </div>
                     <div className="stratic_flex">
-                      <p>Determine Criteria</p>
+                      <p>Determine criteria</p>
                     </div>
                   </div>
                 </div>
@@ -87,12 +87,12 @@ const Service = () => {
                   <h3>Execution</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p>Contact & Solicit Targets</p>
+                      <p>Contact & solicit targets</p>
 
                     </div>
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Review and Evaluate Target Business and Strategic <br /> alignment</p>
-                      <p className='mobile_con'>Review and Evaluate Target Business and Strategic alignment</p>
+                      <p className='laptop_con'>Review and evaluate target business and strategic <br /> alignment</p>
+                      <p className='mobile_con'>Review and evaluate target business and strategic alignment</p>
                     </div>
                     <div className="stratic_flex static_flex1">
                       <p>Develop the offers</p>
@@ -125,7 +125,7 @@ const Service = () => {
                       </defs>
                     </svg>
                   </div>
-                  <h3>Negotiate Offers</h3>
+                  <h3>Negotiate offers</h3>
                   {/* <div className="stratic">
                     <div className="stratic_flex static_flex1">
                       <p>Prepare a comprehensive Information Memorandum <br /> (IM) or Offering Memorandum that provides detailed <br /> information  about the company.</p>
@@ -155,7 +155,7 @@ const Service = () => {
                       </defs>
                     </svg>
                   </div>
-                  <h3>Transaction Closing</h3>
+                  <h3>Transaction closing</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
                       <p>Negotiation</p>
@@ -164,7 +164,7 @@ const Service = () => {
                       <p>LOI and Due diligence support</p>
                     </div>
                     <div className="stratic_flex static_flex1">
-                      <p>Financial Modelling</p>
+                      <p>Financial modelling</p>
                     </div>
                     <div className="stratic_flex static_flex1">
                       <p>Sales purchase agreement</p>
