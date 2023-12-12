@@ -55,8 +55,8 @@ export default function Home() {
               <div className="banner_left">
                 <h2>Creating <br /> <span className='syn'>
                   <Typed
-                    strings={['higher valuation', 'synergy',
-                      'digital differentiation']}
+                    strings={['Higher Valuation', 'Synergy',
+                      'Digital Differentiation']}
                     typeSpeed={60}
                     backSpeed={60}
                     loop

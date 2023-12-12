@@ -33,7 +33,8 @@ const Service = () => {
               data-aos-offset="50"
               data-aos-easing="ease-in-sine" className="service_flex_main">
               <div className="hone_left">
-                <img src="./images/link9.svg" alt="" />
+                <img className='lap_int' src="./images/link9.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob1.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -100,14 +101,16 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <img src="./images/link10.svg" alt="" />
+                <img className='lap_int' src="./images/link10.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob2.svg" alt="" />
               </div>
             </div>
             <div data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                <img src="./images/link11.svg" alt="" />
+                <img className='lap_int' src="./images/link11.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob3.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -161,14 +164,16 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <img src="./images/link12.svg" alt="" />
+                <img className='lap_int' src="./images/link12.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob4.svg" alt="" />
               </div>
             </div>
             <div data-aos="fade-up"
               data-aos-offset="50"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                <img src="./images/link13.svg" alt="" />
+                <img className='lap_int' src="./images/link13.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob5.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -226,7 +231,8 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <img src="./images/link14.svg" alt="" />
+                <img className='lap_int' src="./images/link14.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob6.svg" alt="" />
                 {/* <div className="cont-top">
                     <div class="container">
                       <div class="trigger"></div>
@@ -707,8 +713,8 @@ const Service = () => {
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                <img src="./images/link15.svg" alt="" />
-                
+                <img className='lap_int' src="./images/link15.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob7.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -765,7 +771,8 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <img src="./images/link16.svg" alt="" />
+                <img className='lap_int' src="./images/link16.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob8.svg" alt="" />
                 {/* <div className="cont-top">
                     <div class="container">
                       <div class="trigger"></div>
@@ -1246,8 +1253,8 @@ const Service = () => {
               data-aos-offset="100"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                <img src="./images/link17.svg" alt="" />
-                 
+                <img className='lap_int' src="./images/link17.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob9.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -1303,7 +1310,8 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <img src="./images/link18.svg" alt="" />
+                <img className='lap_int' src="./images/link18.svg" alt="" />
+                <img className='mob_int' src="./images/rasingmob10.svg" alt="" />
               </div>
             </div>
           </div>

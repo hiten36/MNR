@@ -1095,7 +1095,9 @@ body h3{
   height: 100%;
   /* margin-bottom: 140px; */
 }
-
+ .mob_int{
+  display: none;
+}
 .digital_here {
   max-width: 1440px;
   width: 100%;
@@ -1268,8 +1270,22 @@ body h3{
   font-size: 12px !important;
   margin: 12px 0px;
   font-weight: 400 !important;
-
  }
+ select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+ }
+ /* .select_wrapper{
+  position: relative;
+  z-index: 100;
+ }
+ select::after{
+  top: 0px;
+  right: 0px;
+  position: absolute;
+  content: "🦕";
+  font-size: 1rem;
+ } */
  .foot1:hover .service_in{
   display: block !important;
  }
@@ -5861,6 +5877,19 @@ body h3{
     background-color: white;
     padding: 3px 20px;
   }
+  .stratic_flex{
+    justify-content: center;
+  }
+  .mob_int{
+    display: block;
+  }
+  .lap_int{
+    display: none;
+  }
+  .sch_para h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
   .our_team h2{
     font-size: 30px;
     line-height: 38px;
@@ -6250,11 +6279,11 @@ body h3{
     text-align: center;
     font-size: 25px;
   }
-  .schedule1 h3{
+  /* .schedule1 h3{
     font-size: 25px;
     text-align: center;
     color: #1E1D22;
-  }
+  } */
   .schedule2 form{
     margin-top: 30px;
   }
