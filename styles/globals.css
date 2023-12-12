@@ -6352,6 +6352,16 @@ body h3{
   .footer_flex1 {
     flex-direction: column;
   }
+  /* .nav_logo img{
+    width: 132px;
+  }
+  .mob_tt{
+    top: 50px;
+  }
+  .mobtt1{
+    top: -400px;
+  } */
+
   .mail_head p{
     font-size: 16px;
   }

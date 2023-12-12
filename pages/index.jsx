@@ -238,7 +238,7 @@ export default function Home() {
                     <div className="box_bis">
                       <div className="imk_para">
                         <p
-                        >Shashi led the Microsoft Business unit for Tech Mahindra. Created a multi-100 million business through organic growth, Microsoft Partnership, and Acquisitions</p>
+                        >Shashi led the Microsoft Business unit for Tech Mahindra. Created a Multi-100 Million business through organic growth, Microsoft Partnership, and Acquisitions</p>
                       </div>
                       <div className="st_img st_img1">
                         <img src="./images/bis3.svg" alt="" />
