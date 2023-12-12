@@ -10,7 +10,6 @@ const Header = () => {
 
   const stylePeer = {
     top: openMenu ? "65px" : "-400px",
-
   }
 
   return (

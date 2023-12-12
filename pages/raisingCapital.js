@@ -18,7 +18,7 @@ const Service = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine" className="sell_para">
             <p>
-            Our capital-raising services involve helping business owners raise capital either through the issuance of equity, debt, or both. This includes business valuation, creating investor/lender presentations, research and outreach to investors/lenders, participation in management presentations, analysis of offers, and deal negotiation.
+              Our capital-raising services involve helping business owners raise capital either through the issuance of equity, debt, or both. This includes business valuation, creating investor/lender presentations, research and outreach to investors/lenders, participation in management presentations, analysis of offers, and deal negotiation.
             </p>
           </div>
           <div className="st">
