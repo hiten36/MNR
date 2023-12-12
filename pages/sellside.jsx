@@ -61,7 +61,8 @@ const Service = () => {
               data-aos-easing="ease-in-sine"
               className="service_flex_main  ">
               <div className="hone_left">
-                <img src="./images/link1.svg" alt="" />
+                <img className='lap_int' src="./images/link1.svg" alt="" />
+                <img className='mob_int' src="./images/mobileSed1.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -190,14 +191,16 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <img src="./images/link2.svg" alt="" />
+                <img className='lap_int' src="./images/link2.svg" alt="" />
+                <img className='mob_int' src="./images/mobileSed3.svg" alt="" />
               </div>
             </div>
             <div data-aos="fade-up"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="service_flex_main mty">
               <div className="hone_left">
-                <img src="./images/link3.svg" alt="" />
+                <img className='lap_int' src="./images/link3.svg" alt="" />
+                <img className='mob_int' src="./images/mobileSed2.svg" alt="" />
               </div>
               <div className="hone_right">
                 <div className="hone_box">
@@ -257,7 +260,8 @@ const Service = () => {
                 </div>
               </div>
               <div className="hone_right">
-                <img src="./images/link4.svg" alt="" />
+                <img className='lap_int' src="./images/link4.svg" alt="" />
+                <img className='mob_int' src="./images/mobileSed4.svg" alt="" />
               </div>
             </div>
           </div>

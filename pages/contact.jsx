@@ -157,7 +157,7 @@ const Contact = () => {
                     <div className="filed_section inp11">
                       <div className="inp1">
                         <label htmlFor="method">Preferred Method of contact*</label>
-                        <select name="method" id="method" onChange={handleChange} value={val.method} required>
+                        <select className='select_wrapper' name="method" id="method" onChange={handleChange} value={val.method} required>
                           <option value="">Please select</option>
                           <option>Phone</option>
                           <option>Email</option>
@@ -165,7 +165,7 @@ const Contact = () => {
                       </div>
                       <div className="inp1 ">
                         <label htmlFor="here">How did you here about us?</label>
-                        <select name="here" id="here" onChange={handleChange} value={val.here} required >
+                        <select className='select_wrapper' name="here" id="here" onChange={handleChange} value={val.here} required >
                           <option value="">Please  select</option>
                           <option>Another website</option>
                           <option>Article or blog post</option>
