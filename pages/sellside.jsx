@@ -82,7 +82,7 @@ const Service = () => {
                   <h3>Strategic Planning</h3>
                   <div className="stratic">
                     <div>
-                      <div onClick={toggle} className="stratic_flex">
+                      <div onClick={toggle} className="stratic_flex stratic_flex22">
                         <p>Operational Efficiency</p>
                         <svg style={{ transform: showing ? "rotate(45deg)" : "rotate(0deg)", transition: ".5s" }} width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M6.4 23.5852L5 22.1852L14.6 12.5852H6V10.5852H18V22.5852H16V13.9852L6.4 23.5852Z" fill="white" />
