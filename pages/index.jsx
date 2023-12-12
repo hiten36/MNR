@@ -66,11 +66,11 @@ export default function Home() {
                   />
                 </span>  <br />
                   for sellers</h2>
-                <div className='mting'>
-                  <p>DigitalMnA is a full-service Merger and Acquisition Company Helping 
+                {/* <div className='mting'>
+                  <p>DigitalMnA is a full-service merger and acquisition company helping 
                   </p>
-                  <p>Companies Sell and Buy assets by creating value</p>
-                </div>
+                  <p>companies sell and buy assets by creating value.</p>
+                </div> */}
                 <div className="btn_home">
                   <Link href="/about"><button
                   >
@@ -103,7 +103,7 @@ export default function Home() {
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="about_content">
               <p>
-               <span>DigitalMnA</span> is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
+               <span>DigitalMnA</span> is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.
               </p>
             </div>
             <div className="about_btn">
@@ -149,7 +149,7 @@ export default function Home() {
                     <h3>Sell-side</h3>
                     <h3>advisory</h3>
                   </div>
-                  <p>Strategies, actions and process that enhance your Company Valuation</p>
+                  <p>Strategies, actions and process that enhance your company valuation</p>
                   <Link href="/sellside"><button><span>Know more</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
@@ -168,7 +168,7 @@ export default function Home() {
                     <h3>Buy-side</h3>
                     <h3>advisory</h3>
                   </div>
-                  <p>Strategies, actions and process that enhance your Company Valuation</p>
+                  <p>Strategies, actions and process that enhance your company valuation</p>
                   <Link href="/buyside"><button><span>Know more</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
@@ -187,7 +187,7 @@ export default function Home() {
                     <h3>Raising</h3>
                     <h3>capital</h3>
                   </div>
-                  <p>Strategies, actions and process that enhance your Company Valuation</p>
+                  <p>Strategies, actions and process that enhance your company valuation</p>
                   <Link href="/raisingCapital"><button><span>Know more</span>
                     <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.1735 9H-0.00146484V7H12.1735L6.57354 1.4L7.99854 0L15.9985 8L7.99854 16L6.57354 14.6L12.1735 9Z" fill="white" />
@@ -204,8 +204,8 @@ export default function Home() {
               <div data-aos="fade-left"
                 data-aos-offset="100"
                 data-aos-easing="ease-in-sine" className="work_lef">
-                <h2>Our<span>Work</span></h2>
-                <p data-aos="fade-right">DigitalMnA is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value</p>
+                <h2>Our<span> Work</span></h2>
+                <p data-aos="fade-right">DigitalMnA is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.</p>
                 {/* <button><span>Explore all works</span>
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.175 9H0V7H12.175L6.575 1.4L8 0L16 8L8 16L6.575 14.6L12.175 9Z" fill="#3464FD" />
@@ -221,7 +221,7 @@ export default function Home() {
                       <div className="imk_para">
                         <p
                         // data-aos="fade-up"
-                        >Aegis, a Data and Analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation, and Closing, and Post M&A integration</p>
+                        >Aegis, a data and analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation, and closing, and post M&A integration</p>
                       </div>
                       <div className="st_img">
                         <img src="./images/iml.svg" alt="" />
@@ -238,7 +238,7 @@ export default function Home() {
                     <div className="box_bis">
                       <div className="imk_para">
                         <p
-                        >Shashi led the Microsoft business unit for Tech Mahindra. Created a Multi-100 Million business through organic growth, Microsoft Partnership, and Acquisitions</p>
+                        >Shashi led the Microsoft Business unit for Tech Mahindra. Created a multi-100 million business through organic growth, Microsoft Partnership, and Acquisitions</p>
                       </div>
                       <div className="st_img st_img1">
                         <img src="./images/bis3.svg" alt="" />
@@ -527,7 +527,7 @@ export default function Home() {
                   <img src="./images/point3.svg" alt="" />
                 </div>
                 <div className="bloging_para">
-                  <h3>Explore Gen AI for your sustainability and growth! Build solutions around GenAI</h3>
+                  <h3>Explore Gen AI for your sustainability and growth! build solutions around GenAI</h3>
                   <a target='_blank' href="https://aws.amazon.com/q/"><button><span>Read More</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />

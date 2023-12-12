@@ -15,7 +15,7 @@ const About = () => {
                 <h3 data-aos="fade-up"
                   data-aos-offset="200"
                   data-aos-easing="ease-in-sine">
-                  <span>DigitalMnA</span> is a full-service Merger and Acquisition Company Helping Companies Sell and Buy assets by creating value
+                  <span>DigitalMnA</span> is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.
                 </h3>
               </div>
               <div className="abouty_right">
@@ -37,7 +37,7 @@ const About = () => {
             <h3>Why <span>DigitalMnA</span></h3>
             <p data-aos="fade-up"
               data-aos-offset="200"
-              data-aos-easing="ease-in-sine">DigitalMnA excels in Technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, We navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and Value creation for your business</p>
+              data-aos-easing="ease-in-sine">DigitalMnA excels in technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, We navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and value creation for your business</p>
             <div className="why_sab">
               <img
                 // data-aos="fade-up"
@@ -273,7 +273,7 @@ const About = () => {
                 </div>
                 <div className="director">
                   <h4>Managing Partner</h4>
-                  <p>Shashi built Microsoft Business Unit for Tech Mahindra where he acquired companies. Over the last 5 years, he has successfully advised sell side deals.</p>
+                  <p>Shashi built Microsoft Business unit for Tech Mahindra where he acquired companies. Over the last 5 years, he has successfully advised sell side deals.</p>
                 </div>
               </div>
               <div className="meet_box">
@@ -313,7 +313,7 @@ const About = () => {
                 </div>
                 <div className="director">
                   <h4>Managing Director</h4>
-                  <p>Ravi is the finance guru with extensive experience in M&A deal structuring, Fund raising and financial restructuring</p>
+                  <p>Ravi is the finance guru with extensive experience in M&A deal structuring, fund raising and financial restructuring</p>
                 </div>
               </div>
             </div>

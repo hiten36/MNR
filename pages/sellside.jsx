@@ -51,7 +51,7 @@ const Service = () => {
               <p className='laptop_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling
               </p>
               <p className='laptop_con'>at the right time. Make certain the legacy you’ve built</p>
-              <p>Continues to thrive.</p>
+              <p>continues to thrive.</p>
               <p className='mobile_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling at the right time. Make certain the legacy you’ve built continues to thrive.</p>
             </div>
           </div>

@@ -126,7 +126,7 @@ const Service = () => {
                   <h3>Presentation Materials</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Crafting compelling historical financials and future <br /> projections to enhance the company <br /> presentations.</p>
+                      <p className='laptop_con'>Crafting compelling historical financials and future <br /> projections to enhance the company presentations.</p>
                       <p className='mobile_con'>Crafting compelling historical financials and future  projections to enhance the companys  presentations.</p>
                     </div>
 
@@ -154,8 +154,8 @@ const Service = () => {
                   <h3>Investor/Lender <br /> Outreach</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Building Investor/Lender Presentations and <br /> Executive Summaries to showcase the business <br /> attractively.</p>
-                      <p className='mobile_con'>Building Investor/Lender Presentations and  Executive Summaries to showcase the business  attractively.</p>
+                      <p className='laptop_con'>Building investor/lender presentations and <br /> executive summaries to showcase the business <br /> attractively.</p>
+                      <p className='mobile_con'>Building investor/lender presentations and  executive summaries to showcase the business  attractively.</p>
                     </div>
                   </div>
                 </div>
@@ -728,8 +728,8 @@ const Service = () => {
                   <h3>Deal Negotiation</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Skillfully negotiating deal terms, resulting in the <br /> formulation of detailed and beneficial Term Sheets.</p>
-                      <p className='mobile_con'>Skillfully negotiating deal terms, resulting in the  formulation of detailed and beneficial Term Sheets.</p>
+                      <p className='laptop_con'>Skillfully negotiating deal terms, resulting in the <br /> formulation of detailed and beneficial term sheets.</p>
+                      <p className='mobile_con'>Skillfully negotiating deal terms, resulting in the  formulation of detailed and beneficial term sheets.</p>
                     </div>
 
                   </div>
@@ -1267,7 +1267,7 @@ const Service = () => {
                   <h3>Management <br /> Presentations</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Actively participating in management presentations <br /> to convey the businesss strengths and <br /> opportunities.</p>
+                      <p className='laptop_con'>Actively participating in management presentations <br /> to convey the businesss strengths and opportunities.</p>
                       <p className='mobile_con'>Actively participating in management presentations  to convey the businesss strengths and  opportunities.</p>
                     </div>
                   </div>
