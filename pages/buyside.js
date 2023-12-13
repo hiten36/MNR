@@ -164,7 +164,7 @@ const Service = () => {
                       <p>Negotiation</p>
                     </div>
                     <div className="stratic_flex static_flex1">
-                      <p>LOI and Due diligence support</p>
+                      <p>LOI and due diligence support</p>
                     </div>
                     <div className="stratic_flex static_flex1">
                       <p>Financial modelling</p>

@@ -18,6 +18,9 @@ body {
 .mobile_that_card{
   display: none;
 }
+.heading1312{
+  text-align: center;
+}
 /* body button{
   text-transform: capitalize !important;
 } */
