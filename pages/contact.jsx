@@ -17,7 +17,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("http://localhost:5000/contact", {
+    const res = await fetch("https://digitalmnawebsite.uc.r.appspot.com/contact", {
       method: "POST",
       headers: {
         "content-type": "application/json",
