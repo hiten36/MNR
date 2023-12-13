@@ -26,7 +26,7 @@ export default function Home() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     // const res = await fetch("https://kushel-digi.onrender.com/contact1", {
-    const res = await fetch("http://localhost:5000/subscribe", {
+    const res = await fetch("https://digitalmnawebsite.uc.r.appspot.com/subscribe", {
       method: "POST",
       headers: {
         "content-type": "application/json",
