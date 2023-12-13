@@ -25,7 +25,7 @@ const Service = () => {
             <div className="small_para">
               <p>Our capital-raising services encompass a
               </p>
-              <p>comprehensive approach, including:</p>
+              <p className='heading1312'>comprehensive approach, including:</p>
             </div>
           </div>
           <div className="service_hone_main">
@@ -1302,8 +1302,8 @@ const Service = () => {
                   <h3>Due Diligence Support</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Involvement in the due diligence process, ensuring <br /> accurate and consistent information is <br /> communicated to investors/lenders, fostering <br /> transparency</p>
-                      <p className='mobile_con'>Involvement in the due diligence process, ensuring  accurate and consistent information is  communicated to investors/lenders, fostering  transparency</p>
+                      <p className='laptop_con'>Involvement in the due diligence process, ensuring <br /> accurate and consistent information is <br /> communicated to investors/lenders, fostering <br /> transparency.</p>
+                      <p className='mobile_con'>Involvement in the due diligence process, ensuring  accurate and consistent information is  communicated to investors/lenders, fostering  transparency.</p>
                     </div>
 
                   </div>

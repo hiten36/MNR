@@ -37,7 +37,7 @@ const About = () => {
             <h3>Why <span>DigitalMnA</span></h3>
             <p data-aos="fade-up"
               data-aos-offset="200"
-              data-aos-easing="ease-in-sine">DigitalMnA excels in technology M&A with a unique edge. Our strong ties to Hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, We navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and value creation for your business</p>
+              data-aos-easing="ease-in-sine">DigitalMnA excels in technology M&A with a unique edge. Our strong ties to hyperscalers provide unparalleled insights and technology access. Backed by extensive M&A experience, We navigate complexities with precision. Our comprehensive industry understanding extends beyond tech, ensuring strategic alignment and value creation for your business.</p>
             <div className="why_sab">
               <img
                 // data-aos="fade-up"
@@ -192,7 +192,7 @@ const About = () => {
                     <img src="./images/mail4.svg" alt="" />
                   </div>
                   <div className="mail_head">
-                    <p>MSP, CSP, Tech enabled Services</p>
+                    <p>MSP, CSP, Tech Enabled Services</p>
                   </div>
                 </div>
               </div>
@@ -293,7 +293,7 @@ const About = () => {
                 </div>
                 <div className="director">
                   <h4>Managing Partner</h4>
-                  <p>Karanth ran multi million dollar digital transformation engagements at Infosys for US customer, He is expert in strategic value creation through digital transformation</p>
+                  <p>Karanth ran multi million dollar digital transformation engagements at Infosys for US customer, He is expert in strategic value creation through digital transformation.</p>
                 </div>
               </div>
               <div className="meet_box">
@@ -313,7 +313,7 @@ const About = () => {
                 </div>
                 <div className="director">
                   <h4>Managing Director</h4>
-                  <p>Ravi is the finance guru with extensive experience in M&A deal structuring, fund raising and financial restructuring</p>
+                  <p>Ravi is the finance guru with extensive experience in M&A deal structuring, fund raising and financial restructuring.</p>
                 </div>
               </div>
             </div>

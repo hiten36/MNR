@@ -221,7 +221,7 @@ export default function Home() {
                       <div className="imk_para">
                         <p
                         // data-aos="fade-up"
-                        >Aegis, a data and analytics company sold to PeopleTech Group. Shashi led the value creation, Microsoft Partnership, deal construction, valuation, and closing, and post M&A integration</p>
+                        >Aegis, a data and analytics company sold to PeopleTech Group. <br /> Shashi led the value creation, Microsoft Partnership, deal construction, valuation, and closing, and post M&A integration.</p>
                       </div>
                       <div className="st_img">
                         <img src="./images/iml.svg" alt="" />
@@ -238,7 +238,7 @@ export default function Home() {
                     <div className="box_bis">
                       <div className="imk_para">
                         <p
-                        >Shashi led the Microsoft Business unit for Tech Mahindra. Created a Multi-100 Million business through organic growth, Microsoft Partnership, and Acquisitions</p>
+                        >Shashi led the Microsoft Business unit for Tech Mahindra. Created a multi-100 million business through organic growth, Microsoft Partnership, and Acquisitions.</p>
                       </div>
                       <div className="st_img st_img1">
                         <img src="./images/bis3.svg" alt="" />
@@ -492,7 +492,7 @@ export default function Home() {
                   <img src="./images/point1.svg" alt="" />
                 </div>
                 <div className="bloging_para">
-                  <h3>IT Services M&A picks up steam</h3>
+                  <h3>IT services M&A picks up steam</h3>
                   {/* <p>Hello world! I’m excited to introduce Ballpark, a brand new product from the...</p> */}
                   <a target='_blank' href="https://www.techtarget.com/searchitchannel/news/366557934/IT-services-MA-picks-up-in-Q3-with-deals-in-Europe"><button><span>Read more</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -510,7 +510,7 @@ export default function Home() {
                   <img src="./images/point2.svg" alt="" />
                 </div>
                 <div className="bloging_para">
-                  <h3>Digital IT for Growth</h3>
+                  <h3>Digital IT for growth</h3>
                   <a target='_blank' href="https://www.mckinsey.com/industries/private-equity-and-principal-investors/our-insights/the-potential-of-m-and-a-in-it-services-three-charts"><button><span>Read more</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />
@@ -527,7 +527,7 @@ export default function Home() {
                   <img src="./images/point3.svg" alt="" />
                 </div>
                 <div className="bloging_para">
-                  <h3>Explore Gen AI for your sustainability and growth! build solutions around GenAI</h3>
+                  <h3>Explore GenAI for your sustainability and growth! build solutions around GenAI</h3>
                   <a target='_blank' href="https://aws.amazon.com/q/"><button><span>Read More</span>
                     <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M12.675 9H0.5V7H12.675L7.075 1.4L8.5 0L16.5 8L8.5 16L7.075 14.6L12.675 9Z" fill="#3464FD" />

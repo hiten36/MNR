@@ -102,7 +102,7 @@ const PrivacyPolicy = () => {
                 padding: "0cm"
               }}
             >
-              <em>
+
                 <span
                   style={{
                     fontSize: 16,
@@ -114,7 +114,7 @@ const PrivacyPolicy = () => {
                 >
                   Updated and Effective Date: 12/1/2023
                 </span>
-              </em>
+             
             </p>
             <p
               style={{
@@ -163,7 +163,7 @@ const PrivacyPolicy = () => {
                   color: "#374151"
                 }}
               >
-                Our website address is: DigitalMnA.com
+                Our website address is: www.DigitalMnA.com
               </span>
             </p>
             <p
@@ -448,6 +448,7 @@ const PrivacyPolicy = () => {
                 </span>
               </li>
             </ul>
+            <br />
             <ol style={{ marginBottom: "0cm", marginTop: "0cm" }} start={2} type={1}>
               <li
                 style={{
@@ -516,29 +517,7 @@ const PrivacyPolicy = () => {
                 automated means.
               </span>
             </p>
-            <p
-              style={{
-                marginTop: "15.0pt",
-                marginRight: "0cm",
-                marginBottom: "15.0pt",
-                marginLeft: "0cm",
-                fontSize: "11.0pt",
-                fontFamily: '"Calibri",sans-serif',
-                lineHeight: "normal",
-                border: "none",
-                padding: "0cm"
-              }}
-            >
-              <span
-                style={{
-                  fontSize: 16,
-                  fontFamily: '"Segoe UI",sans-serif',
-                  color: "#374151"
-                }}
-              >
-                .
-              </span>
-            </p>
+          
             <p
               style={{
                 marginTop: "15.0pt",

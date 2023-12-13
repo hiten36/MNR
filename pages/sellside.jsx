@@ -48,10 +48,10 @@ const Service = () => {
           </div>
           <div className="st">
             <div className="small_para">
-              <p className='laptop_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling
+              <p className='laptop_con'>Benefit from DigitalMnA’s expertise to ensure you’re selling
               </p>
               <p className='laptop_con'>at the right time. Make certain the legacy you’ve built</p>
-              <p>continues to thrive.</p>
+              <p>continues to thrive</p>
               <p className='mobile_con'>Benefit from DigitalMnA’ expertise to ensure you’re selling at the right time. Make certain the legacy you’ve built continues to thrive.</p>
             </div>
           </div>
@@ -101,7 +101,7 @@ const Service = () => {
                         </svg>
                       </div>
                       <ul className='tg1 tg2' style={{ display: showing1 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
-                        <li>Strengthen market position</li>
+                        <li>Strengthen market position.</li>
                         <li>Develop and highlight unique competitive advantages.</li>
                       </ul>
                     </div>
@@ -114,7 +114,7 @@ const Service = () => {
                         </svg>
                       </div>
                       <ul className='tg1' style={{ display: showing2 ? "block" : "none", padding: "3px 0px", marginLeft: "20px" }}>
-                        <li>Innovation and staying ahead in technology trends</li>
+                        <li>Innovation and staying ahead in technology trends.</li>
                       </ul>
                     </div>
 
@@ -219,8 +219,8 @@ const Service = () => {
                   <h3>Information <br /> Memorandum</h3>
                   <div className="stratic">
                     <div className="stratic_flex static_flex1">
-                      <p className='laptop_con'>Prepare a comprehensive Information Memorandum <br /> (IM) or Offering Memorandum that provides detailed <br /> information  about the company.</p>
-                      <p className='mobile_con'>Prepare a comprehensive Information Memorandum  (IM) or Offering Memorandum that provides detailed  information  about the company.</p>
+                      <p className='laptop_con'>Prepare a comprehensive information memorandum <br /> (IM) or offering memorandum that provides detailed <br /> information  about the company.</p>
+                      <p className='mobile_con'>Prepare a comprehensive Iinformation memorandum <br /> (IM) or offering memorandum that provides detailed  information  about the company.</p>
                     </div>
                     <div className="stratic_flex static_flex1">
                       <p className='laptop_con'>Include financials, operations, market position, and <br /> growth opportunities.</p>
@@ -254,7 +254,7 @@ const Service = () => {
                       <p className='mobile_con'>Identify and target potential buyers, which may  include strategic acquirers, private equity firms, or  other investors.</p>
                     </div>
                     <div className="stratic_flex static_flex1">
-                      <p>Market Position and Competitive Advantage</p>
+                      <p>Market position and competitive advantage.</p>
                     </div>
                   </div>
                 </div>
