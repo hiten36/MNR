@@ -106,7 +106,6 @@ const Contact = () => {
                         <h3>Schedule time</h3>
                       </div>
                     </div></a> */}
-
                   </div>
                   <div className="talk_box">
                     <div className="sas_img">
