@@ -69,14 +69,14 @@ const Contact = () => {
                       </svg>
                       <p>shashi@DigitalMnA.com</p>
                     </div></a>
-                    <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
+                    {/* <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
                       <div className="sch_svg">
                         <img src="./images/cala.svg" alt="" />
                       </div>
                       <div className="sch_para">
                         <h3>Schedule time</h3>
                       </div>
-                    </div></a>
+                    </div></a> */}
                   </div>
                   <div className="talk_box">
                     <div className="sas_img">
@@ -98,14 +98,14 @@ const Contact = () => {
 
                       <p>Karanth@DigitalMnA.com</p>
                     </div></a>
-                    <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
+                    {/* <a target='_blank' href="http://booking.microsoft.com"><div className="team_sch">
                       <div className="sch_svg">
                         <img src="./images/cala.svg" alt="" />
                       </div>
                       <div className="sch_para">
                         <h3>Schedule time</h3>
                       </div>
-                    </div></a>
+                    </div></a> */}
 
                   </div>
                   <div className="talk_box">
@@ -127,14 +127,14 @@ const Contact = () => {
                       </svg>
                       <p>Ravi@DigitalMnA.com</p>
                     </div></a>
-                    <a href="http://booking.microsoft.com"><div className="team_sch">
+                    {/* <a href="http://booking.microsoft.com"><div className="team_sch">
                       <div className="sch_svg">
                         <img src="./images/cala.svg" alt="" />
                       </div>
                       <div className="sch_para">
                         <h3>Schedule time</h3>
                       </div>
-                    </div></a>
+                    </div></a> */}
                   </div>
                 </div>
               </div>
