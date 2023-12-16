@@ -4,13 +4,14 @@ import { Inter } from 'next/font/google'
 // import Head from 'next/head';
 import Header from './components/Header';
 // import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
+// import "@splidejs/react-splide/css";
 
 import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import CustomCursor from './components/CustomCursor';
 import Link from 'next/link';
+import { Typewriter } from 'react-simple-typewriter'
 
 export default function Home() {
   const [val, setVal] = useState({
@@ -44,6 +45,15 @@ export default function Home() {
       email: "",
     });
   };
+
+  const handleType = (count) => {
+    // access word count number
+    console.log(count)
+  }
+
+  const handleDone = () => {
+    console.log(`Done after 5 loops!`)
+  }
   return (
     <>
       <CustomCursor />
@@ -54,15 +64,26 @@ export default function Home() {
             <div className="banner_sect">
               <div className="banner_left">
                 <h2>Creating <br /> <span className='syn'>
-                  <Typed
+                  {/* <Typed
                     strings={['Higher Valuation', 'Synergy',
                       'Digital Differentiation']}
                     typeSpeed={60}
                     backSpeed={60}
                     loop
                     onComplete={(self) => self.cursor.remove()}
-                    // console.log()
+                    
                     autoInsertCss
+                  /> */}
+                  <Typewriter
+                    words={['Higher Valuation', 'Synergy', 'Digital Differentiation']}
+                    loop
+                    // cursor
+                    // cursorStyle='_'
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                    onLoopDone={handleDone}
+                    onType={handleType}
                   />
                 </span>  <br />
                   for sellers</h2>
@@ -103,7 +124,7 @@ export default function Home() {
               data-aos-offset="200"
               data-aos-easing="ease-in-sine" className="about_content">
               <p>
-               <span>DigitalMnA</span> is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.
+                <span>DigitalMnA</span> is a full-service Merger and Acquisition company helping companies Sell and Buy assets by creating value.
               </p>
             </div>
             <div className="about_btn">
@@ -568,7 +589,7 @@ export default function Home() {
                   <div className="">
                     <div className="">
                       {/* <label htmlFor="">First name*</label> */}
-                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name' required  />
+                      <input name='firstName1' value={val.firstName1} onChange={handleChange} type="text" placeholder='First name' required />
                     </div>
                     <div className="">
                       {/* <label htmlFor="">Last name</label> */}
