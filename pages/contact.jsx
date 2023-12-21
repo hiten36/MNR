@@ -79,8 +79,8 @@ const Contact = () => {
                     </div></a> */}
                   </div>
                   <div className="talk_box">
-                    <div className="sas_img">
-                      <img src="./images/sas1.svg" alt="" />
+                    <div className="sas_img sas_img22">
+                      <img src="./images/team2image.jpeg" alt="" />
                     </div>
                     <h4>Srinivas Karanth</h4>
                     <div className="talk_sis">

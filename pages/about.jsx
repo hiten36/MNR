@@ -280,9 +280,7 @@ const About = () => {
                 <div data-aos="fade-top"
                   data-aos-offset="300"
                   data-aos-easing="ease-in-sine" className="meet_svg">
-                  <div className='lok_t'>
-                    <img className='team2imagesformate' src="./images/team2image.jpeg" alt="" />
-                  </div>
+                 <img src="./images/raj.svg" alt="raj" />
                 </div>
                 <div className="linkedin">
                   <div className="name">
