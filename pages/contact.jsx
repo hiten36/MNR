@@ -2,45 +2,49 @@ import React, { useState } from 'react'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import CustomCursor from './components/CustomCursor'
+
 const Contact = () => {
   const [val, setVal] = useState({
     firstName: "",
     lastName: "",
     method: "",
     here: "",
-    message: "",
+    message: ""
   });
 
   const handleChange = (e) => {
     setVal({ ...val, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    const res = await fetch("https://digitalmnawebsite.uc.r.appspot.com/contact", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(val),
-    });
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    const data = await res.json();
-    // console.log(data);
-    alert(data.message);
+  //   const res = await fetch("https://digitalmnawebsite.uc.r.appspot.com/contact", {
+  //     method: "POST",
+  //     headers: {
+  //       "content-type": "application/json",
+  //     },
+  //     body: JSON.stringify(val)
+  //   });
 
-    setVal({
-      firstName: "",
-      lastName: "",
-      method: "",
-      here: "",
-      message: "",
-    });
-  };
+  //   const data = await res.json();
+  //   // console.log(data);
+  //   alert(data.message);
+
+  //   setVal({
+  //     firstName: "",
+  //     lastName: "",
+  //     method: "",
+  //     here: "",
+  //     message: ""
+  //   });
+  // };
+
   return (
     <>
       <CustomCursor />
       <Header />
+
       <div data-aos="fade-up"
         data-aos-offset="100"
         data-aos-easing="ease-in-sine" className="contact">
@@ -140,7 +144,8 @@ const Contact = () => {
             </div>
             <div className="schedule2">
               <h3>Share information with us</h3>
-              <form onSubmit={handleSubmit}>
+              {/* <form onSubmit={handleSubmit}> */}
+              <form>
                 <div className="flex_form_input">
                   <div className="left_filed">
                     <div className="filed_section">

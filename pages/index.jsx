@@ -24,27 +24,27 @@ export default function Home() {
     setVal({ ...val, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    // const res = await fetch("https://kushel-digi.onrender.com/contact1", {
-    const res = await fetch("https://digitalmnawebsite.uc.r.appspot.com/subscribe", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(val),
-    });
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   // const res = await fetch("https://kushel-digi.onrender.com/contact1", {
+  //   const res = await fetch("https://digitalmnawebsite.uc.r.appspot.com/subscribe", {
+  //     method: "POST",
+  //     headers: {
+  //       "content-type": "application/json",
+  //     },
+  //     body: JSON.stringify(val),
+  //   });
 
-    const data = await res.json();
-    // console.log(data);
-    // notify( "success", data.message);
-    alert(data.message);
-    setVal({
-      firstName1: "",
-      lastName1: "",
-      email: "",
-    });
-  };
+  //   const data = await res.json();
+  //   // console.log(data);
+  //   // notify( "success", data.message);
+  //   alert(data.message);
+  //   setVal({
+  //     firstName1: "",
+  //     lastName1: "",
+  //     email: "",
+  //   });
+  // };
 
   const handleType = (count) => {
     // access word count number
@@ -585,7 +585,8 @@ export default function Home() {
                 // data-aos-offset="200"
                 // data-aos-easing="ease-in-sine"
                 className="touch_right">
-                <form onSubmit={handleSubmit}>
+                {/* <form onSubmit={handleSubmit}> */}
+                <form>
                   <div className="">
                     <div className="">
                       {/* <label htmlFor="">First name*</label> */}
