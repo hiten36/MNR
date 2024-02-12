@@ -5559,7 +5559,14 @@ select {
   padding: 100px 120px;
   background-color: #F4FAFB;
 }
-
+.test_logo{
+  width: 75px;
+  max-width: 100%;
+}
+.test_logo img{
+  width: 75px;
+  max-width: 100%;
+}
 .our_team {
   max-width: 1440px;
   width: 100%;
@@ -6027,6 +6034,10 @@ select {
   .header {
     background-color: white;
     padding: 3px 20px;
+  }
+  .test_logo img{
+    max-width: 50px;
+    width: 100%;
   }
   .team2imagesformate{
     /* height: 340px;
